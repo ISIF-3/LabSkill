@@ -1,0 +1,405 @@
+{
+  "version": 1,
+  "functions": {
+    "code": {"label": "코드·개발"},
+    "literature": {"label": "문헌 검색"},
+    "visualization": {"label": "시각화"},
+    "data": {"label": "데이터 분석"},
+    "ai": {"label": "AI·에이전트"},
+    "search": {"label": "검색·자료 수집"},
+    "automation": {"label": "자동화"},
+    "productivity": {"label": "문서·업무"},
+    "media": {"label": "이미지·영상·음성"},
+    "infrastructure": {"label": "서버·배포"},
+    "security": {"label": "보안·역공학"},
+    "science": {"label": "과학·공학"},
+    "learning": {"label": "학습·자료"},
+    "devices": {"label": "기기·시스템"},
+    "other": {"label": "기타·미분류"}
+  },
+  "domains": {
+    "code": {
+      "label": "코딩·개발",
+      "subcategories": {
+        "코드 간결화": [
+          "minimal code",
+          "less code",
+          "simplicity",
+          "yagni",
+          "lean",
+          "bloat"
+        ],
+        "코드 리뷰": [
+          "code review",
+          "review",
+          "pull request review",
+          "lint"
+        ],
+        "테스트·디버깅": [
+          "test",
+          "tdd",
+          "debug",
+          "bug",
+          "pytest",
+          "jest"
+        ],
+        "Git·PR 관리": [
+          "git",
+          "commit",
+          "pull request",
+          "changelog",
+          "branch"
+        ],
+        "토큰·비용 절약": [
+          "token",
+          "context window",
+          "cost",
+          "compress",
+          "cache"
+        ],
+        "개발 워크플로": [
+          "software development methodology",
+          "development workflow",
+          "coding workflow"
+        ],
+        "스킬·플러그인 안내": [
+          "agent skills guide",
+          "plugin tutorial",
+          "skill catalog"
+        ],
+        "역공학": [
+          "reverse engineering",
+          "disassembly",
+          "decompilation",
+          "decompiler",
+          "역공학"
+        ]
+      }
+    },
+    "lit": {
+      "label": "문헌·논문",
+      "subcategories": {
+        "문헌 검색·정리": [
+          "literature",
+          "arxiv",
+          "semantic scholar",
+          "pubmed",
+          "paper search",
+          "related work",
+          "survey"
+        ],
+        "논문 요약": [
+          "summarize paper",
+          "paper summary",
+          "abstract",
+          "reading notes"
+        ],
+        "인용 관리": [
+          "citation",
+          "bibtex",
+          "zotero",
+          "reference manager",
+          "doi"
+        ],
+        "논문 작성": [
+          "latex",
+          "manuscript",
+          "academic writing",
+          "research idea",
+          "paper writing",
+          "overleaf"
+        ],
+        "발표 자료": [
+          "poster",
+          "slides",
+          "presentation",
+          "talk",
+          "blog"
+        ]
+      }
+    },
+    "mat": {
+      "label": "재료과학",
+      "subcategories": {
+        "DFT·제일원리": [
+          "dft",
+          "vasp",
+          "quantum espresso",
+          "first-principles",
+          "ab initio",
+          "gpaw"
+        ],
+        "분자동역학": [
+          "lammps",
+          "molecular dynamics",
+          "gromacs",
+          "md simulation",
+          "interatomic potential"
+        ],
+        "결정구조": [
+          "pymatgen",
+          "ase",
+          "crystal",
+          "cif",
+          "materials project",
+          "symmetry"
+        ],
+        "회절·분광 분석": [
+          "xrd",
+          "diffraction",
+          "raman",
+          "xps",
+          "spectroscopy",
+          "rietveld",
+          "sem",
+          "tem"
+        ],
+        "전기화학·배터리": [
+          "battery",
+          "electrochem",
+          "cyclic voltammetry",
+          "impedance",
+          "eis",
+          "electrode"
+        ]
+      }
+    },
+    "data": {
+      "label": "데이터·시각화",
+      "subcategories": {
+        "데이터 정리": [
+          "csv",
+          "pandas",
+          "data cleaning",
+          "dataset",
+          "etl"
+        ],
+        "통계 분석": [
+          "statistics",
+          "regression",
+          "hypothesis",
+          "scipy",
+          "fit"
+        ],
+        "그래프·그림": [
+          "plot",
+          "matplotlib",
+          "figure",
+          "chart",
+          "visualization",
+          "seaborn"
+        ],
+        "노트북 정리": [
+          "jupyter",
+          "notebook",
+          "ipynb"
+        ]
+      }
+    },
+    "verify": {
+      "label": "정확성·검증",
+      "subcategories": {
+        "할루시네이션 방지": [
+          "hallucination",
+          "fact-check",
+          "verify claim",
+          "grounding"
+        ],
+        "출처·근거 확인": [
+          "source",
+          "evidence",
+          "provenance",
+          "citation check"
+        ],
+        "결과 재현": [
+          "reproducib",
+          "reproduce",
+          "deterministic",
+          "seed"
+        ],
+        "보안 점검": [
+          "security",
+          "audit",
+          "vulnerability",
+          "secret scan",
+          "owasp"
+        ]
+      }
+    },
+    "other": {
+      "label": "기타",
+      "subcategories": {
+        "미분류": [],
+        "범용 스킬·플러그인": []
+      }
+    },
+    "work": {
+      "label": "생활·업무",
+      "subcategories": {
+        "생활·업무 자동화": [
+          "실생활",
+          "한국인을 위한",
+          "personal productivity",
+          "life automation",
+          "office automation"
+        ],
+        "마케팅·콘텐츠": [
+          "marketing skills",
+          "marketing workflows",
+          "content marketing",
+          "search engine optimization"
+        ]
+      }
+    },
+    "science": {
+      "label": "과학·연구",
+      "subcategories": {
+        "과학 연구 종합": [
+          "scientific agent skills",
+          "scientific skills",
+          "skills library for science",
+          "ai scientist"
+        ]
+      }
+    }
+  },
+  "tags": [
+    "#코드간결화",
+    "#토큰절약",
+    "#리뷰",
+    "#테스트",
+    "#디버깅",
+    "#리팩터링",
+    "#Git",
+    "#문헌정리",
+    "#arXiv",
+    "#인용",
+    "#초록요약",
+    "#논문작성",
+    "#LaTeX",
+    "#포스터",
+    "#발표",
+    "#DFT",
+    "#VASP",
+    "#pymatgen",
+    "#ASE",
+    "#LAMMPS",
+    "#XRD",
+    "#SEM·TEM",
+    "#전기화학",
+    "#배터리",
+    "#pandas",
+    "#matplotlib",
+    "#통계",
+    "#그래프",
+    "#Jupyter",
+    "#할루시네이션방지",
+    "#DOI",
+    "#재현성",
+    "#출처",
+    "#보안"
+  ],
+  "_comment": "kinds·relevance·install_methods 값은 CLAUDE.md 4-1·4-2·4-4와 같다. 바꿀 때는 CLAUDE.md도 함께 고친다.",
+  "kinds": {
+    "skill": {
+      "label": "단일 스킬",
+      "desc": "SKILL.md 하나로 된 에이전트 스킬"
+    },
+    "skill_collection": {
+      "label": "스킬 모음",
+      "desc": "SKILL.md 여러 개를 묶은 저장소"
+    },
+    "claude_plugin": {
+      "label": "Claude Code 플러그인",
+      "desc": "Claude Code 플러그인 또는 플러그인 마켓플레이스 (.claude-plugin/ 매니페스트)"
+    },
+    "subagent": {
+      "label": "서브에이전트",
+      "desc": "서브에이전트 정의 모음 (agents/*.md 등)"
+    },
+    "mcp_server": {
+      "label": "MCP 서버",
+      "desc": "에이전트에 도구를 붙이는 MCP 서버"
+    },
+    "agent_tool": {
+      "label": "에이전트 도구",
+      "desc": "에이전트와 함께 쓰는 CLI·앱·오케스트레이터"
+    },
+    "app": {
+      "label": "앱",
+      "desc": "README에 설명된 사용자용 애플리케이션"
+    },
+    "library": {
+      "label": "라이브러리",
+      "desc": "다른 프로그램에서 가져다 쓰는 라이브러리·SDK"
+    },
+    "prompt_guide": {
+      "label": "프롬프트·규칙",
+      "desc": "프롬프트·규칙 모음, CLAUDE.md/AGENTS.md 템플릿, 사용 가이드"
+    },
+    "awesome_list": {
+      "label": "링크 모음",
+      "desc": "README 대부분이 다른 저장소 링크 목록"
+    },
+    "unrelated": {
+      "label": "무관",
+      "desc": "코딩 에이전트와 관계없는 저장소"
+    },
+    "codex_plugin": {
+      "label": "Codex 플러그인",
+      "desc": "Codex 플러그인 매니페스트로 배포되는 플러그인"
+    },
+    "plugin_collection": {
+      "label": "여러 클라이언트 플러그인",
+      "desc": "Codex·Claude Code 등 여러 클라이언트의 플러그인을 함께 배포"
+    }
+  },
+  "relevance": {
+    "core": {
+      "label": "바로 붙여 씀",
+      "desc": "Claude Code나 Codex에 바로 붙여 쓰는 것 (스킬, 플러그인, 서브에이전트, MCP 서버, 규칙 모음)"
+    },
+    "related": {
+      "label": "관련 도구",
+      "desc": "에이전트 생태계 도구지만 직접 붙이는 것은 아님"
+    },
+    "unrelated": {
+      "label": "무관",
+      "desc": "코딩 에이전트와 무관 (목록에서 빼지 않고 표시만 한다)"
+    }
+  },
+  "install_methods": {
+    "skill_folder": {
+      "label": "스킬 폴더 복사",
+      "desc": "SKILL.md가 든 폴더를 스킬 디렉터리에 복사"
+    },
+    "plugin_marketplace": {
+      "label": "플러그인 마켓플레이스",
+      "desc": "/plugin 명령이나 마켓플레이스로 설치"
+    },
+    "mcp_config": {
+      "label": "MCP 설정",
+      "desc": "MCP 설정 파일에 서버를 추가"
+    },
+    "npm": {
+      "label": "npm",
+      "desc": "npm·npx로 설치"
+    },
+    "pip": {
+      "label": "pip",
+      "desc": "pip·pipx·uv로 설치"
+    },
+    "binary_release": {
+      "label": "실행 파일",
+      "desc": "릴리스 실행 파일이나 Homebrew 같은 패키지 관리자로 설치"
+    },
+    "manual": {
+      "label": "수동 설정",
+      "desc": "직접 따라 하는 수동 설정"
+    },
+    "unknown": {
+      "label": "알 수 없음",
+      "desc": "원문에 설치 안내가 없음"
+    }
+  }
+}

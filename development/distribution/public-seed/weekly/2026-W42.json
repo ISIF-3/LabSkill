@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "kind": "trending_snapshot",
+  "period": "weekly",
+  "scope": "all",
+  "snapshot_date": "2026-10-18",
+  "captured_at": "2026-10-18T11:31:33+00:00",
+  "source_url": "https://github.com/trending?since=weekly",
+  "count": 10,
+  "repositories": [
+    {
+      "id": "morluto/rea",
+      "rank": 1,
+      "stars_total": 314734,
+      "period_stars": 239923
+    },
+    {
+      "id": "storytold/artcraft",
+      "rank": 2,
+      "stars_total": 32225,
+      "period_stars": 18479
+    },
+    {
+      "id": "boykopovar/AnyPS5",
+      "rank": 3,
+      "stars_total": 42437,
+      "period_stars": 16250
+    },
+    {
+      "id": "anthropics/claude-plugins-official",
+      "rank": 4,
+      "stars_total": 42259,
+      "period_stars": 3581
+    },
+    {
+      "id": "mksglu/context-mode",
+      "rank": 5,
+      "stars_total": 30602,
+      "period_stars": 4438
+    },
+    {
+      "id": "cathrynlavery/diagram-design",
+      "rank": 6,
+      "stars_total": 57340,
+      "period_stars": 8382
+    },
+    {
+      "id": "NationalSecurityAgency/ghidra",
+      "rank": 7,
+      "stars_total": 90518,
+      "period_stars": 7608
+    },
+    {
+      "id": "heygen-com/hyperframes",
+      "rank": 8,
+      "stars_total": 66292,
+      "period_stars": 5639
+    },
+    {
+      "id": "cursor/plugins",
+      "rank": 9,
+      "stars_total": 12501,
+      "period_stars": 1536
+    },
+    {
+      "id": "MadsLorentzen/ai-job-search",
+      "rank": 10,
+      "stars_total": 51333,
+      "period_stars": 4200
+    }
+  ]
+}

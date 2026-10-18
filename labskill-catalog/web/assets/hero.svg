@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="520" viewBox="0 0 1400 520" fill="none">
+  <defs>
+    <radialGradient id="ambient" cx="0" cy="0" r="1" gradientTransform="translate(1084 230) rotate(90) scale(350 470)" gradientUnits="userSpaceOnUse"><stop stop-color="#204459"/><stop offset=".56" stop-color="#102636"/><stop offset="1" stop-color="#0c1725"/></radialGradient>
+    <linearGradient id="top" x1="944" y1="130" x2="1139" y2="253" gradientUnits="userSpaceOnUse"><stop stop-color="#76d6dd" stop-opacity=".24"/><stop offset="1" stop-color="#39738d" stop-opacity=".08"/></linearGradient>
+    <linearGradient id="left" x1="945" y1="217" x2="1050" y2="362" gradientUnits="userSpaceOnUse"><stop stop-color="#3d95ad" stop-opacity=".26"/><stop offset="1" stop-color="#142c3d" stop-opacity=".5"/></linearGradient>
+    <linearGradient id="right" x1="1128" y1="213" x2="1045" y2="364" gradientUnits="userSpaceOnUse"><stop stop-color="#4ba2be" stop-opacity=".16"/><stop offset="1" stop-color="#1c3a51" stop-opacity=".42"/></linearGradient>
+    <linearGradient id="edge" x1="969" y1="138" x2="1152" y2="367" gradientUnits="userSpaceOnUse"><stop stop-color="#a3e8eb"/><stop offset=".52" stop-color="#5496ad"/><stop offset="1" stop-color="#487285" stop-opacity=".22"/></linearGradient>
+    <linearGradient id="fade" x1="638" y1="260" x2="813" y2="260" gradientUnits="userSpaceOnUse"><stop stop-color="#0c1725"/><stop offset="1" stop-color="#0c1725" stop-opacity="0"/></linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="5"/></filter>
+    <filter id="soft"><feGaussianBlur stdDeviation="25"/></filter>
+    <pattern id="dots" width="32" height="32" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".8" fill="#7ea1b6" opacity=".16"/></pattern>
+  </defs>
+  <path fill="#0c1725" d="M0 0h1400v520H0z"/>
+  <path fill="url(#ambient)" d="M580 0h820v520H580z"/>
+  <path fill="url(#dots)" opacity=".62" d="M725 34h675v452H725z"/>
+  <ellipse cx="1060" cy="376" rx="186" ry="39" fill="#46b4c4" opacity=".06" filter="url(#soft)"/>
+  <g stroke="#5f9bb3" stroke-width="1">
+    <ellipse cx="1050" cy="277" rx="286" ry="110" transform="rotate(-18 1050 277)" opacity=".24"/>
+    <ellipse cx="1050" cy="277" rx="320" ry="132" transform="rotate(-18 1050 277)" opacity=".1"/>
+    <ellipse cx="1050" cy="277" rx="227" ry="75" transform="rotate(28 1050 277)" opacity=".2"/>
+    <path d="m785 428 522-298M854 119l390 337M1039 38v428" opacity=".1" stroke-dasharray="3 8"/>
+    <path d="m775 373 280 124 305-179M842 408l274-159 232 101M906 437l274-159M774 372l274-159 300 136" opacity=".08"/>
+  </g>
+  <g opacity=".18" stroke="#54bfce" stroke-width="5" filter="url(#glow)"><path d="m1046 126 113 65v131l-113 65-113-65V191z"/><path d="m933 191 113 66 113-66m-113 66v130"/></g>
+  <path d="m1046 126 113 65-113 66-113-66z" fill="url(#top)"/>
+  <path d="m933 191 113 66v130l-113-65z" fill="url(#left)"/>
+  <path d="m1046 257 113-66v131l-113 65z" fill="url(#right)"/>
+  <g stroke="url(#edge)" stroke-width="1.4" stroke-linejoin="round"><path d="m1046 126 113 65v131l-113 65-113-65V191z"/><path d="m933 191 113 66 113-66m-113 66v130"/></g>
+  <g stroke="#6ab5c9" stroke-width=".8" opacity=".32">
+    <path d="m961 175 113 66 57-33m-141-49 113 66M961 208v130m29-114v130m28-113v129m56-130v131m29-147v130m28-147v131"/>
+    <path d="m933 224 113 66 113-66m-226 65 113 66 113-66m-226-32 113 65 113-65"/>
+    <path d="m961 208 113-66m-85 83 113-66m-84 82 113-66"/>
+  </g>
+  <path d="m1046 126 113 65-113 66-113-66z" stroke="#9bdee5" stroke-opacity=".43"/>
+  <g stroke="#77c4d3" stroke-width="1.2" stroke-linejoin="round">
+    <path d="m1268 134 27 16v32l-27 16-27-16v-32z" fill="#183749"/><path d="m1241 150 27 16 27-16m-27 16v32" opacity=".65"/>
+    <path d="m836 327 18 10v21l-18 10-18-10v-21z" fill="#173143" opacity=".7"/><path d="m818 337 18 11 18-11m-18 11v20" opacity=".45"/>
+  </g>
+  <g fill="#96e4e9"><circle cx="1184" cy="123" r="3"/><circle cx="814" cy="304" r="3"/><circle cx="1261" cy="344" r="3"/><circle cx="987" cy="419" r="2"/><circle cx="1046" cy="126" r="3"/></g>
+  <g fill="#73b1c6" opacity=".5"><circle cx="902" cy="102" r="1.6"/><circle cx="1336" cy="246" r="1.6"/><circle cx="1171" cy="432" r="1.6"/><circle cx="765" cy="194" r="1.6"/></g>
+  <path d="M580 0h250v520H580z" fill="url(#fade)"/>
+</svg>

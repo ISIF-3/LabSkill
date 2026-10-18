@@ -1,0 +1,70 @@
+{
+  "common": [
+    "README.md",
+    "시작하기.md",
+    "labskill-catalog/app.py",
+    "labskill-catalog/LabSkill.command",
+    "labskill-catalog/collector/__init__.py",
+    "labskill-catalog/collector/agent_filter.py",
+    "labskill-catalog/collector/collect.py",
+    "labskill-catalog/collector/detect.py",
+    "labskill-catalog/collector/discovery.py",
+    "labskill-catalog/collector/functions.py",
+    "labskill-catalog/collector/github_client.py",
+    "labskill-catalog/collector/history.py",
+    "labskill-catalog/collector/organize.py",
+    "labskill-catalog/collector/prescan.py",
+    "labskill-catalog/collector/rules.py",
+    "labskill-catalog/collector/screen.py",
+    "labskill-catalog/collector/summarize.py",
+    "labskill-catalog/collector/trending.py",
+    "labskill-catalog/web/app.js",
+    "labskill-catalog/web/assets/agents.svg",
+    "labskill-catalog/web/assets/app-icon.ico",
+    "labskill-catalog/web/assets/app-icon.png",
+    "labskill-catalog/web/assets/code.svg",
+    "labskill-catalog/web/assets/hero.svg",
+    "labskill-catalog/web/assets/papers.svg",
+    "labskill-catalog/web/assets/research.svg",
+    "labskill-catalog/web/catalog-data.mjs",
+    "labskill-catalog/web/index.html",
+    "labskill-catalog/web/styles.css",
+    "labskill-catalog/imports/README.md",
+    "labskill-catalog/imports/trending-history-2026-04-18_2026-10-18.json",
+    "labskill-catalog/imports/licenses/antonkomarev-MIT.txt"
+  ],
+  "source": [
+    ".gitignore",
+    "development/distribution/package.py",
+    "development/distribution/test_package.py",
+    "development/distribution/manifest.json",
+    "development/distribution/README.md",
+    "development/distribution/release-notes.md",
+    "development/tests/test_user_features.py",
+    "native/macos/Icon.swift",
+    "native/macos/Launcher.swift",
+    "native/macos/LauncherPaths.swift",
+    "native/macos/LauncherPathsTests.swift",
+    "native/macos/build.sh",
+    "development/tests/test_library_ui.mjs",
+    "development/tests/test_catalog_ui.mjs"
+  ],
+  "windows": [
+    "LabSkill.bat",
+    "labskill-catalog/desktop.py",
+    "labskill-catalog/requirements-windows.txt"
+  ],
+  "macos": [],
+  "seed": {
+    "labskill-catalog/catalog/catalog.json": "development/distribution/public-seed/catalog.json",
+    "labskill-catalog/catalog/taxonomy.json": "development/distribution/public-seed/taxonomy.json",
+    "labskill-catalog/weekly/2026-W42.json": "development/distribution/public-seed/weekly/2026-W42.json"
+  },
+  "macos_bundle": [
+    "Contents/Info.plist",
+    "Contents/PkgInfo",
+    "Contents/MacOS/LabSkill",
+    "Contents/Resources/LabSkill.icns",
+    "Contents/_CodeSignature/CodeResources"
+  ]
+}
