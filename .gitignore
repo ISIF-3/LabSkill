@@ -53,3 +53,5 @@
 !/native/macos/LauncherPathsTests.swift
 !/native/macos/build.sh
 !/시작하기.md
+
+!/development/tests/test_launcher.py

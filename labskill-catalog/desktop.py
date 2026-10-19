@@ -6,10 +6,10 @@ from pathlib import Path
 import sys
 import threading
 
-from app import AppController, create_server, is_existing_app
+from app import AppController, DEFAULT_PORT, create_server, is_existing_app
 
 
-PORT = 8765
+PORT = DEFAULT_PORT
 URL = f"http://127.0.0.1:{PORT}/"
 
 

@@ -47,7 +47,8 @@
     "native/macos/LauncherPathsTests.swift",
     "native/macos/build.sh",
     "development/tests/test_library_ui.mjs",
-    "development/tests/test_catalog_ui.mjs"
+    "development/tests/test_catalog_ui.mjs",
+    "development/tests/test_launcher.py"
   ],
   "windows": [
     "LabSkill.bat",

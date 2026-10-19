@@ -13,6 +13,8 @@ GitHub 트렌딩과 분야별 도구를 한국어로 탐색하는 로컬 앱입�
 | macOS 12 이상·Apple Silicon | `LabSkill.app` 실행 | 앱 옆의 `labskill-catalog/` 폴더 유지 |
 | Windows | `LabSkill.bat` 실행 | WebView2 Runtime, `requirements-windows.txt` 설치 필요·실제 Windows GUI 미검증 |
 
+v0.1.1은 다른 로컬 앱과 함께 실행할 때 발생하던 포트 충돌과, 일반 실행 오류를 Python 설치 문제로 잘못 안내하던 문제를 수정합니다. 설치 의존성은 이전 버전과 같으며, Python 3.11 등 Python 3.10 이상이 이미 설치되어 있으면 그대로 사용합니다. 포트 설정 없이 앱을 평소처럼 실행하세요.
+
 설치·종료·오프라인 실행은 [시작하기](시작하기.md)를 참고하세요. 저장된 목록 탐색에는 GitHub 로그인이 필요하지 않습니다. 새 정보 수집에는 인터넷과 GitHub CLI의 본인 계정 로그인이 필요합니다. 기본 분류에는 Codex나 모델 API를 사용하지 않습니다.
 
 현재 Mac 런처는 Developer ID 서명·Apple 공증을 받은 배포물이 아닙니다. 일반 사용자 배포 전에 서명·공증과 다운로드 후 실행 확인이 필요합니다. [Apple 배포 안내](https://help.apple.com/xcode/mac/current/en.lproj/dev033e997ca.html)

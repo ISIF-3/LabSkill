@@ -1,4 +1,4 @@
-"""LabSkill loopback app. Run with: python3.11 -m app --port 8765."""
+"""LabSkill loopback app. Run with: python3.11 -m app."""
 from __future__ import annotations
 
 import argparse
@@ -24,6 +24,7 @@ from collector.github_client import GitHub
 from collector.summarize import Summarizer
 
 APP_ID = "local-v1"
+DEFAULT_PORT = 18765
 WEEK = dt.timedelta(days=7)
 KST = dt.timezone(dt.timedelta(hours=9))
 EMPTY_CATALOG = {"generated_at": None, "date": None, "count": 0, "repos": []}
@@ -571,7 +572,7 @@ class AppHandler(BaseHTTPRequestHandler):
             self._json(405, {"error": "Method not allowed"})
 
 
-def create_server(controller: AppController, port: int = 8765) -> LocalServer:
+def create_server(controller: AppController, port: int = DEFAULT_PORT) -> LocalServer:
     server = LocalServer(("127.0.0.1", port), AppHandler)
     server.controller = controller
     return server
@@ -594,7 +595,7 @@ def is_existing_app(port: int) -> bool:
 
 def main(argv=None) -> int:
     parser = argparse.ArgumentParser(description="LabSkill 로컬 카탈로그")
-    parser.add_argument("--port", type=int, default=8765)
+    parser.add_argument("--port", type=int, default=DEFAULT_PORT)
     parser.add_argument("--no-open", action="store_true", help="브라우저를 자동으로 열지 않음")
     parser.add_argument("--no-collect", action="store_true", help="시작 시 수집과 주간 자동 수집을 실행하지 않음")
     args = parser.parse_args(argv)
@@ -616,7 +617,7 @@ def main(argv=None) -> int:
                 webbrowser.open(url)
             return 0
         print(f"LabSkill을 시작할 수 없습니다: 포트 {args.port}을 확인하세요 ({exc})")
-        return 1
+        return 98
     if not args.no_collect:
         controller.refresh()
         controller.start_scheduler()

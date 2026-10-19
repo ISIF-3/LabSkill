@@ -32,7 +32,7 @@ metadata = {
     "CFBundleInfoDictionaryVersion": "6.0",
     "CFBundleName": "LabSkill",
     "CFBundlePackageType": "APPL",
-    "CFBundleShortVersionString": "0.1.0",
+    "CFBundleShortVersionString": "0.1.1",
     "CFBundleVersion": "1",
     "LSMinimumSystemVersion": "12.0",
     "NSHighResolutionCapable": True,

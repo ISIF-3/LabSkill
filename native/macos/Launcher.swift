@@ -4,7 +4,7 @@ import WebKit
 @MainActor
 final class LauncherDelegate: NSObject, NSApplicationDelegate, WKNavigationDelegate, WKUIDelegate {
     private let paths = LauncherPaths(bundleURL: Bundle.main.bundleURL)
-    private let catalogURL = URL(string: "http://127.0.0.1:8765/")!
+    private let catalogURL = URL(string: "http://127.0.0.1:18765/")!
     private var backend: Process?
     private var logHandle: FileHandle?
     private var quitting = false
@@ -179,11 +179,11 @@ final class LauncherDelegate: NSObject, NSApplicationDelegate, WKNavigationDeleg
         logHandle = nil
         if quitting {
             NSApp.reply(toApplicationShouldTerminate: true)
-        } else if process.terminationStatus != 0 {
+        } else if let message = backendFailureMessage(status: process.terminationStatus) {
             readinessID = UUID()
             waitingForServer = false
             serverReady = false
-            showError("실행이 중단되었습니다 (코드 \(process.terminationStatus)). Python 3.10 이상이 설치되어 있는지 확인하세요.", retry: true)
+            showError(message, retry: true)
         }
     }
 
