@@ -1,4 +1,4 @@
-import { normalizeRepo, filterRepos, optionsFor, functionOptions, FUNCTIONS, AGENT_STATUSES, escapeHtml as esc, numberText, repoUrl, isCatalogNew, parseRepositoryUrl, normalizeLibrary, mergeLegacySaved, changeLibrary, createLibraryStore } from "./catalog-data.mjs";
+import { normalizeRepo, filterRepos, paginateRepos, historyCoverageText, optionsFor, functionOptions, FUNCTIONS, AGENT_STATUSES, escapeHtml as esc, numberText, repoUrl, isCatalogNew, parseRepositoryUrl, normalizeLibrary, mergeLegacySaved, changeLibrary, createLibraryStore } from "./catalog-data.mjs";
 const ICONS={
   compass:'<circle cx="12" cy="12" r="9"/><path d="m16 8-2.5 5.5L8 16l2.5-5.5Z"/>',
   trending:'<path d="m3 17 6-6 4 4 8-10M15 5h6v6"/>',
@@ -33,9 +33,9 @@ const $=selector=>document.querySelector(selector);
 const readLocal=(key,fallback)=>{try{return JSON.parse(localStorage.getItem(key))??fallback}catch{return fallback}};
 const writeLocal=(key,value)=>{try{localStorage.setItem(key,JSON.stringify(value))}catch{notify('브라우저 저장소를 사용할 수 없어 이번 화면에서만 유지됩니다.')}};
 const saved=new Set();
-const state={view:'discover',collection:'all',discoveryDomain:'lit',function:'all',agentStatus:'all',client:'all',kind:'all',domain:'all',install:'all',skills:false,search:'',sort:'trending',layout:readLocal('labskill-layout','grid')==='list'?'list':'grid'};
+const state={page:1,view:'discover',collection:'all',discoveryDomain:'lit',function:'all',agentStatus:'all',client:'all',kind:'all',domain:'all',install:'all',skills:false,search:'',sort:'trending',layout:readLocal('labskill-layout','grid')==='list'?'list':'grid'};
 let repos=[],taxonomy={functions:{},kinds:{},domains:{},install_methods:{}},discoveryProfiles={},historySummary=null,historyActionPending=false,catalog={repos:[]},status=null,apiError='',loading=true;
-let currentDetail=null,detailTrigger=null,toastTimer,pollTimer,featuredId=null;
+let currentDetail=null,detailTrigger=null,toastTimer,pollTimer,featuredId=null,pageCriteria='';
 let library={schema_version:1,saved_ids:[],collections:[],notes:{}},libraryStore=null,libraryLoading=true,libraryError='',libraryPending=0,collectionAction='create',collectionTarget=null,manualSubmitting=false,pendingRepo=null,pollPromise=null;
 const noteDrafts=new Map();
 const functionIcons={code:'code',literature:'library',visualization:'grid',data:'layers',ai:'terminal',search:'search',automation:'refresh',productivity:'bookmark',media:'grid',infrastructure:'server',security:'drive',science:'cube',learning:'library',devices:'plug',other:'compass'};
@@ -145,8 +145,8 @@ function renderDiscovery(){
 function renderHistory(){
   $('#history-panel').hidden=state.view!=='history';
   const available=historySummary?.available===true,active=historySummary?.active===true;
-  const range=historySummary?.range;
-  $('#history-range').textContent=available&&range?.start&&range?.end?`${formatDate(range.start)} ~ ${formatDate(range.end)}`:loading?'기록을 불러오고 있습니다.':'아직 가져온 과거 트렌딩 기록이 없습니다.';
+  const range=historySummary?.range,coverage=historyCoverageText(historySummary?.coverage);
+  $('#history-range').textContent=available&&range?.start&&range?.end?`기록 범위: ${formatDate(range.start)} ~ ${formatDate(range.end)}${coverage?` · ${coverage}`:''}`:loading?'기록을 불러오고 있습니다.':'아직 가져온 과거 트렌딩 기록이 없습니다.';
   const sourceUrl=repoUrl(historySummary?.source_repository);
   $('#history-source').hidden=!sourceUrl;if(sourceUrl)$('#history-source').href=sourceUrl;
   for(const key of ['total','enriched','classified','pending','remaining','failed']){const value=historySummary?.[key];$(`#history-${key}`).textContent=typeof value==='number'&&Number.isFinite(value)?value.toLocaleString('ko-KR'):'—';}
@@ -188,8 +188,16 @@ function renderFeature(){
 }
 
 function renderCards(visible){
+  const pagination=paginateRepos(visible,state.page);state.page=pagination.page;
   $('#catalog').classList.toggle('list-mode',state.layout==='list');
-  $('#catalog').innerHTML=visible.map(repo=>`<article class="repo-card" data-repo="${esc(repo.id)}"><button class="repo-open" data-open="${esc(repo.id)}" aria-label="${esc(repo.name)} 상세 보기"><div class="repo-cover"><img src="assets/${repo.cover}.svg" alt="" loading="lazy"><span class="cover-wordmark">${esc(repo.wordmark)}<small>${esc(repo.subtitle)}</small></span>${repo.skills>0?`<span class="skill-badge">${icon('cube')}SKILL ${repo.skills}</span>`:''}</div><div class="repo-body"><h3 title="${esc(repo.name)}">${newBadge(repo)}${esc(repo.name)}</h3><div class="repo-owner">${esc(repo.repo)}</div><p class="repo-description">${esc(repo.description)}</p><div class="repo-taxonomy">${functionBadges(repo)}${repo.kind!=null?`<span class="kind-tag">${esc(repo.kindLabel)}</span>`:''}${repo.history&&repo.discoveryDomains.length?'<span class="domain-tag source-tag">과거 트렌딩</span>':''}</div></div></button><button class="icon-button card-save ${saved.has(repo.id)?'saved':''}" data-save="${esc(repo.id)}" aria-label="${esc(repo.name)} ${saved.has(repo.id)?'보관 취소':'보관'}" aria-pressed="${saved.has(repo.id)}">${icon('bookmark')}</button><div class="card-metrics"><span class="star-count">${icon('star')}${numberText(repo.stars)}</span><span class="growth ${repo.current?'':'historical'}">${growthText(repo)}<small>${growthLabel(repo)}</small></span>${state.view==='library'&&state.collection!=='all'?`<button class="collection-remove" data-collection-remove="${esc(repo.id)}" aria-label="${esc(repo.name)}을 이 컬렉션에서 제거">제거</button>`:''}</div></article>`).join('');
+  $('#catalog').innerHTML=pagination.items.map(repo=>`<article class="repo-card" data-repo="${esc(repo.id)}"><button class="repo-open" data-open="${esc(repo.id)}" aria-label="${esc(repo.name)} 상세 보기"><div class="repo-cover"><img src="assets/${repo.cover}.svg" alt="" loading="lazy"><span class="cover-wordmark">${esc(repo.wordmark)}<small>${esc(repo.subtitle)}</small></span>${repo.skills>0?`<span class="skill-badge">${icon('cube')}SKILL ${repo.skills}</span>`:''}</div><div class="repo-body"><h3 title="${esc(repo.name)}">${newBadge(repo)}${esc(repo.name)}</h3><div class="repo-owner">${esc(repo.repo)}</div><p class="repo-description">${esc(repo.description)}</p><div class="repo-taxonomy">${functionBadges(repo)}${repo.kind!=null?`<span class="kind-tag">${esc(repo.kindLabel)}</span>`:''}${repo.history&&repo.discoveryDomains.length?'<span class="domain-tag source-tag">과거 트렌딩</span>':''}</div></div></button><button class="icon-button card-save ${saved.has(repo.id)?'saved':''}" data-save="${esc(repo.id)}" aria-label="${esc(repo.name)} ${saved.has(repo.id)?'보관 취소':'보관'}" aria-pressed="${saved.has(repo.id)}">${icon('bookmark')}</button><div class="card-metrics"><span class="star-count">${icon('star')}${numberText(repo.stars)}</span><span class="growth ${repo.current?'':'historical'}">${growthText(repo)}<small>${growthLabel(repo)}</small></span>${state.view==='library'&&state.collection!=='all'?`<button class="collection-remove" data-collection-remove="${esc(repo.id)}" aria-label="${esc(repo.name)}을 이 컬렉션에서 제거">제거</button>`:''}</div></article>`).join('');
+  $('#catalog-pagination').hidden=pagination.pageCount<=1;
+  $('#pagination-summary').textContent=`${pagination.start.toLocaleString('ko-KR')}–${pagination.end.toLocaleString('ko-KR')} / 전체 ${pagination.total.toLocaleString('ko-KR')}개 · ${pagination.page} / ${pagination.pageCount}페이지`;
+  $('#page-previous').disabled=pagination.page===1;$('#page-next').disabled=pagination.page===pagination.pageCount;
+  $('#page-previous').setAttribute('aria-label',pagination.page===1?'이전 페이지 없음':`이전 페이지 (${pagination.page-1}페이지)`);
+  $('#page-next').setAttribute('aria-label',pagination.page===pagination.pageCount?'다음 페이지 없음':`다음 페이지 (${pagination.page+1}페이지)`);
+  $('#result-count').textContent=pagination.total;
+  $('#result-announcement').textContent=pagination.total?`검색 결과 ${pagination.total}개 중 ${pagination.start}번째부터 ${pagination.end}번째까지 표시합니다. ${pagination.page} / ${pagination.pageCount}페이지입니다.`:'조건에 맞는 저장소가 없습니다.';
   $('#empty-state').hidden=visible.length>0;
   const hasFilters=hasDetailFilters();
   const emptyLibrary=state.view==='library'&&!hasFilters;
@@ -238,12 +246,13 @@ function renderStatus(){
 }
 
 function render(){
+  const {page,layout,...criteria}=state,serialized=JSON.stringify(criteria);
+  if(serialized!==pageCriteria){state.page=1;pageCriteria=serialized;}
   renderOptionalFilters();renderNavigation();renderFeature();const visible=visibleRepos();renderCards(visible);renderFilters();renderStatus();renderLibrary();updateLibraryButtons();
-  const titles={discover:'기능별 도구',history:'6개월 트렌딩 기록',trending:'이번 주 트렌딩',discovery:'분야별 도구',library:'내 라이브러리'};
+  const titles={discover:'기능별 도구',history:'과거 트렌딩 기록',trending:'이번 주 트렌딩',discovery:'분야별 도구',library:'내 라이브러리'};
   $('#page-title').innerHTML=`${titles[state.view]}<span class="heading-dot">.</span>`;
   $('#catalog-title').textContent=state.function!=='all'?functionLabel(state.function):state.view==='library'?(library.collections.find(collection=>collection.id===state.collection)?.name||'내가 모아둔 도구'):state.view==='history'?'과거 트렌딩에서 발견한 도구':state.view==='discovery'?`${discoveryLabel(state.discoveryDomain)}에서 발견한 도구`:state.view==='trending'?'이번 주 GitHub 트렌딩':'모든 기능의 저장소';
   $('#catalog-scope').value=state.view;
-  $('#result-count').textContent=visible.length;$('#result-announcement').textContent=`${visible.length}개의 저장소가 표시됩니다.`;
   $('#main-content').classList.toggle('saved-page',state.view!=='discover');$('#main-content').classList.toggle('filtered-page',!!hasDetailFilters());
   for(const layout of ['grid','list']){$(`#${layout}-view`).classList.toggle('active',state.layout===layout);$(`#${layout}-view`).setAttribute('aria-pressed',state.layout===layout);}
   const sortOptions=['discovery','history'].includes(state.view)?[['stars','전체 스타순'],['updated','최근 업데이트순'],['name','이름순']]:[['trending','이번 주 급상승순'],['stars','전체 스타순'],['name','이름순']];
@@ -308,6 +317,9 @@ document.addEventListener('click',event=>{
   if(button.dataset.clear){const key=button.dataset.clear;if(key==='all')clearFilters();else if(key==='search'){state.search='';$('#search').value='';}else state[key]=key==='skills'?false:'all';render();}
 });
 $('.brand').addEventListener('click',event=>{event.preventDefault();changeView('discover');});
+for(const [id,step] of [['page-previous',-1],['page-next',1]])$(`#${id}`).addEventListener('click',()=>{
+  state.page+=step;render();$('#catalog-title').focus({preventScroll:true});$('.catalog-heading').scrollIntoView({block:'start'});
+});
 $('#search').addEventListener('input',event=>{state.search=event.target.value;render();});
 $('#catalog-scope').addEventListener('change',event=>{if(['discover','history','trending','discovery','library'].includes(event.target.value))changeView(event.target.value);});
 $('#agent-status-filter').addEventListener('change',event=>{if(event.target.value!=='all'&&!Object.hasOwn(AGENT_STATUSES,event.target.value))return;state.agentStatus=event.target.value;render();});

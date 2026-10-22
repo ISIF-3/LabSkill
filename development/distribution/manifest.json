@@ -31,7 +31,8 @@
     "labskill-catalog/web/styles.css",
     "labskill-catalog/imports/README.md",
     "labskill-catalog/imports/trending-history-2026-04-18_2026-10-18.json",
-    "labskill-catalog/imports/licenses/antonkomarev-MIT.txt"
+    "labskill-catalog/imports/licenses/antonkomarev-MIT.txt",
+    "labskill-catalog/imports/trending-history-expanded.json"
   ],
   "source": [
     ".gitignore",
@@ -48,7 +49,11 @@
     "native/macos/build.sh",
     "development/tests/test_library_ui.mjs",
     "development/tests/test_catalog_ui.mjs",
-    "development/tests/test_launcher.py"
+    "development/tests/test_launcher.py",
+    "development/import_history.py",
+    "development/tests/test_import_history.py",
+    "development/tests/test_history_expansion.py",
+    "development/tests/test_history_pagination.mjs"
   ],
   "windows": [
     "LabSkill.bat",

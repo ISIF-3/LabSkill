@@ -99,6 +99,17 @@ export function filterRepos(repos,state={},saved=new Set()){
   ).sort((a,b)=>state.sort==='name'?a.name.localeCompare(b.name,'ko'):state.sort==='stars'?(b.stars??-1)-(a.stars??-1):state.sort==='updated'?((updatedTime(b)??-Infinity)-(updatedTime(a)??-Infinity)||0):Number(b.current)-Number(a.current)||(b.current&&a.current&&a.rank!=null&&b.rank!=null?a.rank-b.rank:(b.growth??-Infinity)-(a.growth??-Infinity))||(b.stars??-1)-(a.stars??-1));
 }
 
+export function paginateRepos(repos,page=1){
+  const total=repos.length,pageCount=Math.max(1,Math.ceil(total/60));
+  const current=Math.min(pageCount,Math.max(1,Number.isInteger(page)?page:1)),offset=(current-1)*60;
+  return {items:repos.slice(offset,offset+60),page:current,pageCount,total,start:total?offset+1:0,end:Math.min(offset+60,total)};
+}
+
+export function historyCoverageText(coverage){
+  if(!Number.isInteger(coverage?.expected_days)||coverage.expected_days<=0||!Number.isInteger(coverage.available_days)||coverage.available_days<0||!Array.isArray(coverage.missing_dates)||coverage.available_days+coverage.missing_dates.length!==coverage.expected_days)return '';
+  return `${coverage.available_days}/${coverage.expected_days}일 기록 · 원본 없는 날짜 ${coverage.missing_dates.length}일`;
+}
+
 export function optionsFor(table={},repos=[],key){
   const result=Object.entries(table).map(([value,item])=>({value,label:text(item?.label)||value,count:repos.filter(repo=>repo[key]===value).length}));
   for(const repo of repos){const value=repo[key]??'__pending__';if(!result.some(option=>option.value===value))result.push({value,label:value==='__pending__'?'미분류':value,count:repos.filter(item=>(item[key]??'__pending__')===value).length});}

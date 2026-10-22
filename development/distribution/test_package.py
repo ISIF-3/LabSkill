@@ -119,6 +119,14 @@ class DistributionTests(unittest.TestCase):
         self.assertNotIn("evidence_valid", seed["repos"][0])
         self.assertEqual(seed["repos"][0].get("review"), {})
 
+    def test_public_history_coverage_keeps_missing_days_without_unknown_fields(self):
+        coverage = {"expected_days": 366, "available_days": 365, "nonempty_days": 365,
+                    "missing_dates": ["2026-10-22"], "private_notes": "PRIVATE_SENTINEL"}
+        result = self.package.sanitize_catalog({"repos": [], "history_import": {"coverage": coverage}})
+        self.assertEqual(result["history_import"]["coverage"],
+                         {key: value for key, value in coverage.items() if key != "private_notes"})
+        self.assertNotIn("PRIVATE_SENTINEL", json.dumps(result))
+
     def test_download_seed_satisfies_collector_and_accepts_manual_repository(self):
         sys.path.insert(0, str(ROOT / "labskill-catalog"))
         from collector import collect
@@ -148,14 +156,14 @@ class DistributionTests(unittest.TestCase):
             runtime = root / "labskill-catalog"
             catalog_file = runtime / "catalog/catalog.json"
             before = json.loads(catalog_file.read_text())
-            self.assertEqual(before["count"], 791)
+            self.assertEqual(before["count"], len(before["repos"]))
             for repo in before["repos"]:
                 for key, kind in collect.STRUCTURAL.items():
                     self.assertIsInstance(repo.get(key), kind, (repo["id"], key))
             report = collect.run(runtime, PublicGitHub(), Summarizer(backend="python"),
                                  dt.date(2026, 10, 18), manual_repo="distribution-test/new-public")
             after = json.loads(catalog_file.read_text())
-            self.assertEqual(after["count"], 792)
+            self.assertEqual(after["count"], before["count"] + 1)
             self.assertEqual(report["source"], "manual")
             original = {repo["id"]: repo for repo in before["repos"]}
             preserved = {repo["id"]: repo for repo in after["repos"] if repo["id"] in original}

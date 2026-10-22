@@ -4,9 +4,20 @@
 
 ## 포함 범위
 
-`manifest.json`의 정확한 파일 목록만 사용합니다. 새로운 파일은 목록에 명시적으로 추가해야 합니다. `.gitignore`도 같은 공개 파일만 허용합니다. `public-seed/`는 배포자가 선택한 공개 저장소 791개의 고정 시작 목록·분류표·주간 기록입니다. 현재 사용자 목록으로 자동 재생성하지 않습니다.
+`manifest.json`의 정확한 파일 목록만 사용합니다. 새로운 파일은 목록에 명시적으로 추가해야 합니다. `.gitignore`도 같은 공개 파일만 허용합니다. v0.2.0의 `public-seed/`는 배포자가 선택한 공개 저장소 1286개의 고정 시작 목록·분류표·주간 기록입니다. 현재 사용자 목록으로 자동 재생성하지 않습니다.
 
 실사용 `labskill-catalog/catalog/`, `state/`, `cache/`, `snapshots/`, `imports/manual/`와 개인 인증·로그는 읽거나 복사하지 않습니다. 초기 트렌딩 명단과 원본 라이선스는 지정된 파일만 포함합니다. 원본 README·SKILL 본문, 원문 인용, 모델 응답은 공개 seed에 넣지 않습니다. 스킬 이름·설명·경로와 공개 메타데이터, 요약·분류·커밋·출처·등장 이력은 유지합니다. 북마크·메모는 각 사용자 소유입니다.
+
+과거 트렌딩은 최근 1년인 2025-10-22~2026-10-22 범위입니다. 원본 커밋은 `83e0423605b47c34751141d79deb16ab3942504b`로 고정했으며 2026-10-21까지 365일·고유 저장소 1266개를 확인했습니다. 2026-10-22는 아직 미게시입니다. 화면은 기록 범위와 `365/366일 기록 · 원본 없는 날짜 1일`을 표시하고, 전체 검색·정렬 결과를 60개씩 페이지로 보여줍니다. 기존 사용자 데이터와 보관 정보를 유지하며 과거 명단의 첫 정보 보강에는 New!를 붙이지 않습니다. 이후 실제 내용 변경의 7일 New! 표시는 유지합니다. 기본 Python 분류의 모델 호출·모델 토큰 사용은 0입니다.
+
+같은 명단을 다시 만들려면 저장소 루트에서 실행합니다. 이 명령은 고정 원본을 검증해 확장 명단을 만들며 공개 seed를 자동 변경하지 않습니다. 카탈로그 병합과 남은 정보 수집은 앱을 다시 시작한 뒤 이어갑니다. 세부 동작은 [트렌딩 명단 안내](../../labskill-catalog/imports/README.md)를 참고하세요.
+
+```bash
+python3.11 development/import_history.py \
+  --start 2025-10-22 --end 2026-10-22 \
+  --ref 83e0423605b47c34751141d79deb16ab3942504b \
+  --root labskill-catalog
+```
 
 ## 확인과 ZIP 생성
 
@@ -42,7 +53,7 @@ Windows ZIP은 Python 스크립트와 `.bat`이며 `.exe`나 설치 프로그램
 완성된 OS별 ZIP은 GitHub Releases의 Assets에 첨부하면 됩니다. 아래는 게시 전 검토할 **초안 Release**를 만드는 예시이며 이 도구가 실행하지는 않습니다. `OWNER/REPO`와 버전은 실제 배포 대상으로 바꿉니다.
 
 ```bash
-gh release create v0.1.0 dist/LabSkill-macos-arm64.zip dist/LabSkill-windows.zip --repo OWNER/REPO --draft --title "LabSkill v0.1.0" --notes-file development/distribution/release-notes.md
+gh release create v0.2.0 dist/LabSkill-macos-arm64.zip dist/LabSkill-windows.zip --repo OWNER/REPO --draft --title "LabSkill v0.2.0" --notes-file development/distribution/release-notes.md
 ```
 
 GitHub가 자동으로 제공하는 Source code ZIP은 저장소 소스입니다. 실행 파일이 포함된 OS별 다운로드 ZIP과 구분합니다. [GitHub Releases 안내](https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases), [gh release create](https://cli.github.com/manual/gh_release_create)

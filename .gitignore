@@ -55,3 +55,8 @@
 !/시작하기.md
 
 !/development/tests/test_launcher.py
+!/labskill-catalog/imports/trending-history-expanded.json
+!/development/import_history.py
+!/development/tests/test_import_history.py
+!/development/tests/test_history_expansion.py
+!/development/tests/test_history_pagination.mjs

@@ -12,6 +12,7 @@ from pathlib import Path, PurePosixPath
 SOURCE_REPOSITORY = "antonkomarev/github-trending-archive"
 SOURCE = f"archive:{SOURCE_REPOSITORY}"
 MANIFEST = "trending-history-2026-04-18_2026-10-18.json"
+EXPANDED_MANIFEST = "trending-history-expanded.json"
 NAME = re.compile(r"[A-Za-z0-9][A-Za-z0-9-]*/[A-Za-z0-9._-]+\Z")
 SHA = re.compile(r"[0-9a-f]{40}\Z")
 EMPTY_README_SHA = hashlib.sha256(b"").hexdigest()[:16]
@@ -142,7 +143,9 @@ def _pending(repo_id, day):
 def ensure_seed(root: Path, today: dt.date | None = None) -> bool:
     """Merge the bundled roster atomically; an unchanged manifest never resets progress."""
     root = Path(root)
-    manifest_path = root / "imports" / MANIFEST
+    manifest_path = root / "imports" / EXPANDED_MANIFEST
+    if not manifest_path.is_file():
+        manifest_path = root / "imports" / MANIFEST
     if not manifest_path.is_file():
         return False
     raw = manifest_path.read_bytes()
@@ -170,16 +173,34 @@ def ensure_seed(root: Path, today: dt.date | None = None) -> bool:
         sources = entry.get("sources", [])
         _require(isinstance(sources, list) and all(isinstance(s, str) for s in sources))
         entry["sources"] = list(dict.fromkeys([*sources, SOURCE]))
-        entry.update(trend_history=repo["history"], trending_first_seen=repo["trending_first_seen"],
-                     trending_last_seen=repo["trending_last_seen"], appearance_days=repo["appearance_days"],
-                     best_daily_rank=repo["best_daily_rank"])
+        previous_history = entry.get("trend_history", [])
+        _require(isinstance(previous_history, list))
+        merged = {}
+        for record in [*previous_history, *repo["history"]]:
+            _require(isinstance(record, dict))
+            day_key = _date(record.get("date")).isoformat()
+            period, scope = record.get("period", "daily"), record.get("scope", "all")
+            _require(isinstance(period, str) and isinstance(scope, str))
+            _integer(record.get("rank"), 1)
+            merged.setdefault((day_key, period, scope), record)
+        records = [merged[key] for key in sorted(merged)]
+        entry.update(trend_history=records, trending_first_seen=records[0]["date"],
+                     trending_last_seen=records[-1]["date"], appearance_days=len({row["date"] for row in records}),
+                     best_daily_rank=min(row["rank"] for row in records if row.get("period", "daily") == "daily"))
         if "history_backfill_status" not in entry:
             complete = entry.get("fetch_status") == "ok" and isinstance(entry.get("readme_sha"), str) and bool(entry["readme_sha"])
             entry.update(history_backfill_status="complete" if complete else "pending",
                          history_backfill_at=now if complete else None, history_last_attempt=None)
+    bounds = dict(manifest["range"])
+    previous_import = doc.get("history_import")
+    previous_bounds = previous_import.get("range") if isinstance(previous_import, dict) else None
+    if isinstance(previous_bounds, dict):
+        bounds["start"] = min(bounds["start"], _date(previous_bounds.get("start")).isoformat())
+        bounds["end"] = max(bounds["end"], _date(previous_bounds.get("end")).isoformat())
     doc.update(count=len(doc["repos"]), generated_at=now, date=day, history_import={
         "source_repository": SOURCE_REPOSITORY, "source_commit": manifest["source_commit"],
-        "manifest_sha256": digest, "range": manifest["range"], "total": manifest["count"], "imported_at": now})
+        "manifest_sha256": digest, "range": bounds, "coverage": manifest["coverage"],
+        "total": sum(SOURCE in row.get("sources", []) for row in doc["repos"]), "imported_at": now})
     _atomic_write(path, doc)
     return True
 
@@ -227,6 +248,7 @@ def summary(catalog: dict) -> dict:
     selected = sum(_screened(e) and e["agent_catalog"]["status"] == "selected" for e in entries)
     classified = sum(_actual_output(e) or _screened(e) and e["agent_catalog"]["status"] == "selected" for e in entries)
     return {"available": bool(state), "source_repository": state.get("source_repository"), "range": state.get("range"),
+            "coverage": state.get("coverage"),
             "total": len(entries), "enriched": sum(e.get("history_backfill_status") == "complete" for e in entries),
             "classified": classified, "screened": sum(_screened(e) for e in entries), "selected": selected,
             "metadata_only": sum(_screened(e) and e["agent_catalog"].get("candidate") is False

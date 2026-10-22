@@ -106,3 +106,10 @@ body{font-size:15px}.titlebar{height:34px}.statusbar{height:34px}.sidebar{width:
  .heading-tools{gap:8px}.heading-tools .search-box{flex-basis:100%}.heading-tools .refresh-button{width:auto;min-width:40px}.heading-tools #refresh-button>span:last-child{display:inline}.heading-tools .mobile-filters-button{width:40px}.add-repo-button{margin-left:auto;height:40px}
  .library-panel{padding:19px 17px}.library-panel h2{font-size:19px}.library-controls{gap:9px}.library-controls>label{width:100%}.library-controls select{min-width:0;flex-basis:100%}.library-controls .button{flex:1}.library-notice{align-items:flex-start;flex-direction:column;gap:10px}.editor-dialog{padding:27px 23px}.editor-dialog h2{font-size:23px}.new-badge{font-size:11px}
 }
+
+.catalog-pagination{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-top:24px;padding-top:19px;border-top:1px solid #ffffff0d;color:#91acc2;font-size:14px;line-height:1.7}
+.catalog-pagination>div{display:flex;align-items:center;gap:9px;flex:none}
+.catalog-pagination .button{min-height:42px;min-width:76px;font-size:14px}
+.catalog-pagination button:disabled{cursor:default;opacity:.35}
+#catalog-title:focus-visible{outline:2px solid var(--accent);outline-offset:5px}
+@media(max-width:600px){.catalog-pagination{align-items:flex-start;flex-direction:column;gap:13px;font-size:13px}.catalog-pagination>div{width:100%}.catalog-pagination .button{flex:1}}

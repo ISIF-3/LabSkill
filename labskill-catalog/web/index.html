@@ -33,7 +33,7 @@
           <div class="sidebar-label">내 작업 공간</div>
           <button class="side-item selected" data-view="discover"><span data-icon="compass"></span><span class="nav-label">발견</span><span class="nav-shortcut">⌘ 1</span></button>
           <button class="side-item" data-view="trending"><span data-icon="trending"></span><span class="nav-label">이번 주 트렌딩</span><span class="new-dot"></span></button>
-          <button class="side-item" data-view="history"><span data-icon="library"></span><span class="nav-label">6개월 트렌딩 기록</span></button>
+          <button class="side-item" data-view="history"><span data-icon="library"></span><span class="nav-label">과거 트렌딩 기록</span></button>
           <button class="side-item" data-view="discovery"><span data-icon="sliders"></span><span class="nav-label">분야별 도구 찾기</span></button>
           <button class="side-item" data-view="library"><span data-icon="library"></span><span class="nav-label">내 라이브러리</span><span class="side-count saved-count">0</span></button>
           <div class="sidebar-rule"></div>
@@ -49,7 +49,7 @@
           <div><div class="eyebrow">YOUR NEXT DISCOVERY</div><h1 id="page-title">발견<span class="heading-dot">.</span></h1></div>
           <div class="heading-tools"><label class="search-box"><span data-icon="search"></span><input id="search" type="search" placeholder="도구, 저장소, 태그 검색" aria-label="도구, 저장소, 태그 검색"><kbd>⌘ K</kbd></label><button class="mobile-filters-button refresh-button" id="mobile-filters-button" aria-label="필터 열기"><span data-icon="sliders"></span><span>필터</span></button><button class="refresh-button" id="refresh-button"><span data-icon="refresh"></span><span>새로고침</span></button><button class="button secondary add-repo-button" id="add-repo-button">+ 추가</button></div>
         </div>
-        <div class="catalog-pickers"><div class="scope-picker"><label for="catalog-scope">발견 경로</label><select id="catalog-scope"><option value="discover">전체 카탈로그</option><option value="history">6개월 트렌딩 기록</option><option value="trending">이번 주 트렌딩</option><option value="discovery">분야별 발견</option><option value="library">내 라이브러리</option></select></div><div class="scope-picker mobile-function-picker"><label for="function-filter">기능별 목록</label><select id="function-filter"><option value="all">모든 기능</option></select></div></div>
+        <div class="catalog-pickers"><div class="scope-picker"><label for="catalog-scope">발견 경로</label><select id="catalog-scope"><option value="discover">전체 카탈로그</option><option value="history">과거 트렌딩 기록</option><option value="trending">이번 주 트렌딩</option><option value="discovery">분야별 발견</option><option value="library">내 라이브러리</option></select></div><div class="scope-picker mobile-function-picker"><label for="function-filter">기능별 목록</label><select id="function-filter"><option value="all">모든 기능</option></select></div></div>
         <p class="function-summary" id="function-summary">전체 저장소를 기능별로 둘러보세요.</p>
         <div class="library-notice" id="library-notice" role="status" hidden><span id="library-notice-message"></span><button class="button secondary" id="library-retry">다시 불러오기</button></div>
         <section class="library-panel" id="library-panel" aria-labelledby="library-title" hidden>
@@ -69,7 +69,7 @@
 
         <section id="collection-panel" class="collection-panel" role="status" hidden><span data-icon="refresh"></span><div><strong id="collection-message"></strong><p id="collection-detail"></p></div><progress id="collection-progress" max="1"></progress></section>
         <section id="history-panel" class="history-panel" aria-labelledby="history-title" hidden>
-          <div class="history-heading"><div><p class="eyebrow">TRENDING ARCHIVE</p><h2 id="history-title">6개월의 트렌딩을 한곳에</h2><p id="history-range"></p></div><a id="history-source" target="_blank" rel="noopener noreferrer" hidden>기록 출처<span data-icon="external"></span></a></div>
+          <div class="history-heading"><div><p class="eyebrow">TRENDING ARCHIVE</p><h2 id="history-title">과거 트렌딩 기록</h2><p id="history-range"></p></div><a id="history-source" target="_blank" rel="noopener noreferrer" hidden>기록 출처<span data-icon="external"></span></a></div>
           <dl class="history-counts"><div><dt>기록된 저장소</dt><dd id="history-total">—</dd></div><div><dt>정보 수집</dt><dd id="history-enriched">—</dd></div><div><dt>분류 결과</dt><dd id="history-classified">—</dd></div><div><dt>기능 분류됨</dt><dd id="history-functions">—</dd></div><div><dt>분류 대기</dt><dd id="history-pending">—</dd></div><div><dt>남은 저장소</dt><dd id="history-remaining">—</dd></div><div><dt>조회 실패</dt><dd id="history-failed">—</dd></div></dl>
           <progress id="history-progress" max="1" value="0" aria-label="과거 트렌딩 정보 수집 진행률"></progress><p id="history-progress-label" class="history-progress-label" role="status"></p>
           <div class="history-actions"><button class="button primary" id="history-resume" disabled><span data-icon="refresh"></span><span>정리 이어가기</span></button><button class="button secondary" id="history-pause" hidden>현재 묶음까지 정리하고 멈추기</button></div>
@@ -87,9 +87,10 @@
           <div class="feature-caption"><span class="feature-caption-mark" data-icon="layers"></span><div><strong>Research Toolkit</strong><span>스킬 모음 <span class="caption-dot">·</span> 문헌·논문</span></div><span class="feature-pagination" id="feature-rank"></span></div>
         </section>
 
-        <div class="catalog-heading"><div><h2 id="catalog-title">발견한 도구</h2><span class="result-count" id="result-count"></span></div><div class="catalog-controls"><select id="sort" aria-label="정렬"><option value="trending">이번 주 급상승순</option><option value="stars">전체 스타순</option><option value="name">이름순</option></select><div class="view-toggle" aria-label="목록 보기 방식"><button class="icon-button active" id="grid-view" aria-label="카드 보기" aria-pressed="true"><span data-icon="grid"></span></button><button class="icon-button" id="list-view" aria-label="목록 보기" aria-pressed="false"><span data-icon="list"></span></button></div></div></div>
+        <div class="catalog-heading"><div><h2 id="catalog-title" tabindex="-1">발견한 도구</h2><span class="result-count" id="result-count"></span></div><div class="catalog-controls"><select id="sort" aria-label="정렬"><option value="trending">이번 주 급상승순</option><option value="stars">전체 스타순</option><option value="name">이름순</option></select><div class="view-toggle" aria-label="목록 보기 방식"><button class="icon-button active" id="grid-view" aria-label="카드 보기" aria-pressed="true"><span data-icon="grid"></span></button><button class="icon-button" id="list-view" aria-label="목록 보기" aria-pressed="false"><span data-icon="list"></span></button></div></div></div>
         <div class="active-filters" id="active-filters"></div>
         <section id="catalog" class="catalog-grid" aria-label="저장소 목록"></section>
+        <nav class="catalog-pagination" id="catalog-pagination" aria-label="저장소 목록 페이지" hidden><span id="pagination-summary"></span><div><button class="button secondary" id="page-previous" type="button" aria-controls="catalog" aria-label="이전 페이지">이전</button><button class="button secondary" id="page-next" type="button" aria-controls="catalog" aria-label="다음 페이지">다음</button></div></nav>
         <div class="empty-state" id="empty-state" hidden><span data-icon="search"></span><h3>아직 발견하지 못했어요</h3><p id="empty-description">검색어나 필터를 조금 바꿔보세요.</p><button class="button secondary" id="reset-filters">필터 초기화</button></div>
         <div class="catalog-footnote"><span data-icon="info"></span><span>새로운 가능성을 발견하고, 내 작업 공간에 모아보세요.</span><span class="footnote-demo">GitHub 카탈로그</span></div>
       </main>

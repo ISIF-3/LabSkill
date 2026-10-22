@@ -60,6 +60,12 @@ def sanitize_catalog(document):
     if isinstance(history, dict):
         result["history_import"] = selected_scalars(history, ["source_repository", "source_commit", "manifest_sha256", "total", "imported_at"])
         result["history_import"]["range"] = selected_scalars(history.get("range", {}), ["start", "end", "inclusive"])
+        coverage = history.get("coverage")
+        if isinstance(coverage, dict):
+            result["history_import"]["coverage"] = selected_scalars(
+                coverage, ["expected_days", "available_days", "nonempty_days"])
+            result["history_import"]["coverage"]["missing_dates"] = [
+                day for day in coverage.get("missing_dates", []) if isinstance(day, str)]
     return result
 
 

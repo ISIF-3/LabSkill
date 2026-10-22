@@ -553,6 +553,11 @@ def run(root: Path, gh: GitHub, summarizer: Summarizer, today: dt.date, dry_run:
         if entry["id"] not in cands:
             continue
         old = prev_by_id.get(entry["id"])
+        # An archive's first current lookup establishes the content baseline.
+        initial_history_fill = history_names is not None and old is not None and not (
+            old.get("readme_sha") or old.get("sources_sha"))
+        if initial_history_fill:
+            continue
         if (old is None or entry.get("description") != old.get("description")
                 or any(old.get(key) is not None and entry.get(key) is not None and entry[key] != old[key]
                        for key in ("readme_sha", "sources_sha"))):
