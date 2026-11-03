@@ -6,7 +6,7 @@
   "scope": "2026-10-22 공개 seed 전체",
   "historical_count": 1266,
   "missing_history_date": "2026-10-22",
-  "reviewed_count": 1254,
+  "reviewed_count": 1255,
   "classification_method": "직접 원문 검토",
   "categories": [
     {
@@ -26772,6 +26772,30 @@
           "url": "https://github.com/elastic/elasticsearch/blob/cfd1f33fafc565de7b92c3289aa5e9339a32990e/README.asciidoc",
           "path": "README.asciidoc",
           "blob_sha": "3164cd7d02f5fa19c4a8dba10cec799c1088b87d"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "apache/cassandra",
+      "name": "apache/cassandra",
+      "url": "https://github.com/apache/cassandra",
+      "aliases": [],
+      "category": "infrastructure",
+      "type": "분산 데이터베이스",
+      "summary_ko": "테이블과 기본 키로 데이터를 저장하고 여러 서버에 분산하며 CQL로 데이터를 읽고 쓴다.",
+      "tags": [
+        "데이터베이스",
+        "CQL"
+      ],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T12:43:14.104Z",
+      "reviewed_commit": "8ceeea10f493ef6f9eb308a19f9786f579e31ec8",
+      "evidence": [
+        {
+          "url": "https://github.com/apache/cassandra/blob/8ceeea10f493ef6f9eb308a19f9786f579e31ec8/README.asc",
+          "path": "README.asc",
+          "blob_sha": "1d8f7bfe373fa7d0951fc17d88b9511ce9d3af07"
         }
       ],
       "execution_tested": false
