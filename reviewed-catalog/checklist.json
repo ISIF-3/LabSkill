@@ -6774,8 +6774,8 @@
       "source_id": "apache/cassandra",
       "canonical_id": "apache/cassandra",
       "review_status": "reviewed",
-      "slack_list_status": "unverified",
-      "slack_canvas_status": "unverified",
+      "slack_list_status": "synced",
+      "slack_canvas_status": "synced",
       "last_attempt_at": "2026-11-03T09:53:37.715Z"
     },
     {
