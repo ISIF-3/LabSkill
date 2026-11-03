@@ -1124,8 +1124,8 @@
       "source_id": "koala73/worldmonitor",
       "canonical_id": "koala73/worldmonitor",
       "review_status": "reviewed",
-      "slack_list_status": "unverified",
-      "slack_canvas_status": "unverified"
+      "slack_list_status": "synced",
+      "slack_canvas_status": "synced"
     },
     {
       "position": 141,
@@ -9510,8 +9510,8 @@
       "source_id": "papersgpt/papersgpt-for-zotero",
       "canonical_id": "papersgpt/papersgpt-for-zotero",
       "review_status": "reviewed",
-      "slack_list_status": "unverified",
-      "slack_canvas_status": "unverified"
+      "slack_list_status": "synced",
+      "slack_canvas_status": "synced"
     },
     {
       "position": 1188,
