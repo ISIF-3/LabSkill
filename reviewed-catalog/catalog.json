@@ -507,13 +507,13 @@
         "PDF"
       ],
       "status": "reviewed",
-      "reviewed_at": "2026-11-03T01:43:37.996Z",
-      "reviewed_commit": "e2706780651bf4af439e2a703a5b595d5ca0b910",
+      "reviewed_at": "2026-11-03T15:24:45.787Z",
+      "reviewed_commit": "5cbbf219de66cee638147c0eade7f1fad1fa9f74",
       "evidence": [
         {
-          "url": "https://github.com/papersgpt/papersgpt-for-zotero/blob/e2706780651bf4af439e2a703a5b595d5ca0b910/README.md",
+          "url": "https://github.com/papersgpt/papersgpt-for-zotero/blob/5cbbf219de66cee638147c0eade7f1fad1fa9f74/README.md",
           "path": "README.md",
-          "blob_sha": "e17efdebab8cefdb3035409437e897f64af3f235"
+          "blob_sha": "84e05b5726cbe4b7289d949e8dbc9fde26f4c2f3"
         }
       ],
       "execution_tested": false
@@ -893,13 +893,13 @@
       "summary_ko": "국제 뉴스와 경제·재난·기반시설 정보를 지도와 패널에 모으며 MCP 연결을 제공한다.",
       "tags": [],
       "status": "reviewed",
-      "reviewed_at": "2026-11-03T01:43:37.996Z",
-      "reviewed_commit": "11e2bc833837951eef351fc8b71173fd6cc162d3",
+      "reviewed_at": "2026-11-03T15:24:45.787Z",
+      "reviewed_commit": "84219c69bfaebc6339f8946960e2083b2d19c7a6",
       "evidence": [
         {
-          "url": "https://github.com/koala73/worldmonitor/blob/11e2bc833837951eef351fc8b71173fd6cc162d3/README.md",
+          "url": "https://github.com/koala73/worldmonitor/blob/84219c69bfaebc6339f8946960e2083b2d19c7a6/README.md",
           "path": "README.md",
-          "blob_sha": "c6337f98a143d4016a865bb4fda4e1a651a3b24f"
+          "blob_sha": "6b4f7ae4785ed937d5f03e857b8dc8fc5fabba83"
         }
       ],
       "execution_tested": false
