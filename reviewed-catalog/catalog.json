@@ -6,7 +6,7 @@
   "scope": "2026-10-22 공개 seed 전체",
   "historical_count": 1266,
   "missing_history_date": "2026-10-22",
-  "reviewed_count": 50,
+  "reviewed_count": 56,
   "classification_method": "직접 원문 검토",
   "categories": [
     {
@@ -1234,6 +1234,132 @@
           "url": "https://github.com/aaif-goose/goose/blob/cfb67d72f6129ba3c9f68d4c225d8dfcaba18a87/README.md",
           "path": "README.md",
           "blob_sha": "44c960f0193de1ccd3a13721cfe2daf5e7707ac5"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "nationalsecurityagency/ghidra",
+      "name": "NationalSecurityAgency/ghidra",
+      "url": "https://github.com/NationalSecurityAgency/ghidra",
+      "aliases": [],
+      "category": "security",
+      "type": "역공학 프레임워크",
+      "summary_ko": "컴파일된 코드를 역어셈블·디컴파일하고 그래프와 스크립트로 분석한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T01:53:06.032Z",
+      "reviewed_commit": "251f3603f89c0620bdc503ff9a19382bf469ffec",
+      "evidence": [
+        {
+          "url": "https://github.com/NationalSecurityAgency/ghidra/blob/251f3603f89c0620bdc503ff9a19382bf469ffec/README.md",
+          "path": "README.md",
+          "blob_sha": "3f1eea7b35d8551f2433f3074f68ba736d72673f"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "morluto/rea",
+      "name": "morluto/rea",
+      "url": "https://github.com/morluto/rea",
+      "aliases": [],
+      "category": "security",
+      "type": "역공학 MCP 도구",
+      "summary_ko": "바이너리와 애플리케이션, 실행 중 동작의 역공학을 위한 MCP 도구를 제공한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T01:53:06.032Z",
+      "reviewed_commit": "d496d803a4f50dc82248db0630042894c1136d00",
+      "evidence": [
+        {
+          "url": "https://github.com/morluto/rea/blob/d496d803a4f50dc82248db0630042894c1136d00/README.md",
+          "path": "README.md",
+          "blob_sha": "474ecfbec32c2ef86e5d0cf17837892d5b07335a"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "codecrafters-io/build-your-own-x",
+      "name": "codecrafters-io/build-your-own-x",
+      "url": "https://github.com/codecrafters-io/build-your-own-x",
+      "aliases": [],
+      "category": "learning",
+      "type": "프로그래밍 학습 자료 모음",
+      "summary_ko": "데이터베이스·렌더러·명령줄 도구 등 기술을 직접 만드는 단계별 강좌를 모았다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T01:53:06.032Z",
+      "reviewed_commit": "aa17439b62f384511a5561ce308e9598b94d8989",
+      "evidence": [
+        {
+          "url": "https://github.com/codecrafters-io/build-your-own-x/blob/aa17439b62f384511a5561ce308e9598b94d8989/README.md",
+          "path": "README.md",
+          "blob_sha": "9a553c729b29bc69296d7092fc1c314c2c811bad"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "thealgorithms/python",
+      "name": "TheAlgorithms/Python",
+      "url": "https://github.com/TheAlgorithms/Python",
+      "aliases": [],
+      "category": "learning",
+      "type": "알고리즘 학습 코드",
+      "summary_ko": "교육용 Python 알고리즘 구현과 알고리즘별 디렉터리를 제공한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T01:53:06.032Z",
+      "reviewed_commit": "574d100b7181956e9c8384552fd078165e4cc326",
+      "evidence": [
+        {
+          "url": "https://github.com/TheAlgorithms/Python/blob/574d100b7181956e9c8384552fd078165e4cc326/README.md",
+          "path": "README.md",
+          "blob_sha": "e9a19fa15499332843dd51e0c9bced3b0b750988"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "practical-tutorials/project-based-learning",
+      "name": "practical-tutorials/project-based-learning",
+      "url": "https://github.com/practical-tutorials/project-based-learning",
+      "aliases": [],
+      "category": "learning",
+      "type": "프로젝트 기반 학습 자료",
+      "summary_ko": "애플리케이션을 직접 만드는 프로그래밍 강좌를 언어별로 모았다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T01:53:06.032Z",
+      "reviewed_commit": "2146917314b5e98e58513c930c0a745cc6c7100c",
+      "evidence": [
+        {
+          "url": "https://github.com/practical-tutorials/project-based-learning/blob/2146917314b5e98e58513c930c0a745cc6c7100c/README.md",
+          "path": "README.md",
+          "blob_sha": "b5906c7ef98aa98401f51d10469da76eaa288091"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "heygen-com/hyperframes",
+      "name": "heygen-com/hyperframes",
+      "url": "https://github.com/heygen-com/hyperframes",
+      "aliases": [],
+      "category": "media",
+      "type": "동영상 제작 프레임워크",
+      "summary_ko": "HTML·CSS·미디어와 애니메이션을 MP4 영상으로 렌더링하고 에이전트 스킬을 제공한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T01:53:06.032Z",
+      "reviewed_commit": "92943d99f08394b4a9d3964471ccae1bb86c83de",
+      "evidence": [
+        {
+          "url": "https://github.com/heygen-com/hyperframes/blob/92943d99f08394b4a9d3964471ccae1bb86c83de/README.md",
+          "path": "README.md",
+          "blob_sha": "924a44569cf96e8f73b2f3299695cb9fe92ca97b"
         }
       ],
       "execution_tested": false
