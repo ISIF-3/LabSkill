@@ -957,8 +957,8 @@
       "review_status": "needs_review",
       "slack_list_status": "not_ready",
       "slack_canvas_status": "not_ready",
-      "review_error": "README를 확인하지 못했습니다.",
-      "last_attempt_at": "2026-11-03T03:17:54.262Z"
+      "review_error": "Error: README 조회 실패",
+      "last_attempt_at": "2026-11-03T06:43:19.891Z"
     },
     {
       "position": 120,
@@ -1039,8 +1039,8 @@
       "review_status": "needs_review",
       "slack_list_status": "not_ready",
       "slack_canvas_status": "not_ready",
-      "review_error": "README를 확인하지 못했습니다.",
-      "last_attempt_at": "2026-11-03T03:17:54.262Z"
+      "review_error": "Error: README 조회 실패",
+      "last_attempt_at": "2026-11-03T06:43:19.891Z"
     },
     {
       "position": 130,
@@ -1077,12 +1077,10 @@
     {
       "position": 134,
       "source_id": "home-assistant/core",
-      "canonical_id": null,
-      "review_status": "needs_review",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready",
-      "review_error": "README를 확인하지 못했습니다.",
-      "last_attempt_at": "2026-11-03T03:34:19.870Z"
+      "canonical_id": "home-assistant/core",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 135,
@@ -1299,8 +1297,8 @@
       "review_status": "needs_review",
       "slack_list_status": "not_ready",
       "slack_canvas_status": "not_ready",
-      "review_error": "README를 확인하지 못했습니다.",
-      "last_attempt_at": "2026-11-03T03:34:19.871Z"
+      "review_error": "Error: README 조회 실패",
+      "last_attempt_at": "2026-11-03T06:43:19.891Z"
     },
     {
       "position": 162,
@@ -1317,8 +1315,8 @@
       "review_status": "needs_review",
       "slack_list_status": "not_ready",
       "slack_canvas_status": "not_ready",
-      "review_error": "README를 확인하지 못했습니다.",
-      "last_attempt_at": "2026-11-03T03:34:19.871Z"
+      "review_error": "Error: README 조회 실패",
+      "last_attempt_at": "2026-11-03T06:43:19.891Z"
     },
     {
       "position": 164,
@@ -1347,12 +1345,10 @@
     {
       "position": 167,
       "source_id": "obsproject/obs-studio",
-      "canonical_id": null,
-      "review_status": "needs_review",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready",
-      "review_error": "README를 확인하지 못했습니다.",
-      "last_attempt_at": "2026-11-03T03:34:19.871Z"
+      "canonical_id": "obsproject/obs-studio",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 168,
@@ -1365,12 +1361,10 @@
     {
       "position": 169,
       "source_id": "python/cpython",
-      "canonical_id": null,
-      "review_status": "needs_review",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready",
-      "review_error": "README를 확인하지 못했습니다.",
-      "last_attempt_at": "2026-11-03T03:34:19.871Z"
+      "canonical_id": "python/cpython",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 170,
@@ -1427,8 +1421,8 @@
       "review_status": "needs_review",
       "slack_list_status": "not_ready",
       "slack_canvas_status": "not_ready",
-      "review_error": "README를 확인하지 못했습니다.",
-      "last_attempt_at": "2026-11-03T03:34:19.871Z"
+      "review_error": "Error: README 조회 실패",
+      "last_attempt_at": "2026-11-03T06:43:19.891Z"
     },
     {
       "position": 177,
@@ -1593,12 +1587,10 @@
     {
       "position": 197,
       "source_id": "expressjs/express",
-      "canonical_id": null,
-      "review_status": "needs_review",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready",
-      "review_error": "README를 확인하지 못했습니다.",
-      "last_attempt_at": "2026-11-03T03:48:09.228Z"
+      "canonical_id": "expressjs/express",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 198,
@@ -1768,7 +1760,7 @@
       "slack_list_status": "not_ready",
       "slack_canvas_status": "not_ready",
       "review_error": "고정 README에 이전 안내만 있어 기능을 확인할 수 없음. 새 저장소를 확인해야 함.",
-      "last_attempt_at": "2026-11-03T03:56:18.821Z"
+      "last_attempt_at": "2026-11-03T06:43:19.891Z"
     },
     {
       "position": 219,
@@ -3329,8 +3321,8 @@
       "review_status": "needs_review",
       "slack_list_status": "not_ready",
       "slack_canvas_status": "not_ready",
-      "review_error": "Error: 고정 README 조회 실패",
-      "last_attempt_at": "2026-11-03T05:10:59.718Z"
+      "review_error": "Error: README 조회 실패",
+      "last_attempt_at": "2026-11-03T06:43:19.892Z"
     },
     {
       "position": 414,
@@ -4199,12 +4191,10 @@
     {
       "position": 522,
       "source_id": "liquidslr/system-design-notes",
-      "canonical_id": null,
-      "review_status": "needs_review",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready",
-      "review_error": "Error: 고정 README 조회 실패",
-      "last_attempt_at": "2026-11-03T05:30:53.704Z"
+      "canonical_id": "liquidslr/system-design-notes",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 523,
@@ -5493,8 +5483,8 @@
       "review_status": "needs_review",
       "slack_list_status": "not_ready",
       "slack_canvas_status": "not_ready",
-      "review_error": "Error: 고정 README 조회 실패",
-      "last_attempt_at": "2026-11-03T06:17:56.440Z"
+      "review_error": "Error: README 조회 실패",
+      "last_attempt_at": "2026-11-03T06:43:19.892Z"
     },
     {
       "position": 684,
@@ -5535,8 +5525,8 @@
       "review_status": "needs_review",
       "slack_list_status": "not_ready",
       "slack_canvas_status": "not_ready",
-      "review_error": "Error: 고정 README 조회 실패",
-      "last_attempt_at": "2026-11-03T06:17:56.440Z"
+      "review_error": "Error: README 조회 실패",
+      "last_attempt_at": "2026-11-03T06:43:19.892Z"
     },
     {
       "position": 689,
@@ -6589,12 +6579,10 @@
     {
       "position": 820,
       "source_id": "presenton/presenton",
-      "canonical_id": null,
-      "review_status": "needs_review",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready",
-      "review_error": "Error: 저장소 조회 실패",
-      "last_attempt_at": "2026-11-03T06:21:50.253Z"
+      "canonical_id": "presenton/presenton",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 821,
@@ -6796,7 +6784,7 @@
       "slack_list_status": "not_ready",
       "slack_canvas_status": "not_ready",
       "review_error": "Error: README 조회 실패",
-      "last_attempt_at": "2026-11-03T06:21:50.253Z"
+      "last_attempt_at": "2026-11-03T06:43:19.892Z"
     },
     {
       "position": 846,
@@ -7833,12 +7821,10 @@
     {
       "position": 975,
       "source_id": "masterking32/MasterDnsVPN",
-      "canonical_id": null,
-      "review_status": "needs_review",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready",
-      "review_error": "Error: README 조회 실패",
-      "last_attempt_at": "2026-11-03T06:35:36.578Z"
+      "canonical_id": "masterking32/masterdnsvpn",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 976,
@@ -8707,12 +8693,10 @@
     {
       "position": 1084,
       "source_id": "CJackHwang/ds2api",
-      "canonical_id": null,
-      "review_status": "needs_review",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready",
-      "review_error": "Error: README 조회 실패",
-      "last_attempt_at": "2026-11-03T06:39:25.368Z"
+      "canonical_id": "cjackhwang/ds2api",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 1085,
@@ -8826,7 +8810,7 @@
       "slack_list_status": "not_ready",
       "slack_canvas_status": "not_ready",
       "review_error": "README에 이전 주소만 있어 기능 확인 필요",
-      "last_attempt_at": "2026-11-03T06:39:25.368Z"
+      "last_attempt_at": "2026-11-03T06:43:19.892Z"
     },
     {
       "position": 1099,
@@ -9263,12 +9247,10 @@
     {
       "position": 1153,
       "source_id": "HailToDodongo/pyrite64",
-      "canonical_id": null,
-      "review_status": "needs_review",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready",
-      "review_error": "Error: README 조회 실패",
-      "last_attempt_at": "2026-11-03T06:39:25.368Z"
+      "canonical_id": "hailtododongo/pyrite64",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 1154,
@@ -10094,7 +10076,7 @@
       "slack_list_status": "not_ready",
       "slack_canvas_status": "not_ready",
       "review_error": "README에 별도 기능 설명 없이 다른 저장소로 통합됐다고 안내하여 동일성 재확인 필요",
-      "last_attempt_at": "2026-11-03T06:41:19.180Z"
+      "last_attempt_at": "2026-11-03T06:43:19.892Z"
     },
     {
       "position": 1257,
@@ -10264,7 +10246,7 @@
       "slack_list_status": "not_ready",
       "slack_canvas_status": "not_ready",
       "review_error": "Error: README 조회 실패",
-      "last_attempt_at": "2026-11-03T06:41:19.180Z"
+      "last_attempt_at": "2026-11-03T06:43:19.892Z"
     },
     {
       "position": 1278,
@@ -10282,7 +10264,7 @@
       "slack_list_status": "not_ready",
       "slack_canvas_status": "not_ready",
       "review_error": "Error: 저장소 조회 실패",
-      "last_attempt_at": "2026-11-03T06:41:19.180Z"
+      "last_attempt_at": "2026-11-03T06:43:19.892Z"
     },
     {
       "position": 1280,
@@ -10292,7 +10274,7 @@
       "slack_list_status": "not_ready",
       "slack_canvas_status": "not_ready",
       "review_error": "Error: 저장소 조회 실패",
-      "last_attempt_at": "2026-11-03T06:41:19.180Z"
+      "last_attempt_at": "2026-11-03T06:43:19.892Z"
     },
     {
       "position": 1281,
@@ -10302,7 +10284,7 @@
       "slack_list_status": "not_ready",
       "slack_canvas_status": "not_ready",
       "review_error": "Error: 저장소 조회 실패",
-      "last_attempt_at": "2026-11-03T06:41:19.180Z"
+      "last_attempt_at": "2026-11-03T06:43:19.892Z"
     },
     {
       "position": 1282,
@@ -10312,7 +10294,7 @@
       "slack_list_status": "not_ready",
       "slack_canvas_status": "not_ready",
       "review_error": "Error: 저장소 조회 실패",
-      "last_attempt_at": "2026-11-03T06:41:19.180Z"
+      "last_attempt_at": "2026-11-03T06:43:19.892Z"
     },
     {
       "position": 1283,
@@ -10322,7 +10304,7 @@
       "slack_list_status": "not_ready",
       "slack_canvas_status": "not_ready",
       "review_error": "Error: 저장소 조회 실패",
-      "last_attempt_at": "2026-11-03T06:41:19.180Z"
+      "last_attempt_at": "2026-11-03T06:43:19.892Z"
     },
     {
       "position": 1284,
@@ -10332,7 +10314,7 @@
       "slack_list_status": "not_ready",
       "slack_canvas_status": "not_ready",
       "review_error": "Error: 저장소 조회 실패",
-      "last_attempt_at": "2026-11-03T06:41:19.180Z"
+      "last_attempt_at": "2026-11-03T06:43:19.892Z"
     },
     {
       "position": 1285,
@@ -10342,7 +10324,7 @@
       "slack_list_status": "not_ready",
       "slack_canvas_status": "not_ready",
       "review_error": "Error: 저장소 조회 실패",
-      "last_attempt_at": "2026-11-03T06:41:19.180Z"
+      "last_attempt_at": "2026-11-03T06:43:19.892Z"
     },
     {
       "position": 1286,
@@ -10352,7 +10334,7 @@
       "slack_list_status": "not_ready",
       "slack_canvas_status": "not_ready",
       "review_error": "Error: 저장소 조회 실패",
-      "last_attempt_at": "2026-11-03T06:41:19.180Z"
+      "last_attempt_at": "2026-11-03T06:43:19.892Z"
     }
   ]
 }
