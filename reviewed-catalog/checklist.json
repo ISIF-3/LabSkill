@@ -75,8 +75,8 @@
       "source_id": "heygen-com/hyperframes",
       "canonical_id": "heygen-com/hyperframes",
       "review_status": "reviewed",
-      "slack_list_status": "synced",
-      "slack_canvas_status": "synced"
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 10,
@@ -123,8 +123,8 @@
       "source_id": "ranxianglei/billion-context",
       "canonical_id": "ranxianglei/billion-context",
       "review_status": "reviewed",
-      "slack_list_status": "synced",
-      "slack_canvas_status": "synced"
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 16,
@@ -443,8 +443,8 @@
       "source_id": "open-webui/open-webui",
       "canonical_id": "open-webui/open-webui",
       "review_status": "reviewed",
-      "slack_list_status": "synced",
-      "slack_canvas_status": "synced"
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 56,
