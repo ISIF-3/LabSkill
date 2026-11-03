@@ -6,7 +6,7 @@
   "scope": "2026-10-22 공개 seed 전체",
   "historical_count": 1266,
   "missing_history_date": "2026-10-22",
-  "reviewed_count": 1248,
+  "reviewed_count": 1249,
   "classification_method": "직접 원문 검토",
   "categories": [
     {
@@ -26621,6 +26621,27 @@
           "url": "https://github.com/HailToDodongo/pyrite64/blob/4fbfc425f002d0988d17c5ae5c98d2ee37951ff8/Readme.md",
           "path": "Readme.md",
           "blob_sha": "c9f1cb4b7b610fee7b8943e9f6ed58118c89d8b3"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "punkpeye/awesome-mcp-servers",
+      "name": "punkpeye/awesome-mcp-servers",
+      "url": "https://github.com/punkpeye/awesome-mcp-servers",
+      "aliases": [],
+      "category": "learning",
+      "type": "MCP 서버 목록",
+      "summary_ko": "여러 MCP 서버와 관련 도구를 모아 정리한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T06:48:50.779Z",
+      "reviewed_commit": "29f2d490cc02468e7c9d87b0cf68d40d3041e7ef",
+      "evidence": [
+        {
+          "url": "https://github.com/punkpeye/awesome-mcp-servers/blob/29f2d490cc02468e7c9d87b0cf68d40d3041e7ef/README.md",
+          "path": "README.md",
+          "blob_sha": "5103450f0773f184b4d105eb1c34ad263ca2529e"
         }
       ],
       "execution_tested": false
