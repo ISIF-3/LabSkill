@@ -1,0 +1,74 @@
+{
+  "list_id": "F0CDVM4GT1V",
+  "list_url": "https://m2skku.slack.com/lists/TL6G25P6G/F0CDVM4GT1V",
+  "index_canvas_id": "F0CE4T9EJ7M",
+  "index_canvas_url": "https://m2skku.slack.com/docs/TL6G25P6G/F0CE4T9EJ7M",
+  "channel_id": "C0CE8EVURN2",
+  "canvases": [
+    {
+      "id": "code",
+      "canvas_id": "F0CEAUE6Q9G",
+      "canvas_url": "https://m2skku.slack.com/docs/TL6G25P6G/F0CEAUE6Q9G"
+    },
+    {
+      "id": "literature",
+      "canvas_id": "F0CED1APCG1",
+      "canvas_url": "https://m2skku.slack.com/docs/TL6G25P6G/F0CED1APCG1"
+    },
+    {
+      "id": "visualization",
+      "canvas_id": "F0CED1C0WCR",
+      "canvas_url": "https://m2skku.slack.com/docs/TL6G25P6G/F0CED1C0WCR"
+    },
+    {
+      "id": "data",
+      "canvas_id": "F0CEER1H5CL",
+      "canvas_url": "https://m2skku.slack.com/docs/TL6G25P6G/F0CEER1H5CL"
+    },
+    {
+      "id": "ai",
+      "canvas_id": "F0CF5FHCK7S",
+      "canvas_url": "https://m2skku.slack.com/docs/TL6G25P6G/F0CF5FHCK7S"
+    },
+    {
+      "id": "search",
+      "canvas_id": "F0CE4T40R7V",
+      "canvas_url": "https://m2skku.slack.com/docs/TL6G25P6G/F0CE4T40R7V"
+    },
+    {
+      "id": "productivity",
+      "canvas_id": "F0CEER3FBNY",
+      "canvas_url": "https://m2skku.slack.com/docs/TL6G25P6G/F0CEER3FBNY"
+    },
+    {
+      "id": "media",
+      "canvas_id": "F0CED1FNN65",
+      "canvas_url": "https://m2skku.slack.com/docs/TL6G25P6G/F0CED1FNN65"
+    },
+    {
+      "id": "infrastructure",
+      "canvas_id": "F0CEAULGUE6",
+      "canvas_url": "https://m2skku.slack.com/docs/TL6G25P6G/F0CEAULGUE6"
+    },
+    {
+      "id": "security",
+      "canvas_id": "F0CE5REAYHK",
+      "canvas_url": "https://m2skku.slack.com/docs/TL6G25P6G/F0CE5REAYHK"
+    },
+    {
+      "id": "science",
+      "canvas_id": "F0CED1HPFCZ",
+      "canvas_url": "https://m2skku.slack.com/docs/TL6G25P6G/F0CED1HPFCZ"
+    },
+    {
+      "id": "learning",
+      "canvas_id": "F0CEER7FFE0",
+      "canvas_url": "https://m2skku.slack.com/docs/TL6G25P6G/F0CEER7FFE0"
+    },
+    {
+      "id": "devices",
+      "canvas_id": "F0CEER5JSQ4",
+      "canvas_url": "https://m2skku.slack.com/docs/TL6G25P6G/F0CEER5JSQ4"
+    }
+  ]
+}
