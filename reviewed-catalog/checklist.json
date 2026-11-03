@@ -1307,11 +1307,10 @@
     {
       "position": 163,
       "source_id": "elastic/elasticsearch",
-      "canonical_id": null,
-      "review_status": "needs_review",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready",
-      "review_error": "HEAD 6742534fedb5ad3e3120f364cf533127e78e1318의 루트 README.md 조회에서 404 반환; 다른 README 경로 확인 필요",
+      "canonical_id": "elastic/elasticsearch",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified",
       "last_attempt_at": "2026-11-03T09:53:37.715Z"
     },
     {
