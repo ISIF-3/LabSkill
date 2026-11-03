@@ -2319,8 +2319,8 @@
       "source_id": "mudler/LocalAI",
       "canonical_id": "mudler/localai",
       "review_status": "reviewed",
-      "slack_list_status": "unverified",
-      "slack_canvas_status": "unverified"
+      "slack_list_status": "synced",
+      "slack_canvas_status": "synced"
     },
     {
       "position": 288,
@@ -2335,288 +2335,288 @@
       "source_id": "lukasz-madon/awesome-remote-job",
       "canonical_id": "lukasz-madon/awesome-remote-job",
       "review_status": "reviewed",
-      "slack_list_status": "unverified",
-      "slack_canvas_status": "unverified"
+      "slack_list_status": "synced",
+      "slack_canvas_status": "synced"
     },
     {
       "position": 290,
       "source_id": "kepano/obsidian-skills",
       "canonical_id": "kepano/obsidian-skills",
       "review_status": "reviewed",
-      "slack_list_status": "unverified",
-      "slack_canvas_status": "unverified"
+      "slack_list_status": "synced",
+      "slack_canvas_status": "synced"
     },
     {
       "position": 291,
       "source_id": "microsoft/qlib",
       "canonical_id": "microsoft/qlib",
       "review_status": "reviewed",
-      "slack_list_status": "unverified",
-      "slack_canvas_status": "unverified"
+      "slack_list_status": "synced",
+      "slack_canvas_status": "synced"
     },
     {
       "position": 292,
       "source_id": "bigskysoftware/htmx",
       "canonical_id": "bigskysoftware/htmx",
       "review_status": "reviewed",
-      "slack_list_status": "unverified",
-      "slack_canvas_status": "unverified"
+      "slack_list_status": "synced",
+      "slack_canvas_status": "synced"
     },
     {
       "position": 293,
       "source_id": "slidevjs/slidev",
       "canonical_id": "slidevjs/slidev",
       "review_status": "reviewed",
-      "slack_list_status": "unverified",
-      "slack_canvas_status": "unverified"
+      "slack_list_status": "synced",
+      "slack_canvas_status": "synced"
     },
     {
       "position": 294,
       "source_id": "calcom/cal.diy",
       "canonical_id": "calcom/cal.diy",
       "review_status": "reviewed",
-      "slack_list_status": "unverified",
-      "slack_canvas_status": "unverified"
+      "slack_list_status": "synced",
+      "slack_canvas_status": "synced"
     },
     {
       "position": 295,
       "source_id": "KeygraphHQ/shannon",
       "canonical_id": "keygraphhq/shannon",
       "review_status": "reviewed",
-      "slack_list_status": "unverified",
-      "slack_canvas_status": "unverified"
+      "slack_list_status": "synced",
+      "slack_canvas_status": "synced"
     },
     {
       "position": 296,
       "source_id": "MHSanaei/3x-ui",
       "canonical_id": "mhsanaei/3x-ui",
       "review_status": "reviewed",
-      "slack_list_status": "unverified",
-      "slack_canvas_status": "unverified"
+      "slack_list_status": "synced",
+      "slack_canvas_status": "synced"
     },
     {
       "position": 297,
       "source_id": "sickn33/agentic-awesome-skills",
       "canonical_id": "sickn33/agentic-awesome-skills",
       "review_status": "reviewed",
-      "slack_list_status": "unverified",
-      "slack_canvas_status": "unverified"
+      "slack_list_status": "synced",
+      "slack_canvas_status": "synced"
     },
     {
       "position": 298,
       "source_id": "GitHubDaily/GitHubDaily",
       "canonical_id": "githubdaily/githubdaily",
       "review_status": "reviewed",
-      "slack_list_status": "unverified",
-      "slack_canvas_status": "unverified"
+      "slack_list_status": "synced",
+      "slack_canvas_status": "synced"
     },
     {
       "position": 299,
       "source_id": "exo-explore/exo",
       "canonical_id": "exo-explore/exo",
       "review_status": "reviewed",
-      "slack_list_status": "unverified",
-      "slack_canvas_status": "unverified"
+      "slack_list_status": "synced",
+      "slack_canvas_status": "synced"
     },
     {
       "position": 300,
       "source_id": "abhigyanpatwari/GitNexus",
       "canonical_id": "abhigyanpatwari/gitnexus",
       "review_status": "reviewed",
-      "slack_list_status": "unverified",
-      "slack_canvas_status": "unverified"
+      "slack_list_status": "synced",
+      "slack_canvas_status": "synced"
     },
     {
       "position": 301,
       "source_id": "prisma/prisma",
       "canonical_id": "prisma/orm",
       "review_status": "reviewed",
-      "slack_list_status": "unverified",
-      "slack_canvas_status": "unverified"
+      "slack_list_status": "synced",
+      "slack_canvas_status": "synced"
     },
     {
       "position": 302,
       "source_id": "alibaba/open-code-review",
       "canonical_id": "alibaba/open-code-review",
       "review_status": "reviewed",
-      "slack_list_status": "unverified",
-      "slack_canvas_status": "unverified"
+      "slack_list_status": "synced",
+      "slack_canvas_status": "synced"
     },
     {
       "position": 303,
       "source_id": "paperless-ngx/paperless-ngx",
       "canonical_id": "paperless-ngx/paperless-ngx",
       "review_status": "reviewed",
-      "slack_list_status": "unverified",
-      "slack_canvas_status": "unverified"
+      "slack_list_status": "synced",
+      "slack_canvas_status": "synced"
     },
     {
       "position": 304,
       "source_id": "DeusData/codebase-memory-mcp",
       "canonical_id": "deusdata/codebase-memory-mcp",
       "review_status": "reviewed",
-      "slack_list_status": "unverified",
-      "slack_canvas_status": "unverified"
+      "slack_list_status": "synced",
+      "slack_canvas_status": "synced"
     },
     {
       "position": 305,
       "source_id": "milvus-io/milvus",
       "canonical_id": "milvus-io/milvus",
       "review_status": "reviewed",
-      "slack_list_status": "unverified",
-      "slack_canvas_status": "unverified"
+      "slack_list_status": "synced",
+      "slack_canvas_status": "synced"
     },
     {
       "position": 306,
       "source_id": "RocketChat/Rocket.Chat",
       "canonical_id": "rocketchat/rocket.chat",
       "review_status": "reviewed",
-      "slack_list_status": "unverified",
-      "slack_canvas_status": "unverified"
+      "slack_list_status": "synced",
+      "slack_canvas_status": "synced"
     },
     {
       "position": 307,
       "source_id": "DataTalksClub/data-engineering-zoomcamp",
       "canonical_id": "datatalksclub/data-engineering-zoomcamp",
       "review_status": "reviewed",
-      "slack_list_status": "unverified",
-      "slack_canvas_status": "unverified"
+      "slack_list_status": "synced",
+      "slack_canvas_status": "synced"
     },
     {
       "position": 308,
       "source_id": "danny-avila/LibreChat",
       "canonical_id": "librechat-ai/librechat",
       "review_status": "reviewed",
-      "slack_list_status": "unverified",
-      "slack_canvas_status": "unverified"
+      "slack_list_status": "synced",
+      "slack_canvas_status": "synced"
     },
     {
       "position": 309,
       "source_id": "getsentry/sentry",
       "canonical_id": "getsentry/sentry",
       "review_status": "reviewed",
-      "slack_list_status": "unverified",
-      "slack_canvas_status": "unverified"
+      "slack_list_status": "synced",
+      "slack_canvas_status": "synced"
     },
     {
       "position": 310,
       "source_id": "juspay/hyperswitch",
       "canonical_id": "juspay/hyperswitch",
       "review_status": "reviewed",
-      "slack_list_status": "unverified",
-      "slack_canvas_status": "unverified"
+      "slack_list_status": "synced",
+      "slack_canvas_status": "synced"
     },
     {
       "position": 311,
       "source_id": "grpc/grpc",
       "canonical_id": "grpc/grpc",
       "review_status": "reviewed",
-      "slack_list_status": "unverified",
-      "slack_canvas_status": "unverified"
+      "slack_list_status": "synced",
+      "slack_canvas_status": "synced"
     },
     {
       "position": 312,
       "source_id": "basecamp/omarchy",
       "canonical_id": "omacom/omarchy",
       "review_status": "reviewed",
-      "slack_list_status": "unverified",
-      "slack_canvas_status": "unverified"
+      "slack_list_status": "synced",
+      "slack_canvas_status": "synced"
     },
     {
       "position": 313,
       "source_id": "janhq/jan",
       "canonical_id": "janhq/jan",
       "review_status": "reviewed",
-      "slack_list_status": "unverified",
-      "slack_canvas_status": "unverified"
+      "slack_list_status": "synced",
+      "slack_canvas_status": "synced"
     },
     {
       "position": 314,
       "source_id": "juanfont/headscale",
       "canonical_id": "juanfont/headscale",
       "review_status": "reviewed",
-      "slack_list_status": "unverified",
-      "slack_canvas_status": "unverified"
+      "slack_list_status": "synced",
+      "slack_canvas_status": "synced"
     },
     {
       "position": 315,
       "source_id": "ogulcancelik/herdr",
       "canonical_id": "herdrdev/herdr",
       "review_status": "reviewed",
-      "slack_list_status": "unverified",
-      "slack_canvas_status": "unverified"
+      "slack_list_status": "synced",
+      "slack_canvas_status": "synced"
     },
     {
       "position": 316,
       "source_id": "DataExpert-io/data-engineer-handbook",
       "canonical_id": "dataexpert-io/data-engineer-handbook",
       "review_status": "reviewed",
-      "slack_list_status": "unverified",
-      "slack_canvas_status": "unverified"
+      "slack_list_status": "synced",
+      "slack_canvas_status": "synced"
     },
     {
       "position": 317,
       "source_id": "danielmiessler/Fabric",
       "canonical_id": "danielmiessler/fabric",
       "review_status": "reviewed",
-      "slack_list_status": "unverified",
-      "slack_canvas_status": "unverified"
+      "slack_list_status": "synced",
+      "slack_canvas_status": "synced"
     },
     {
       "position": 318,
       "source_id": "Wei-Shaw/sub2api",
       "canonical_id": "wei-shaw/sub2api",
       "review_status": "reviewed",
-      "slack_list_status": "unverified",
-      "slack_canvas_status": "unverified"
+      "slack_list_status": "synced",
+      "slack_canvas_status": "synced"
     },
     {
       "position": 319,
       "source_id": "colinhacks/zod",
       "canonical_id": "colinhacks/zod",
       "review_status": "reviewed",
-      "slack_list_status": "unverified",
-      "slack_canvas_status": "unverified"
+      "slack_list_status": "synced",
+      "slack_canvas_status": "synced"
     },
     {
       "position": 320,
       "source_id": "ziglang/zig",
       "canonical_id": "ziglang/zig",
       "review_status": "reviewed",
-      "slack_list_status": "unverified",
-      "slack_canvas_status": "unverified"
+      "slack_list_status": "synced",
+      "slack_canvas_status": "synced"
     },
     {
       "position": 321,
       "source_id": "curl/curl",
       "canonical_id": "curl/curl",
       "review_status": "reviewed",
-      "slack_list_status": "unverified",
-      "slack_canvas_status": "unverified"
+      "slack_list_status": "synced",
+      "slack_canvas_status": "synced"
     },
     {
       "position": 322,
       "source_id": "JustVugg/colibri",
       "canonical_id": "justvugg/colibri",
       "review_status": "reviewed",
-      "slack_list_status": "unverified",
-      "slack_canvas_status": "unverified"
+      "slack_list_status": "synced",
+      "slack_canvas_status": "synced"
     },
     {
       "position": 323,
       "source_id": "ashishps1/awesome-system-design-resources",
       "canonical_id": "ashishps1/awesome-system-design-resources",
       "review_status": "reviewed",
-      "slack_list_status": "unverified",
-      "slack_canvas_status": "unverified"
+      "slack_list_status": "synced",
+      "slack_canvas_status": "synced"
     },
     {
       "position": 324,
       "source_id": "zhaoxuya520/reverse-skill",
       "canonical_id": "zhaoxuya520/reverse-skill",
       "review_status": "reviewed",
-      "slack_list_status": "unverified",
-      "slack_canvas_status": "unverified"
+      "slack_list_status": "synced",
+      "slack_canvas_status": "synced"
     },
     {
       "position": 325,
@@ -2631,104 +2631,104 @@
       "source_id": "LizardByte/Sunshine",
       "canonical_id": "lizardbyte/sunshine",
       "review_status": "reviewed",
-      "slack_list_status": "unverified",
-      "slack_canvas_status": "unverified"
+      "slack_list_status": "synced",
+      "slack_canvas_status": "synced"
     },
     {
       "position": 327,
       "source_id": "XTLS/Xray-core",
       "canonical_id": "xtls/xray-core",
       "review_status": "reviewed",
-      "slack_list_status": "unverified",
-      "slack_canvas_status": "unverified"
+      "slack_list_status": "synced",
+      "slack_canvas_status": "synced"
     },
     {
       "position": 328,
       "source_id": "tinyhumansai/openhuman",
       "canonical_id": "tinyhumansai/openhuman",
       "review_status": "reviewed",
-      "slack_list_status": "unverified",
-      "slack_canvas_status": "unverified"
+      "slack_list_status": "synced",
+      "slack_canvas_status": "synced"
     },
     {
       "position": 329,
       "source_id": "AstrBotDevs/AstrBot",
       "canonical_id": "astrbotdevs/astrbot",
       "review_status": "reviewed",
-      "slack_list_status": "unverified",
-      "slack_canvas_status": "unverified"
+      "slack_list_status": "synced",
+      "slack_canvas_status": "synced"
     },
     {
       "position": 330,
       "source_id": "luongnv89/claude-howto",
       "canonical_id": "luongnv89/claude-howto",
       "review_status": "reviewed",
-      "slack_list_status": "unverified",
-      "slack_canvas_status": "unverified"
+      "slack_list_status": "synced",
+      "slack_canvas_status": "synced"
     },
     {
       "position": 331,
       "source_id": "HKUDS/DeepTutor",
       "canonical_id": "hkuds/deeptutor",
       "review_status": "reviewed",
-      "slack_list_status": "unverified",
-      "slack_canvas_status": "unverified"
+      "slack_list_status": "synced",
+      "slack_canvas_status": "synced"
     },
     {
       "position": 332,
       "source_id": "wshobson/agents",
       "canonical_id": "wshobson/agents",
       "review_status": "reviewed",
-      "slack_list_status": "unverified",
-      "slack_canvas_status": "unverified"
+      "slack_list_status": "synced",
+      "slack_canvas_status": "synced"
     },
     {
       "position": 333,
       "source_id": "microsoft/BitNet",
       "canonical_id": "microsoft/bitnet",
       "review_status": "reviewed",
-      "slack_list_status": "unverified",
-      "slack_canvas_status": "unverified"
+      "slack_list_status": "synced",
+      "slack_canvas_status": "synced"
     },
     {
       "position": 334,
       "source_id": "ToolJet/ToolJet",
       "canonical_id": "tooljet/tooljet",
       "review_status": "reviewed",
-      "slack_list_status": "unverified",
-      "slack_canvas_status": "unverified"
+      "slack_list_status": "synced",
+      "slack_canvas_status": "synced"
     },
     {
       "position": 335,
       "source_id": "Hmbown/DeepSeek-TUI",
       "canonical_id": "codewhale-hq/codewhale",
       "review_status": "reviewed",
-      "slack_list_status": "unverified",
-      "slack_canvas_status": "unverified"
+      "slack_list_status": "synced",
+      "slack_canvas_status": "synced"
     },
     {
       "position": 336,
       "source_id": "llvm/llvm-project",
       "canonical_id": "llvm/llvm-project",
       "review_status": "reviewed",
-      "slack_list_status": "unverified",
-      "slack_canvas_status": "unverified"
+      "slack_list_status": "synced",
+      "slack_canvas_status": "synced"
     },
     {
       "position": 337,
       "source_id": "THU-MAIC/OpenMAIC",
       "canonical_id": "thu-maic/openmaic",
       "review_status": "reviewed",
-      "slack_list_status": "unverified",
-      "slack_canvas_status": "unverified"
+      "slack_list_status": "synced",
+      "slack_canvas_status": "synced"
     },
     {
       "position": 338,
       "source_id": "shiyu-coder/Kronos",
       "canonical_id": "shiyu-coder/kronos",
       "review_status": "reviewed",
-      "slack_list_status": "unverified",
-      "slack_canvas_status": "unverified"
+      "slack_list_status": "synced",
+      "slack_canvas_status": "synced"
     },
     {
       "position": 339,
