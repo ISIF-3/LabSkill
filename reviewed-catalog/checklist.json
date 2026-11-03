@@ -107,8 +107,8 @@
       "source_id": "ruvnet/ruflo",
       "canonical_id": "ruvnet/ruflo",
       "review_status": "reviewed",
-      "slack_list_status": "unverified",
-      "slack_canvas_status": "unverified"
+      "slack_list_status": "synced",
+      "slack_canvas_status": "synced"
     },
     {
       "position": 14,
@@ -147,8 +147,8 @@
       "source_id": "public-apis/public-apis",
       "canonical_id": "public-apis/public-apis",
       "review_status": "reviewed",
-      "slack_list_status": "unverified",
-      "slack_canvas_status": "unverified"
+      "slack_list_status": "synced",
+      "slack_canvas_status": "synced"
     },
     {
       "position": 19,
@@ -787,8 +787,8 @@
       "source_id": "axios/axios",
       "canonical_id": "axios/axios",
       "review_status": "reviewed",
-      "slack_list_status": "unverified",
-      "slack_canvas_status": "unverified"
+      "slack_list_status": "synced",
+      "slack_canvas_status": "synced"
     },
     {
       "position": 99,
@@ -1265,8 +1265,8 @@
       "source_id": "hoppscotch/hoppscotch",
       "canonical_id": "hoppscotch/hoppscotch",
       "review_status": "reviewed",
-      "slack_list_status": "unverified",
-      "slack_canvas_status": "unverified"
+      "slack_list_status": "synced",
+      "slack_canvas_status": "synced"
     },
     {
       "position": 158,
@@ -1323,10 +1323,10 @@
     {
       "position": 164,
       "source_id": "ruvnet/claude-flow",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "ruvnet/ruflo",
+      "review_status": "reviewed",
+      "slack_list_status": "synced",
+      "slack_canvas_status": "synced"
     },
     {
       "position": 165,
@@ -1359,8 +1359,8 @@
       "source_id": "diegosouzapw/OmniRoute",
       "canonical_id": "cheaper-inference/omniroute",
       "review_status": "reviewed",
-      "slack_list_status": "unverified",
-      "slack_canvas_status": "unverified"
+      "slack_list_status": "synced",
+      "slack_canvas_status": "synced"
     },
     {
       "position": 169,
@@ -1451,8 +1451,8 @@
       "source_id": "hiyouga/LLaMA-Factory",
       "canonical_id": "hiyouga/llamafactory",
       "review_status": "reviewed",
-      "slack_list_status": "unverified",
-      "slack_canvas_status": "unverified"
+      "slack_list_status": "synced",
+      "slack_canvas_status": "synced"
     },
     {
       "position": 180,
@@ -1467,8 +1467,8 @@
       "source_id": "chrislgarry/Apollo-11",
       "canonical_id": "chrislgarry/apollo-11",
       "review_status": "reviewed",
-      "slack_list_status": "unverified",
-      "slack_canvas_status": "unverified"
+      "slack_list_status": "synced",
+      "slack_canvas_status": "synced"
     },
     {
       "position": 182,
@@ -1515,8 +1515,8 @@
       "source_id": "CompVis/stable-diffusion",
       "canonical_id": "compvis/stable-diffusion",
       "review_status": "reviewed",
-      "slack_list_status": "unverified",
-      "slack_canvas_status": "unverified"
+      "slack_list_status": "synced",
+      "slack_canvas_status": "synced"
     },
     {
       "position": 188,
@@ -1621,8 +1621,8 @@
       "source_id": "dani-garcia/vaultwarden",
       "canonical_id": "dani-garcia/vaultwarden",
       "review_status": "reviewed",
-      "slack_list_status": "unverified",
-      "slack_canvas_status": "unverified"
+      "slack_list_status": "synced",
+      "slack_canvas_status": "synced"
     },
     {
       "position": 201,
@@ -1653,8 +1653,8 @@
       "source_id": "gorhill/uBlock",
       "canonical_id": "gorhill/ublock",
       "review_status": "reviewed",
-      "slack_list_status": "unverified",
-      "slack_canvas_status": "unverified"
+      "slack_list_status": "synced",
+      "slack_canvas_status": "synced"
     },
     {
       "position": 205,
@@ -1669,16 +1669,16 @@
       "source_id": "shanraisshan/claude-code-best-practice",
       "canonical_id": "shanraisshan/claude-code-best-practice",
       "review_status": "reviewed",
-      "slack_list_status": "unverified",
-      "slack_canvas_status": "unverified"
+      "slack_list_status": "synced",
+      "slack_canvas_status": "synced"
     },
     {
       "position": 207,
       "source_id": "mem0ai/mem0",
       "canonical_id": "mem0ai/mem0",
       "review_status": "reviewed",
-      "slack_list_status": "unverified",
-      "slack_canvas_status": "unverified"
+      "slack_list_status": "synced",
+      "slack_canvas_status": "synced"
     },
     {
       "position": 208,
@@ -1717,8 +1717,8 @@
       "source_id": "webpack/webpack",
       "canonical_id": "webpack/webpack",
       "review_status": "reviewed",
-      "slack_list_status": "unverified",
-      "slack_canvas_status": "unverified"
+      "slack_list_status": "synced",
+      "slack_canvas_status": "synced"
     },
     {
       "position": 213,
@@ -1749,8 +1749,8 @@
       "source_id": "localstack/localstack",
       "canonical_id": "localstack/localstack",
       "review_status": "reviewed",
-      "slack_list_status": "unverified",
-      "slack_canvas_status": "unverified"
+      "slack_list_status": "synced",
+      "slack_canvas_status": "synced"
     },
     {
       "position": 217,
@@ -1764,9 +1764,11 @@
       "position": 218,
       "source_id": "gsd-build/get-shit-done",
       "canonical_id": null,
-      "review_status": "pending",
+      "review_status": "needs_review",
       "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "slack_canvas_status": "not_ready",
+      "review_error": "고정 README에 이전 안내만 있어 기능을 확인할 수 없음. 새 저장소를 확인해야 함.",
+      "last_attempt_at": "2026-11-03T03:56:18.821Z"
     },
     {
       "position": 219,
