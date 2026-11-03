@@ -6,7 +6,7 @@
   "scope": "2026-10-22 공개 seed 전체",
   "historical_count": 1266,
   "missing_history_date": "2026-10-22",
-  "reviewed_count": 1239,
+  "reviewed_count": 1248,
   "classification_method": "직접 원문 검토",
   "categories": [
     {
@@ -26432,6 +26432,195 @@
           "url": "https://github.com/tukaani-project/xz/blob/9af25400834aede88f1bc77b8524fcba10f15651/README",
           "path": "README",
           "blob_sha": "41671676a516e32c56c75c38c487f262dde4fa59"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "presenton/presenton",
+      "name": "presenton/presenton",
+      "url": "https://github.com/presenton/presenton",
+      "aliases": [],
+      "category": "productivity",
+      "type": "AI 발표 자료 도구",
+      "summary_ko": "AI를 이용한 발표 자료 생성과 편집·내보내기를 지원한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T06:42:55.005Z",
+      "reviewed_commit": "89334932eecddac64ffcc9591423c19fdb0e1656",
+      "evidence": [
+        {
+          "url": "https://github.com/presenton/presenton/blob/89334932eecddac64ffcc9591423c19fdb0e1656/README.md",
+          "path": "README.md",
+          "blob_sha": "b94635ce3db0896015a9688e504598d8c1852a13"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "python/cpython",
+      "name": "python/cpython",
+      "url": "https://github.com/python/cpython",
+      "aliases": [],
+      "category": "code",
+      "type": "Python 인터프리터",
+      "summary_ko": "Python 언어의 참조 구현과 소스 코드를 제공한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T06:42:55.005Z",
+      "reviewed_commit": "97ff57fba3544034b64a513306295174a317e6c7",
+      "evidence": [
+        {
+          "url": "https://github.com/python/cpython/blob/97ff57fba3544034b64a513306295174a317e6c7/README.rst",
+          "path": "README.rst",
+          "blob_sha": "d4bea5edcac674c9a20e23767c6eeda760529a12"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "home-assistant/core",
+      "name": "home-assistant/core",
+      "url": "https://github.com/home-assistant/core",
+      "aliases": [],
+      "category": "automation",
+      "type": "홈 자동화 플랫폼",
+      "summary_ko": "기기를 로컬에서 연결하고 집안 자동화를 지원한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T06:42:55.005Z",
+      "reviewed_commit": "4317ce2630095d695a5de0aa644efcade0698699",
+      "evidence": [
+        {
+          "url": "https://github.com/home-assistant/core/blob/4317ce2630095d695a5de0aa644efcade0698699/README.rst",
+          "path": "README.rst",
+          "blob_sha": "4125a7ffbc53e65bad8efae56e947e6233e61710"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "obsproject/obs-studio",
+      "name": "obsproject/obs-studio",
+      "url": "https://github.com/obsproject/obs-studio",
+      "aliases": [],
+      "category": "media",
+      "type": "녹화·방송 도구",
+      "summary_ko": "영상 녹화와 실시간 스트리밍 기능을 제공한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T06:42:55.005Z",
+      "reviewed_commit": "65c320b46e1af5c7a555161aea6182cdf7a8c524",
+      "evidence": [
+        {
+          "url": "https://github.com/obsproject/obs-studio/blob/65c320b46e1af5c7a555161aea6182cdf7a8c524/README.rst",
+          "path": "README.rst",
+          "blob_sha": "67a4673ff48767c3384791783db2b12ea6ad4130"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "cjackhwang/ds2api",
+      "name": "CJackHwang/ds2api",
+      "url": "https://github.com/CJackHwang/ds2api",
+      "aliases": [],
+      "category": "ai",
+      "type": "AI API 중계 도구",
+      "summary_ko": "DeepSeek 웹 대화를 여러 API 형식으로 연결한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T06:42:55.005Z",
+      "reviewed_commit": "8316cf8a0352e900e03ce600b792083f590d80e2",
+      "evidence": [
+        {
+          "url": "https://github.com/CJackHwang/ds2api/blob/8316cf8a0352e900e03ce600b792083f590d80e2/README.MD",
+          "path": "README.MD",
+          "blob_sha": "920201f0811bf3d1c3204e20a11065f1a05181fe"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "masterking32/masterdnsvpn",
+      "name": "masterking32/MasterDnsVPN",
+      "url": "https://github.com/masterking32/MasterDnsVPN",
+      "aliases": [],
+      "category": "infrastructure",
+      "type": "DNS 터널 연구",
+      "summary_ko": "DNS 요청과 응답을 이용해 TCP 트래픽을 전달한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T06:42:55.005Z",
+      "reviewed_commit": "4052a6b95e758adf2dc26fa1fe527457e58d627c",
+      "evidence": [
+        {
+          "url": "https://github.com/masterking32/MasterDnsVPN/blob/4052a6b95e758adf2dc26fa1fe527457e58d627c/README.MD",
+          "path": "README.MD",
+          "blob_sha": "bef3bb83cc1ebf0e07661a93ac5db33b3fabfd29"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "expressjs/express",
+      "name": "expressjs/express",
+      "url": "https://github.com/expressjs/express",
+      "aliases": [],
+      "category": "code",
+      "type": "Node.js 웹 프레임워크",
+      "summary_ko": "Node.js에서 웹 서버와 애플리케이션 개발을 지원한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T06:42:55.005Z",
+      "reviewed_commit": "43fca52d28a422c8be48fd489cbd4f2d6152bab6",
+      "evidence": [
+        {
+          "url": "https://github.com/expressjs/express/blob/43fca52d28a422c8be48fd489cbd4f2d6152bab6/Readme.md",
+          "path": "Readme.md",
+          "blob_sha": "393c992807c7be0343ff69619700384d6cf57346"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "liquidslr/system-design-notes",
+      "name": "liquidslr/system-design-notes",
+      "url": "https://github.com/liquidslr/system-design-notes",
+      "aliases": [],
+      "category": "learning",
+      "type": "시스템 설계 학습 노트",
+      "summary_ko": "시스템 설계 면접 관련 학습 내용을 정리한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T06:42:55.005Z",
+      "reviewed_commit": "9d8388721e7231442763ad37398b8d82224aa68f",
+      "evidence": [
+        {
+          "url": "https://github.com/liquidslr/system-design-notes/blob/9d8388721e7231442763ad37398b8d82224aa68f/Readme.md",
+          "path": "Readme.md",
+          "blob_sha": "4c6d93ce562d47fc9ffa63c8856dc568ad60f1a1"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "hailtododongo/pyrite64",
+      "name": "HailToDodongo/pyrite64",
+      "url": "https://github.com/HailToDodongo/pyrite64",
+      "aliases": [],
+      "category": "code",
+      "type": "게임 엔진",
+      "summary_ko": "N64 게임 개발을 위한 엔진과 편집기를 제공한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T06:42:55.005Z",
+      "reviewed_commit": "4fbfc425f002d0988d17c5ae5c98d2ee37951ff8",
+      "evidence": [
+        {
+          "url": "https://github.com/HailToDodongo/pyrite64/blob/4fbfc425f002d0988d17c5ae5c98d2ee37951ff8/Readme.md",
+          "path": "Readme.md",
+          "blob_sha": "c9f1cb4b7b610fee7b8943e9f6ed58118c89d8b3"
         }
       ],
       "execution_tested": false
