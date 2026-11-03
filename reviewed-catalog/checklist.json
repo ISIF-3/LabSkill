@@ -3310,11 +3310,10 @@
     {
       "position": 413,
       "source_id": "Lissy93/web-check",
-      "canonical_id": null,
-      "review_status": "needs_review",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready",
-      "review_error": "HEAD 85b9ddc1f7a69c1ece08225cd7aa40b1bb08a3bb의 루트 README.md 조회에서 404 반환; 다른 README 경로 확인 필요",
+      "canonical_id": "lissy93/web-check",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified",
       "last_attempt_at": "2026-11-03T09:53:37.715Z"
     },
     {
@@ -5472,11 +5471,10 @@
     {
       "position": 683,
       "source_id": "end-4/dots-hyprland",
-      "canonical_id": null,
-      "review_status": "needs_review",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready",
-      "review_error": "HEAD 2f2a376fdb2ad738bf55f693dd0b474b64bb0ab8의 루트 README.md 조회에서 404 반환; 다른 README 경로 확인 필요",
+      "canonical_id": "end-4/dots-hyprland",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified",
       "last_attempt_at": "2026-11-03T09:53:37.715Z"
     },
     {
@@ -5514,11 +5512,10 @@
     {
       "position": 688,
       "source_id": "bol-van/zapret",
-      "canonical_id": null,
-      "review_status": "needs_review",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready",
-      "review_error": "HEAD c4d0b1990129dce2b28095277173ee0d7702d304의 루트 README.md 조회에서 404 반환; 다른 README 경로 확인 필요",
+      "canonical_id": "bol-van/zapret",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified",
       "last_attempt_at": "2026-11-03T09:53:37.715Z"
     },
     {
