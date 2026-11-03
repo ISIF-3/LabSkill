@@ -1420,13 +1420,13 @@
       "summary_ko": "HTML·CSS·미디어와 애니메이션을 MP4 영상으로 렌더링하고 에이전트 스킬을 제공한다.",
       "tags": [],
       "status": "reviewed",
-      "reviewed_at": "2026-11-03T01:53:06.032Z",
-      "reviewed_commit": "92943d99f08394b4a9d3964471ccae1bb86c83de",
+      "reviewed_at": "2026-11-03T16:39:00.283Z",
+      "reviewed_commit": "12ce8c2ffd37757204afa0ab170df27e0a384162",
       "evidence": [
         {
-          "url": "https://github.com/heygen-com/hyperframes/blob/92943d99f08394b4a9d3964471ccae1bb86c83de/README.md",
+          "url": "https://github.com/heygen-com/hyperframes/blob/12ce8c2ffd37757204afa0ab170df27e0a384162/README.md",
           "path": "README.md",
-          "blob_sha": "924a44569cf96e8f73b2f3299695cb9fe92ca97b"
+          "blob_sha": "8d074d503a5cbaa85e6c3d3123a314e6d33ceabf"
         }
       ],
       "execution_tested": false
@@ -1634,13 +1634,13 @@
       "summary_ko": "코딩 에이전트의 긴 대화 내용을 압축하고 세션 맥락을 관리한다.",
       "tags": [],
       "status": "reviewed",
-      "reviewed_at": "2026-11-03T02:02:22.459Z",
-      "reviewed_commit": "d244ffff27f3d2e0b79eef9b1780c176f3bb2695",
+      "reviewed_at": "2026-11-03T16:39:00.283Z",
+      "reviewed_commit": "9dc4c945913e2616cc9a5b49bebbb1da96bef292",
       "evidence": [
         {
-          "url": "https://github.com/ranxianglei/billion-context/blob/d244ffff27f3d2e0b79eef9b1780c176f3bb2695/README.md",
+          "url": "https://github.com/ranxianglei/billion-context/blob/9dc4c945913e2616cc9a5b49bebbb1da96bef292/README.md",
           "path": "README.md",
-          "blob_sha": "fc00b1473366bc778110d04c3c9f69c4f67a176c"
+          "blob_sha": "5eff566227da9877826de9dbe41f0b72537465b6"
         }
       ],
       "execution_tested": false
@@ -2295,13 +2295,13 @@
       "summary_ko": "자체 호스팅 환경에서 Ollama와 OpenAI 호환 API를 연결하고 플러그인으로 기능을 확장한다.",
       "tags": [],
       "status": "reviewed",
-      "reviewed_at": "2026-11-03T02:02:22.459Z",
-      "reviewed_commit": "f7ac7ee10962ddec0017f5c29b6740d9b9c5faca",
+      "reviewed_at": "2026-11-03T16:39:00.283Z",
+      "reviewed_commit": "c38885a1a737da4968f157092f304f3b5481d0bf",
       "evidence": [
         {
-          "url": "https://github.com/open-webui/open-webui/blob/f7ac7ee10962ddec0017f5c29b6740d9b9c5faca/README.md",
+          "url": "https://github.com/open-webui/open-webui/blob/c38885a1a737da4968f157092f304f3b5481d0bf/README.md",
           "path": "README.md",
-          "blob_sha": "17b816309d96440f773a77877776dc73b7161de0"
+          "blob_sha": "1f2735fd8c0de8b986c349a33b977d2b6803b826"
         }
       ],
       "execution_tested": false
