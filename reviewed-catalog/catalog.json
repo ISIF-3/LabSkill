@@ -6,7 +6,7 @@
   "scope": "2026-10-22 공개 seed 전체",
   "historical_count": 1266,
   "missing_history_date": "2026-10-22",
-  "reviewed_count": 120,
+  "reviewed_count": 155,
   "classification_method": "직접 원문 검토",
   "categories": [
     {
@@ -2718,6 +2718,745 @@
           "url": "https://github.com/nodejs/node/blob/96de0e2f50d5289eaaeade9cc9e5d7e01a850774/README.md",
           "path": "README.md",
           "blob_sha": "ff4d05e1cd9b29072f15eedde1ce10234a6d2b31"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "comfy-org/comfyui",
+      "name": "Comfy-Org/ComfyUI",
+      "url": "https://github.com/Comfy-Org/ComfyUI",
+      "aliases": [],
+      "category": "media",
+      "type": "AI 콘텐츠 제작 도구",
+      "summary_ko": "노드 그래프에서 모델과 매개변수를 연결해 이미지·영상 등 생성 작업을 구성한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T03:17:36.646Z",
+      "reviewed_commit": "6b904b5fafd062effc1acbc46b1d3196922f7055",
+      "evidence": [
+        {
+          "url": "https://github.com/Comfy-Org/ComfyUI/blob/6b904b5fafd062effc1acbc46b1d3196922f7055/README.md",
+          "path": "README.md",
+          "blob_sha": "b4621ab134fe4a21f1183daf19f79d3e11595502"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "voltagent/awesome-design-md",
+      "name": "VoltAgent/awesome-design-md",
+      "url": "https://github.com/VoltAgent/awesome-design-md",
+      "aliases": [],
+      "category": "code",
+      "type": "디자인 지침 모음",
+      "summary_ko": "웹사이트 디자인 시스템을 DESIGN.md로 정리해 에이전트가 UI를 만들 때 사용한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T03:17:36.646Z",
+      "reviewed_commit": "fcc70284932276d085f01ef9f83edde90b1258cb",
+      "evidence": [
+        {
+          "url": "https://github.com/VoltAgent/awesome-design-md/blob/fcc70284932276d085f01ef9f83edde90b1258cb/README.md",
+          "path": "README.md",
+          "blob_sha": "dbaa687886f117cc665a08502ead71099af783ae"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "microsoft/generative-ai-for-beginners",
+      "name": "microsoft/generative-ai-for-beginners",
+      "url": "https://github.com/microsoft/generative-ai-for-beginners",
+      "aliases": [],
+      "category": "learning",
+      "type": "생성형 AI 교육 과정",
+      "summary_ko": "생성형 AI 애플리케이션 개발을 배우는 단계별 강의를 제공한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T03:17:36.646Z",
+      "reviewed_commit": "79a4334e158147d4f36c27d805e0cb163c1e445b",
+      "evidence": [
+        {
+          "url": "https://github.com/microsoft/generative-ai-for-beginners/blob/79a4334e158147d4f36c27d805e0cb163c1e445b/README.md",
+          "path": "README.md",
+          "blob_sha": "92cc3d51203d4087685202b2299901914b864001"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "rust-lang/rust",
+      "name": "rust-lang/rust",
+      "url": "https://github.com/rust-lang/rust",
+      "aliases": [],
+      "category": "code",
+      "type": "프로그래밍 언어",
+      "summary_ko": "Rust 컴파일러와 표준 라이브러리 및 문서를 제공한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T03:17:36.646Z",
+      "reviewed_commit": "1c3a6506966e21845b31de0b075d2527660db132",
+      "evidence": [
+        {
+          "url": "https://github.com/rust-lang/rust/blob/1c3a6506966e21845b31de0b075d2527660db132/README.md",
+          "path": "README.md",
+          "blob_sha": "ed35016eb3a238614741e5922a06b9bf83f9780e"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "godotengine/godot",
+      "name": "godotengine/godot",
+      "url": "https://github.com/godotengine/godot",
+      "aliases": [],
+      "category": "code",
+      "type": "게임 엔진",
+      "summary_ko": "2D·3D 게임을 제작하고 여러 데스크톱·모바일·웹 플랫폼에 내보낸다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T03:17:36.646Z",
+      "reviewed_commit": "b251066fb5b5654a6cf9c1bb284fac53d20a10d2",
+      "evidence": [
+        {
+          "url": "https://github.com/godotengine/godot/blob/b251066fb5b5654a6cf9c1bb284fac53d20a10d2/README.md",
+          "path": "README.md",
+          "blob_sha": "aa4bc5f484dbf486a2bd7f1773fdc7ec97f210e1"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "browser-use/browser-use",
+      "name": "browser-use/browser-use",
+      "url": "https://github.com/browser-use/browser-use",
+      "aliases": [],
+      "category": "automation",
+      "type": "브라우저 에이전트",
+      "summary_ko": "언어 모델을 연결해 브라우저 탐색과 웹 작업을 자동화한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T03:17:36.646Z",
+      "reviewed_commit": "b49a68e4060acb226da8f784194fef301c53a6d7",
+      "evidence": [
+        {
+          "url": "https://github.com/browser-use/browser-use/blob/b49a68e4060acb226da8f784194fef301c53a6d7/README.md",
+          "path": "README.md",
+          "blob_sha": "fe0d153c091192af376573013bf27974de9169ff"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "earendil-works/pi",
+      "name": "earendil-works/pi",
+      "url": "https://github.com/earendil-works/pi",
+      "aliases": [
+        "badlogic/pi-mono"
+      ],
+      "category": "ai",
+      "type": "에이전트 실행 도구",
+      "summary_ko": "확장·스킬·프롬프트 템플릿과 SDK로 에이전트 실행 환경을 구성한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T03:17:36.646Z",
+      "reviewed_commit": "9c9ce8547e5a88cbe834a53e9a6d83a789d08e47",
+      "evidence": [
+        {
+          "url": "https://github.com/earendil-works/pi/blob/9c9ce8547e5a88cbe834a53e9a6d83a789d08e47/README.md",
+          "path": "README.md",
+          "blob_sha": "b4c0d8daaa3586c60fb8258891ef59e9e631ef72"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "juliusbrussee/caveman",
+      "name": "JuliusBrussee/caveman",
+      "url": "https://github.com/JuliusBrussee/caveman",
+      "aliases": [],
+      "category": "ai",
+      "type": "에이전트 스킬",
+      "summary_ko": "에이전트의 설명과 입력을 간결하게 만들어 맥락 사용량을 관리한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T03:17:36.646Z",
+      "reviewed_commit": "2e068f735253cce28256744804785f01887d9646",
+      "evidence": [
+        {
+          "url": "https://github.com/JuliusBrussee/caveman/blob/2e068f735253cce28256744804785f01887d9646/README.md",
+          "path": "README.md",
+          "blob_sha": "12902ac5443fa6b951a46f119ce8808198b7db9f"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "tauri-apps/tauri",
+      "name": "tauri-apps/tauri",
+      "url": "https://github.com/tauri-apps/tauri",
+      "aliases": [],
+      "category": "code",
+      "type": "앱 개발 프레임워크",
+      "summary_ko": "HTML·JavaScript·CSS 인터페이스와 Rust 백엔드로 여러 운영체제용 앱을 만든다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T03:17:36.646Z",
+      "reviewed_commit": "31f29e197e7ac18797dbb9270fe658c1ca1010c8",
+      "evidence": [
+        {
+          "url": "https://github.com/tauri-apps/tauri/blob/31f29e197e7ac18797dbb9270fe658c1ca1010c8/README.md",
+          "path": "README.md",
+          "blob_sha": "4ce52087bc7e171e6eb8742dd280518b68841cb3"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "tauricresearch/tradingagents",
+      "name": "TauricResearch/TradingAgents",
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "aliases": [],
+      "category": "ai",
+      "type": "금융 분석 에이전트",
+      "summary_ko": "여러 언어 모델 에이전트를 사용해 금융 시장 분석과 투자 의사결정 흐름을 구성한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T03:17:36.646Z",
+      "reviewed_commit": "c4544913a14ed3df5f1ed7b9e8483270ce20682a",
+      "evidence": [
+        {
+          "url": "https://github.com/TauricResearch/TradingAgents/blob/c4544913a14ed3df5f1ed7b9e8483270ce20682a/README.md",
+          "path": "README.md",
+          "blob_sha": "a9ddf10db162f608af4d3387b8a7dd35bc4d1a13"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "supabase/supabase",
+      "name": "supabase/supabase",
+      "url": "https://github.com/supabase/supabase",
+      "aliases": [],
+      "category": "infrastructure",
+      "type": "백엔드 개발 플랫폼",
+      "summary_ko": "Postgres 데이터베이스, 인증, API, 파일 저장과 실시간 기능을 제공한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T03:17:36.646Z",
+      "reviewed_commit": "7439ae34d15fb34726a8e6b12d98da520e4041e1",
+      "evidence": [
+        {
+          "url": "https://github.com/supabase/supabase/blob/7439ae34d15fb34726a8e6b12d98da520e4041e1/README.md",
+          "path": "README.md",
+          "blob_sha": "163afeaf8ad8ee5d944e994becc27716431369f1"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "microsoft/typescript",
+      "name": "microsoft/TypeScript",
+      "url": "https://github.com/microsoft/TypeScript",
+      "aliases": [],
+      "category": "code",
+      "type": "프로그래밍 언어",
+      "summary_ko": "JavaScript에 선택적 타입을 추가하고 표준 JavaScript로 컴파일한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T03:17:36.646Z",
+      "reviewed_commit": "042e0fb9574980bd67964165df295e629f834fe3",
+      "evidence": [
+        {
+          "url": "https://github.com/microsoft/TypeScript/blob/042e0fb9574980bd67964165df295e629f834fe3/README.md",
+          "path": "README.md",
+          "blob_sha": "79adc1b165e396ac026a8e88da02e693b4a5afae"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "openai/whisper",
+      "name": "openai/whisper",
+      "url": "https://github.com/openai/whisper",
+      "aliases": [],
+      "category": "media",
+      "type": "음성 인식 모델",
+      "summary_ko": "다국어 음성 인식과 음성 번역, 언어 식별을 수행한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T03:17:36.646Z",
+      "reviewed_commit": "86098128c0b4f24f0e2aa2994de830614b474227",
+      "evidence": [
+        {
+          "url": "https://github.com/openai/whisper/blob/86098128c0b4f24f0e2aa2994de830614b474227/README.md",
+          "path": "README.md",
+          "blob_sha": "196b48f62d3b6f0b77bac2b7dbc2df5e4cfb070b"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "denoland/deno",
+      "name": "denoland/deno",
+      "url": "https://github.com/denoland/deno",
+      "aliases": [],
+      "category": "code",
+      "type": "JavaScript 런타임",
+      "summary_ko": "JavaScript·TypeScript·WebAssembly 실행 환경을 제공한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T03:17:36.646Z",
+      "reviewed_commit": "e7b39ebd55c85aaf6a29290c1f5a99e2e21e09dd",
+      "evidence": [
+        {
+          "url": "https://github.com/denoland/deno/blob/e7b39ebd55c85aaf6a29290c1f5a99e2e21e09dd/README.md",
+          "path": "README.md",
+          "blob_sha": "8173eb951062916cc112a8fb7c0e120b1c945975"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "rasbt/llms-from-scratch",
+      "name": "rasbt/LLMs-from-scratch",
+      "url": "https://github.com/rasbt/LLMs-from-scratch",
+      "aliases": [],
+      "category": "learning",
+      "type": "LLM 학습 코드",
+      "summary_ko": "GPT 계열 언어 모델을 단계적으로 구현하고 사전학습·미세조정하는 예제를 제공한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T03:17:36.646Z",
+      "reviewed_commit": "fb009538a8875f481a10f3f1f7b93b9ee51a42e3",
+      "evidence": [
+        {
+          "url": "https://github.com/rasbt/LLMs-from-scratch/blob/fb009538a8875f481a10f3f1f7b93b9ee51a42e3/README.md",
+          "path": "README.md",
+          "blob_sha": "4703bc5afc86803540abd6cbc465d635aa3eb5e8"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "ruanyf/weekly",
+      "name": "ruanyf/weekly",
+      "url": "https://github.com/ruanyf/weekly",
+      "aliases": [],
+      "category": "learning",
+      "type": "기술 주간지",
+      "summary_ko": "매주 공유할 기술 콘텐츠와 자료를 정리한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T03:17:36.646Z",
+      "reviewed_commit": "bad85274acad89588de7f1a624bf52fcc4516c8a",
+      "evidence": [
+        {
+          "url": "https://github.com/ruanyf/weekly/blob/bad85274acad89588de7f1a624bf52fcc4516c8a/README.md",
+          "path": "README.md",
+          "blob_sha": "0a4dd72b093bfc61befbab8b282863d4c01687dc"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "pytorch/pytorch",
+      "name": "pytorch/pytorch",
+      "url": "https://github.com/pytorch/pytorch",
+      "aliases": [],
+      "category": "ai",
+      "type": "머신러닝 라이브러리",
+      "summary_ko": "Python에서 텐서 계산과 신경망 개발 도구를 제공한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T03:17:36.646Z",
+      "reviewed_commit": "6ddf1c556aafe0295f682a2822d1510eda4beab2",
+      "evidence": [
+        {
+          "url": "https://github.com/pytorch/pytorch/blob/6ddf1c556aafe0295f682a2822d1510eda4beab2/README.md",
+          "path": "README.md",
+          "blob_sha": "b8bf1f0d89dd38c771984b9ab61a14956642e0be"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "paperclipai/paperclip",
+      "name": "paperclipai/paperclip",
+      "url": "https://github.com/paperclipai/paperclip",
+      "aliases": [],
+      "category": "ai",
+      "type": "에이전트 관리 앱",
+      "summary_ko": "AI 에이전트 팀의 작업·목표·예산과 진행 상황을 관리한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T03:17:36.646Z",
+      "reviewed_commit": "09162fe893b464dd2ccdafd14bd3ef1611202a86",
+      "evidence": [
+        {
+          "url": "https://github.com/paperclipai/paperclip/blob/09162fe893b464dd2ccdafd14bd3ef1611202a86/README.md",
+          "path": "README.md",
+          "blob_sha": "55bd531668fec3334762d9983a0da1b255d42698"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "neovim/neovim",
+      "name": "neovim/neovim",
+      "url": "https://github.com/neovim/neovim",
+      "aliases": [],
+      "category": "code",
+      "type": "텍스트 편집기",
+      "summary_ko": "확장 가능한 Vim 기반 편집기와 API, 터미널 및 작업 제어 기능을 제공한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T03:17:36.646Z",
+      "reviewed_commit": "6332ba64fe56f922c5cd2d93e4cfa23673966b6d",
+      "evidence": [
+        {
+          "url": "https://github.com/neovim/neovim/blob/6332ba64fe56f922c5cd2d93e4cfa23673966b6d/README.md",
+          "path": "README.md",
+          "blob_sha": "e92d0961d7307a7e539b68d5b5ba840727000e00"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "thedotmack/claude-mem",
+      "name": "thedotmack/claude-mem",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "aliases": [],
+      "category": "ai",
+      "type": "세션 기억 플러그인",
+      "summary_ko": "에이전트의 도구 사용 기록을 저장·요약하고 다음 세션에서 관련 맥락을 불러온다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T03:17:36.646Z",
+      "reviewed_commit": "02584c4ac9d92fea45adf5c61e22c546b5738621",
+      "evidence": [
+        {
+          "url": "https://github.com/thedotmack/claude-mem/blob/02584c4ac9d92fea45adf5c61e22c546b5738621/README.md",
+          "path": "README.md",
+          "blob_sha": "77bf508ecb41b0d09b445a60bf655ee8bac428b9"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "angular/angular",
+      "name": "angular/angular",
+      "url": "https://github.com/angular/angular",
+      "aliases": [],
+      "category": "code",
+      "type": "웹 앱 프레임워크",
+      "summary_ko": "TypeScript·JavaScript로 웹 애플리케이션을 만드는 개발 플랫폼이다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T03:17:36.646Z",
+      "reviewed_commit": "92c7e870caa30a2fa162957a8006deba51c11fb0",
+      "evidence": [
+        {
+          "url": "https://github.com/angular/angular/blob/92c7e870caa30a2fa162957a8006deba51c11fb0/README.md",
+          "path": "README.md",
+          "blob_sha": "c1528944d08b5be8e2997e46a842b35fd998a11f"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "mtdvio/every-programmer-should-know",
+      "name": "mtdvio/every-programmer-should-know",
+      "url": "https://github.com/mtdvio/every-programmer-should-know",
+      "aliases": [],
+      "category": "learning",
+      "type": "개발 학습 자료",
+      "summary_ko": "소프트웨어 개발자가 참고할 기술 자료를 모았다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T03:17:36.646Z",
+      "reviewed_commit": "e47b7c483b27475f48a01c3a176b724dbfb6d2de",
+      "evidence": [
+        {
+          "url": "https://github.com/mtdvio/every-programmer-should-know/blob/e47b7c483b27475f48a01c3a176b724dbfb6d2de/README.md",
+          "path": "README.md",
+          "blob_sha": "7909ec7cfe6f929dee0ace4488f9e9a0e1c5286c"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "mui/material-ui",
+      "name": "mui/material-ui",
+      "url": "https://github.com/mui/material-ui",
+      "aliases": [],
+      "category": "code",
+      "type": "React UI 컴포넌트",
+      "summary_ko": "Material Design을 구현한 React 컴포넌트 라이브러리다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T03:17:36.646Z",
+      "reviewed_commit": "d051e0d5559db350fac41b36c8c19cf07df23122",
+      "evidence": [
+        {
+          "url": "https://github.com/mui/material-ui/blob/d051e0d5559db350fac41b36c8c19cf07df23122/README.md",
+          "path": "README.md",
+          "blob_sha": "8c000ef8d0d5ecd6518b6a20804d37895c063d1b"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "leonxlnx/taste-skill",
+      "name": "Leonxlnx/taste-skill",
+      "url": "https://github.com/Leonxlnx/taste-skill",
+      "aliases": [],
+      "category": "code",
+      "type": "UI 디자인 에이전트 스킬",
+      "summary_ko": "코딩 에이전트가 웹사이트와 앱 화면을 디자인하고 브라우저에서 확인하도록 안내한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T03:17:36.646Z",
+      "reviewed_commit": "12af471f627f866411b4bd785b19646d3672784c",
+      "evidence": [
+        {
+          "url": "https://github.com/Leonxlnx/taste-skill/blob/12af471f627f866411b4bd785b19646d3672784c/README.md",
+          "path": "README.md",
+          "blob_sha": "8efa355f7d03ada51edccea568dccf26e628b511"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "ruvnet/ruview",
+      "name": "ruvnet/RuView",
+      "url": "https://github.com/ruvnet/RuView",
+      "aliases": [
+        "ruvnet/wifi-densepose"
+      ],
+      "category": "devices",
+      "type": "Wi-Fi 감지 시스템",
+      "summary_ko": "Wi-Fi 신호를 이용해 사람의 존재와 움직임을 감지하는 시스템을 제공한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T03:17:36.646Z",
+      "reviewed_commit": "5728b90949e60e3f908d996997d453147c1794e0",
+      "evidence": [
+        {
+          "url": "https://github.com/ruvnet/RuView/blob/5728b90949e60e3f908d996997d453147c1794e0/README.md",
+          "path": "README.md",
+          "blob_sha": "98c12d7458694f70bfc68634638ca88429026f7f"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "tailwindlabs/tailwindcss",
+      "name": "tailwindlabs/tailwindcss",
+      "url": "https://github.com/tailwindlabs/tailwindcss",
+      "aliases": [],
+      "category": "code",
+      "type": "CSS 프레임워크",
+      "summary_ko": "유틸리티 클래스를 조합해 사용자 인터페이스 스타일을 구성한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T03:17:36.646Z",
+      "reviewed_commit": "2626ae6ceddf36069ab6d55c53a5857c1e2e360a",
+      "evidence": [
+        {
+          "url": "https://github.com/tailwindlabs/tailwindcss/blob/2626ae6ceddf36069ab6d55c53a5857c1e2e360a/README.md",
+          "path": "README.md",
+          "blob_sha": "5f532607d00a72faf633c2c1d613c9369fe27c35"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "microsoft/web-dev-for-beginners",
+      "name": "microsoft/Web-Dev-For-Beginners",
+      "url": "https://github.com/microsoft/Web-Dev-For-Beginners",
+      "aliases": [],
+      "category": "learning",
+      "type": "웹 개발 교육 과정",
+      "summary_ko": "프로젝트를 통해 JavaScript·CSS·HTML 기초를 배우는 강의를 제공한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T03:17:36.646Z",
+      "reviewed_commit": "78085398be0dea7abaaf5eda914817f46f6ddbbc",
+      "evidence": [
+        {
+          "url": "https://github.com/microsoft/Web-Dev-For-Beginners/blob/78085398be0dea7abaaf5eda914817f46f6ddbbc/README.md",
+          "path": "README.md",
+          "blob_sha": "7290bff1d6056334c48afd3ad73eec9f2e363fba"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "oven-sh/bun",
+      "name": "oven-sh/bun",
+      "url": "https://github.com/oven-sh/bun",
+      "aliases": [],
+      "category": "code",
+      "type": "JavaScript 개발 도구",
+      "summary_ko": "JavaScript·TypeScript 런타임과 패키지 관리자·테스트 실행기를 제공한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T03:17:36.646Z",
+      "reviewed_commit": "01ec085434723cc07c249370485f9669a477d2d3",
+      "evidence": [
+        {
+          "url": "https://github.com/oven-sh/bun/blob/01ec085434723cc07c249370485f9669a477d2d3/README.md",
+          "path": "README.md",
+          "blob_sha": "12d794639770b264b823156ff6739c1f370898f2"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "puppeteer/puppeteer",
+      "name": "puppeteer/puppeteer",
+      "url": "https://github.com/puppeteer/puppeteer",
+      "aliases": [],
+      "category": "automation",
+      "type": "브라우저 제어 라이브러리",
+      "summary_ko": "JavaScript API로 Chrome이나 Firefox를 자동 제어한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T03:17:36.646Z",
+      "reviewed_commit": "7cb1c0bb7f2dc7019c3bdd664cb65d054174c2a8",
+      "evidence": [
+        {
+          "url": "https://github.com/puppeteer/puppeteer/blob/7cb1c0bb7f2dc7019c3bdd664cb65d054174c2a8/README.md",
+          "path": "README.md",
+          "blob_sha": "2424293b5688dbec4f2407a3326fb54d086b6527"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "nvm-sh/nvm",
+      "name": "nvm-sh/nvm",
+      "url": "https://github.com/nvm-sh/nvm",
+      "aliases": [],
+      "category": "code",
+      "type": "Node.js 버전 관리자",
+      "summary_ko": "명령줄에서 여러 Node.js 버전을 설치하고 전환한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T03:17:36.646Z",
+      "reviewed_commit": "c7a1b344da04b76c2dcd250211e31d76c9f5bf13",
+      "evidence": [
+        {
+          "url": "https://github.com/nvm-sh/nvm/blob/c7a1b344da04b76c2dcd250211e31d76c9f5bf13/README.md",
+          "path": "README.md",
+          "blob_sha": "0593147cbdf8785f4a786cfe87c977e7a9fd1cdb"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "opencut-app/opencut",
+      "name": "OpenCut-app/OpenCut",
+      "url": "https://github.com/OpenCut-app/OpenCut",
+      "aliases": [],
+      "category": "media",
+      "type": "동영상 편집기 프로젝트",
+      "summary_ko": "웹·데스크톱·모바일용 오픈소스 영상 편집기를 개발하며 현재 재작성 중이다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T03:17:36.646Z",
+      "reviewed_commit": "e668010778568641babef2cc40be4703ae6916d6",
+      "evidence": [
+        {
+          "url": "https://github.com/OpenCut-app/OpenCut/blob/e668010778568641babef2cc40be4703ae6916d6/README.md",
+          "path": "README.md",
+          "blob_sha": "2c715d8e2b99237322f7be93512b603a399155fb"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "vllm-project/vllm",
+      "name": "vllm-project/vllm",
+      "url": "https://github.com/vllm-project/vllm",
+      "aliases": [],
+      "category": "ai",
+      "type": "LLM 추론·서빙 라이브러리",
+      "summary_ko": "언어 모델 추론과 서비스 배포를 지원하고 배치 처리와 메모리 관리 기능을 제공한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T03:17:36.646Z",
+      "reviewed_commit": "cd1effa2e7d204b22527f14739734751f38ed737",
+      "evidence": [
+        {
+          "url": "https://github.com/vllm-project/vllm/blob/cd1effa2e7d204b22527f14739734751f38ed737/README.md",
+          "path": "README.md",
+          "blob_sha": "ff92fface4421933f1056f53d736c0840eac4728"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "localsend/localsend",
+      "name": "localsend/localsend",
+      "url": "https://github.com/localsend/localsend",
+      "aliases": [],
+      "category": "devices",
+      "type": "로컬 파일 전송 앱",
+      "summary_ko": "같은 로컬 네트워크의 기기 사이에 파일과 메시지를 공유한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T03:17:36.646Z",
+      "reviewed_commit": "92e133aa43869e94d394fd04fa70c50a0f796a64",
+      "evidence": [
+        {
+          "url": "https://github.com/localsend/localsend/blob/92e133aa43869e94d394fd04fa70c50a0f796a64/README.md",
+          "path": "README.md",
+          "blob_sha": "b708bc275ade0005c95a0b754d1d083c79b35a43"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "ryanmcdermott/clean-code-javascript",
+      "name": "ryanmcdermott/clean-code-javascript",
+      "url": "https://github.com/ryanmcdermott/clean-code-javascript",
+      "aliases": [],
+      "category": "learning",
+      "type": "JavaScript 개발 지침",
+      "summary_ko": "읽기 쉽고 재사용·수정하기 좋은 JavaScript 코드 작성 원칙을 설명한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T03:17:36.646Z",
+      "reviewed_commit": "5311f64b03fc0c2450ab17a45ee9818669c8b9b5",
+      "evidence": [
+        {
+          "url": "https://github.com/ryanmcdermott/clean-code-javascript/blob/5311f64b03fc0c2450ab17a45ee9818669c8b9b5/README.md",
+          "path": "README.md",
+          "blob_sha": "f1159781a14931d4e24c19a37cc5ab4d62780d7c"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "immich-app/immich",
+      "name": "immich-app/immich",
+      "url": "https://github.com/immich-app/immich",
+      "aliases": [],
+      "category": "media",
+      "type": "사진·영상 관리 앱",
+      "summary_ko": "사진과 동영상을 자체 서버에서 관리한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T03:17:36.646Z",
+      "reviewed_commit": "2c87a17c87e68f0180d6982722faa0fbb0238cbc",
+      "evidence": [
+        {
+          "url": "https://github.com/immich-app/immich/blob/2c87a17c87e68f0180d6982722faa0fbb0238cbc/README.md",
+          "path": "README.md",
+          "blob_sha": "e8678456d0660e3fdbb43f8fe0442f49f3508ba4"
         }
       ],
       "execution_tested": false
