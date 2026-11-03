@@ -6873,18 +6873,18 @@
     {
       "position": 855,
       "source_id": "reconurge/flowsint",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "reconurge/flowsint",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 856,
       "source_id": "awslabs/mcp",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "awslabs/mcp",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 857,
@@ -6897,162 +6897,162 @@
     {
       "position": 858,
       "source_id": "Lightricks/LTX-2",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "lightricks/ltx-2",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 859,
       "source_id": "mobile-next/mobile-mcp",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "mobile-next/mobile-mcp",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 860,
       "source_id": "frankbria/ralph-claude-code",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "frankbria/ralph-claude-code",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 861,
       "source_id": "HyDE-Project/HyDE",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "hyde-project/hyde",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 862,
       "source_id": "cloudflare/computer",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "cloudflare/computer",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 863,
       "source_id": "francescopace/espectre",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "francescopace/espectre",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 864,
       "source_id": "pacifio/atlas",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "pacifio/atlas",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 865,
       "source_id": "marcelscruz/public-apis",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "marcelscruz/public-apis",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 866,
       "source_id": "checkstyle/checkstyle",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "checkstyle/checkstyle",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 867,
       "source_id": "anthropics/claude-code-action",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "anthropics/claude-code-action",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 868,
       "source_id": "OpenWhispr/openwhispr",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "openwhispr/openwhispr",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 869,
       "source_id": "langchain-ai/rag-from-scratch",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "langchain-ai/rag-from-scratch",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 870,
       "source_id": "usekaneo/kaneo",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "usekaneo/kaneo",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 871,
       "source_id": "zhouxiaoka/autoclip",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "zhouxiaoka/autoclip",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 872,
       "source_id": "Universal-Debloater-Alliance/universal-android-debloater-next-generation",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "universal-debloater-alliance/universal-android-debloater-next-generation",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 873,
       "source_id": "NVlabs/Sana",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "nvlabs/sana",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 874,
       "source_id": "crynta/terax-ai",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "crynta/terax-ai",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 875,
       "source_id": "TelegramMessenger/Telegram-iOS",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "telegrammessenger/telegram-ios",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 876,
       "source_id": "X-PLUG/MobileAgent",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "x-plug/mobileagent",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 877,
       "source_id": "MakazhanAlpamys/Soup",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "makazhanalpamys/soup",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 878,
@@ -7065,530 +7065,530 @@
     {
       "position": 879,
       "source_id": "max-sixty/worktrunk",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "max-sixty/worktrunk",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 880,
       "source_id": "sinelaw/fresh",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "sinelaw/fresh",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 881,
       "source_id": "cordiverse/cordis",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "cordiverse/cordis",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 882,
       "source_id": "meituan-longcat/LongCat-Video",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "meituan-longcat/longcat-video",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 883,
       "source_id": "revfactory/harness",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "revfactory/harness",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 884,
       "source_id": "Tencent/BrowserSkill",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "tencent/browserskill",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 885,
       "source_id": "teslamate-org/teslamate",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "teslamate-org/teslamate",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 886,
       "source_id": "Morganamilo/paru",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "morganamilo/paru",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 887,
       "source_id": "cloudflare/workerd",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "cloudflare/workerd",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 888,
       "source_id": "deepseek-ai/DeepGEMM",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "deepseek-ai/deepgemm",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 889,
       "source_id": "CoreBunch/Instatic",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "corebunch/instatic",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 890,
       "source_id": "actions/checkout",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "actions/checkout",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 891,
       "source_id": "KotatsuApp/Kotatsu",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "kotatsuapp/kotatsu",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 892,
       "source_id": "kunchenguid/no-mistakes",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "kunchenguid/no-mistakes",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 893,
       "source_id": "justlovemaki/AIClient-2-API",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "justlovemaki/aiclient2api",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 894,
       "source_id": "google/adk-go",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "google/adk-go",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 895,
       "source_id": "chaitanyagiri/munder-difflin",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "harnessmd/munder-difflin",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 896,
       "source_id": "strands-agents/harness-sdk",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "strands-agents/harness-sdk",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 897,
       "source_id": "elder-plinius/OBLITERATUS",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "elder-plinius/obliteratus",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 898,
       "source_id": "Project-MONAI/MONAI",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "project-monai/monai",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 899,
       "source_id": "pydantic/monty",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "pydantic/monty",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 900,
       "source_id": "THUDM/slime",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "thudm/slime",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 901,
       "source_id": "EvoMap/evolver",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "evomap/evolver",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 902,
       "source_id": "prometheus/alertmanager",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "prometheus/alertmanager",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 903,
       "source_id": "abue-ammar/tinycast",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "abue-ammar/tinycast",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 904,
       "source_id": "j178/prek",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "j178/prek",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 905,
       "source_id": "tile-ai/tilelang",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "tile-ai/tilelang",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 906,
       "source_id": "android/skills",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "android/skills",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 907,
       "source_id": "EpicGames/raddebugger",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "epicgames/raddebugger",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 908,
       "source_id": "zeux/meshoptimizer",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "zeux/meshoptimizer",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 909,
       "source_id": "google-labs-code/stitch-skills",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "google-labs-code/stitch-skills",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 910,
       "source_id": "vendure-ecommerce/vendure",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "vendurehq/vendure",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 911,
       "source_id": "bwya77/vscode-dark-islands",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "bwya77/vscode-dark-islands",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 912,
       "source_id": "steipete/gogcli",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "openclaw/gogcli",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 913,
       "source_id": "openbao/openbao",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "openbao/openbao",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 914,
       "source_id": "withastro/flue",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "withastro/flue",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 915,
       "source_id": "NexaAI/nexa-sdk",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "qualcomm/geniex",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 916,
       "source_id": "MiroMindAI/MiroThinker",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "miromindai/mirothinker",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 917,
       "source_id": "automazeio/ccpm",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "automazeio/ccpm",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 918,
       "source_id": "tailscale/tailcat",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "tailscale/tailcat",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 919,
       "source_id": "ever-co/ever-gauzy",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "ever-co/ever-gauzy",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 920,
       "source_id": "ai-dynamo/dynamo",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "ai-dynamo/dynamo",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 921,
       "source_id": "basecamp/fizzy",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "basecamp/fizzy",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 922,
       "source_id": "AI4Finance-Foundation/FinRobot",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "ai4finance-foundation/finrobot",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 923,
       "source_id": "smartcontractkit/chainlink",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "smartcontractkit/chainlink",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 924,
       "source_id": "lightningpixel/modly",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "lightningpixel/modly",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 925,
       "source_id": "PriorLabs/TabPFN",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "priorlabs/tabpfn",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 926,
       "source_id": "vudovn/ag-kit",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "vudovn/ag-kit",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 927,
       "source_id": "SimoneAvogadro/android-reverse-engineering-skill",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "simoneavogadro/android-reverse-engineering-skill",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 928,
       "source_id": "GetStream/Vision-Agents",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "getstream/vision-agents",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 929,
       "source_id": "DevCaress/guia-entrevistas-de-programacion",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "devcaress/guia-entrevistas-de-programacion",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 930,
       "source_id": "xerj-org/xerj",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "xerj-org/xerj",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 931,
       "source_id": "sngyai/Sequoia-X",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "sngyai/sequoia-x",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 932,
       "source_id": "Blaizzy/mlx-audio",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "blaizzy/mlx-audio",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 933,
       "source_id": "opengeos/GeoLibre",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "opengeos/geolibre",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 934,
       "source_id": "NomaDamas/k-skill",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "nomadamas/k-skill",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 935,
       "source_id": "Ed1s0nZ/CyberStrikeAI",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "aipentest/cyberstrikeai",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 936,
       "source_id": "Axorax/awesome-free-apps",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "axorax/awesome-free-apps",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 937,
       "source_id": "opentoonz/opentoonz",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "opentoonz/opentoonz",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 938,
       "source_id": "TheRobotStudio/SO-ARM100",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "therobotstudio/so-arm100",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 939,
       "source_id": "chenyme/grok2api",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "chenyme/grok2api",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 940,
       "source_id": "permissionlesstech/bitchat-android",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "permissionlesstech/bitchat-android",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 941,
       "source_id": "chthollyphile/folia-major",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "chthollyphile/folia-major",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 942,
       "source_id": "HuLaSpark/HuLa",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "hulaspark/hula",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 943,
       "source_id": "mvschwarz/openrig",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "mvschwarz/openrig",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 944,
       "source_id": "leejet/stable-diffusion.cpp",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "leejet/stable-diffusion.cpp",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 945,
@@ -7601,98 +7601,98 @@
     {
       "position": 946,
       "source_id": "open-telemetry/opentelemetry-collector",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "open-telemetry/opentelemetry-collector",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 947,
       "source_id": "aidenybai/react-grab",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "aidenybai/react-grab",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 948,
       "source_id": "HenryNdubuaku/maths-cs-ai-compendium",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "henryndubuaku/maths-cs-ai-compendium",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 949,
       "source_id": "apurvsinghgautam/robin",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "apurvsinghgautam/robin",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 950,
       "source_id": "lingfengQAQ/webnovel-writer",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "lingfengqaq/webnovel-writer",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 951,
       "source_id": "lzhoang2801/OpCore-Simplify",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "lzhoang2801/opcore-simplify",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 952,
       "source_id": "SnailSploit/Claude-Red",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "snailsploit/claude-red",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 953,
       "source_id": "Osmantic/ODS",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "osmantic/ods",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 954,
       "source_id": "Light-Heart-Labs/DreamServer",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "osmantic/ods",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 955,
       "source_id": "refly-ai/refly",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "refly-ai/refly",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 956,
       "source_id": "TheCraigHewitt/seomachine",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "thecraighewitt/seomachine",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 957,
       "source_id": "LuckyOne7777/ChatGPT-Micro-Cap-Experiment",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "luckyone7777/llm-trading-lab",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 958,
