@@ -6,7 +6,7 @@
   "scope": "2026-10-22 공개 seed 전체",
   "historical_count": 1266,
   "missing_history_date": "2026-10-22",
-  "reviewed_count": 1250,
+  "reviewed_count": 1253,
   "classification_method": "직접 원문 검토",
   "categories": [
     {
@@ -14002,7 +14002,9 @@
       "id": "effect-ts/effect",
       "name": "Effect-TS/effect",
       "url": "https://github.com/Effect-TS/effect",
-      "aliases": [],
+      "aliases": [
+        "Effect-TS/effect-smol"
+      ],
       "category": "code",
       "type": "TypeScript 라이브러리",
       "summary_ko": "오류 처리와 동시성·의존성 관리 기능을 제공한다.",
@@ -14015,6 +14017,11 @@
           "url": "https://github.com/Effect-TS/effect/blob/7a87ff9b88b1a570995b1b5570559c1b4dd5367b/README.md",
           "path": "README.md",
           "blob_sha": "2c9b09f1a2905cc2574902d3e4cb77e1832915ce"
+        },
+        {
+          "url": "https://github.com/Effect-TS/effect-smol/blob/3a1128c7684e04d34d9f541f77adaac38a513056/README.md",
+          "path": "README.md",
+          "blob_sha": "e8d67fd97905236b48ef118011f5edd85db83d2e"
         }
       ],
       "execution_tested": false
@@ -26666,6 +26673,80 @@
           "url": "https://github.com/sherlock-project/sherlock/blob/c588d7c8b476df9f9c84912a05d1430fb8cdcdae/docs/README.md",
           "path": "docs/README.md",
           "blob_sha": "ddad6e0214cfa14bfabab0d67bf52293f5d2990e"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "coder/code-server",
+      "name": "coder/code-server",
+      "url": "https://github.com/coder/code-server",
+      "aliases": [],
+      "category": "code",
+      "type": "웹 기반 개발 환경",
+      "summary_ko": "서버에서 VS Code 개발 환경을 실행하고 브라우저로 접속해 코드를 편집한다.",
+      "tags": [
+        "VS Code",
+        "원격 개발"
+      ],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T10:33:02.378Z",
+      "reviewed_commit": "e0a7057ff446f1694bdd8cd7bfd7fad7084a5e48",
+      "evidence": [
+        {
+          "url": "https://github.com/coder/code-server/blob/e0a7057ff446f1694bdd8cd7bfd7fad7084a5e48/docs/README.md",
+          "path": "docs/README.md",
+          "blob_sha": "470095071afd381ad0f41e56deadc24339fb62b5"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "ocornut/imgui",
+      "name": "ocornut/imgui",
+      "url": "https://github.com/ocornut/imgui",
+      "aliases": [],
+      "category": "code",
+      "type": "C++ GUI 라이브러리",
+      "summary_ko": "C++ 애플리케이션에 개발 도구와 시각화·디버깅용 사용자 인터페이스를 구성한다.",
+      "tags": [
+        "C++",
+        "GUI"
+      ],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T10:33:02.378Z",
+      "reviewed_commit": "67f442d5de5ace0e8531442e0cb5446137f01147",
+      "evidence": [
+        {
+          "url": "https://github.com/ocornut/imgui/blob/67f442d5de5ace0e8531442e0cb5446137f01147/docs/README.md",
+          "path": "docs/README.md",
+          "blob_sha": "1dea58176fdc7cc13636804cb7263cc5840412d4"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "open-gsd/gsd-core",
+      "name": "open-gsd/gsd-core",
+      "url": "https://github.com/open-gsd/gsd-core",
+      "aliases": [
+        "gsd-build/get-shit-done"
+      ],
+      "category": "ai",
+      "type": "코딩 에이전트 개발 워크플로",
+      "summary_ko": "코딩 에이전트 작업을 논의·계획·실행·검증·배포 단계로 나누고 세션 간 작업 문서를 유지한다.",
+      "tags": [
+        "에이전트",
+        "개발 워크플로"
+      ],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T10:33:02.378Z",
+      "reviewed_commit": "3730c670477f644eeac1377b6dfc50ee4f99bad0",
+      "evidence": [
+        {
+          "url": "https://github.com/open-gsd/gsd-core/blob/3730c670477f644eeac1377b6dfc50ee4f99bad0/README.md",
+          "path": "README.md",
+          "blob_sha": "82770333164cd599dfa2f1ee44cc66997913cc40"
         }
       ],
       "execution_tested": false
