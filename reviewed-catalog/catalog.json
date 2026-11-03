@@ -6,7 +6,7 @@
   "scope": "2026-10-22 공개 seed 전체",
   "historical_count": 1266,
   "missing_history_date": "2026-10-22",
-  "reviewed_count": 155,
+  "reviewed_count": 164,
   "classification_method": "직접 원문 검토",
   "categories": [
     {
@@ -3457,6 +3457,195 @@
           "url": "https://github.com/immich-app/immich/blob/2c87a17c87e68f0180d6982722faa0fbb0238cbc/README.md",
           "path": "README.md",
           "blob_sha": "e8678456d0660e3fdbb43f8fe0442f49f3508ba4"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "rustdesk/rustdesk",
+      "name": "rustdesk/rustdesk",
+      "url": "https://github.com/rustdesk/rustdesk",
+      "aliases": [],
+      "category": "devices",
+      "type": "원격 데스크톱 앱",
+      "summary_ko": "다른 컴퓨터에 원격 접속하고 중계 서버를 자체 운영할 수 있다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T03:25:41.228Z",
+      "reviewed_commit": "47740e8fd73f539cfe58aa5aa3bb0d95e2b09c30",
+      "evidence": [
+        {
+          "url": "https://github.com/rustdesk/rustdesk/blob/47740e8fd73f539cfe58aa5aa3bb0d95e2b09c30/README.md",
+          "path": "README.md",
+          "blob_sha": "38433e0afced9361a77254f6b5499c86066dae03"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "jaywcjlove/awesome-mac",
+      "name": "jaywcjlove/awesome-mac",
+      "url": "https://github.com/jaywcjlove/awesome-mac",
+      "aliases": [],
+      "category": "learning",
+      "type": "macOS 소프트웨어 목록",
+      "summary_ko": "macOS 소프트웨어를 기능별로 모아 탐색할 수 있게 정리한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T03:25:41.228Z",
+      "reviewed_commit": "d510558ea2f1a9ff27c530b3d98136a7f1b01e78",
+      "evidence": [
+        {
+          "url": "https://github.com/jaywcjlove/awesome-mac/blob/d510558ea2f1a9ff27c530b3d98136a7f1b01e78/README.md",
+          "path": "README.md",
+          "blob_sha": "2ff5b1de90181c4faddf99b09b9100bf37c04143"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "addyosmani/agent-skills",
+      "name": "addyosmani/agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "aliases": [],
+      "category": "code",
+      "type": "개발 에이전트 스킬 모음",
+      "summary_ko": "소프트웨어 개발 과정의 작업 절차와 검증 지침을 코딩 에이전트에 제공한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T03:25:41.228Z",
+      "reviewed_commit": "301b02b12bff98e4688e6984af6556802322bbde",
+      "evidence": [
+        {
+          "url": "https://github.com/addyosmani/agent-skills/blob/301b02b12bff98e4688e6984af6556802322bbde/README.md",
+          "path": "README.md",
+          "blob_sha": "7f610b8ca80ff9bc7ba7f95f3209430c3481891d"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "microsoft/terminal",
+      "name": "microsoft/terminal",
+      "url": "https://github.com/microsoft/terminal",
+      "aliases": [],
+      "category": "devices",
+      "type": "터미널 앱",
+      "summary_ko": "Windows 터미널과 콘솔의 소스 코드와 실행 도구를 제공한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T03:25:41.228Z",
+      "reviewed_commit": "188822fa51dba7e11b64801483f4909db5fd020a",
+      "evidence": [
+        {
+          "url": "https://github.com/microsoft/terminal/blob/188822fa51dba7e11b64801483f4909db5fd020a/README.md",
+          "path": "README.md",
+          "blob_sha": "2bd2aa24a9210265cbdb34c8fbdfb110b521277f"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "deepseek-ai/deepseek-v3",
+      "name": "deepseek-ai/DeepSeek-V3",
+      "url": "https://github.com/deepseek-ai/DeepSeek-V3",
+      "aliases": [],
+      "category": "ai",
+      "type": "언어 모델",
+      "summary_ko": "Mixture-of-Experts 구조를 사용하는 대형 언어 모델과 관련 문서를 제공한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T03:25:41.228Z",
+      "reviewed_commit": "9b4e9788e4a3a731f7567338ed15d3ec549ce03b",
+      "evidence": [
+        {
+          "url": "https://github.com/deepseek-ai/DeepSeek-V3/blob/9b4e9788e4a3a731f7567338ed15d3ec549ce03b/README.md",
+          "path": "README.md",
+          "blob_sha": "e94a77fda8274fc1f2c9ade7d524be003788de21"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "panniantong/agent-reach",
+      "name": "Panniantong/Agent-Reach",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "aliases": [],
+      "category": "search",
+      "type": "에이전트 자료 수집 도구",
+      "summary_ko": "에이전트가 여러 온라인 플랫폼의 자료에 접근하도록 연결 도구를 제공한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T03:25:41.228Z",
+      "reviewed_commit": "7a38047acf26a729cbb27851e3cb81639da86b29",
+      "evidence": [
+        {
+          "url": "https://github.com/Panniantong/Agent-Reach/blob/7a38047acf26a729cbb27851e3cb81639da86b29/README.md",
+          "path": "README.md",
+          "blob_sha": "5d355b2bd0c451a5394e6e0978fe4933c4e1f061"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "hacksider/deep-live-cam",
+      "name": "hacksider/Deep-Live-Cam",
+      "url": "https://github.com/hacksider/Deep-Live-Cam",
+      "aliases": [],
+      "category": "media",
+      "type": "실시간 영상 변환 도구",
+      "summary_ko": "하나의 이미지를 사용해 실시간 영상의 얼굴을 바꾸는 기능을 제공한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T03:25:41.228Z",
+      "reviewed_commit": "0bae1a549014d86457548b05a01a3f7682cdda65",
+      "evidence": [
+        {
+          "url": "https://github.com/hacksider/Deep-Live-Cam/blob/0bae1a549014d86457548b05a01a3f7682cdda65/README.md",
+          "path": "README.md",
+          "blob_sha": "e60d6ac98f621a8a772ed0061b1d53f733fc0273"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "stablyai/orca",
+      "name": "stablyai/orca",
+      "url": "https://github.com/stablyai/orca",
+      "aliases": [],
+      "category": "code",
+      "type": "코딩 에이전트 관리 앱",
+      "summary_ko": "여러 에이전트의 독립 작업 공간과 터미널, 변경 검토를 한곳에서 관리한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T03:25:41.228Z",
+      "reviewed_commit": "174fdd8ca5ca9ebd0f074fba913a234abc69ccb8",
+      "evidence": [
+        {
+          "url": "https://github.com/stablyai/orca/blob/174fdd8ca5ca9ebd0f074fba913a234abc69ccb8/README.md",
+          "path": "README.md",
+          "blob_sha": "402342ea546da19d87d06ad58f86e790505221db"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "x1xhlol/system-prompts-and-models-of-ai-tools",
+      "name": "x1xhlol/system-prompts-and-models-of-ai-tools",
+      "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
+      "aliases": [],
+      "category": "ai",
+      "type": "AI 프롬프트 자료 모음",
+      "summary_ko": "여러 AI 도구의 시스템 프롬프트와 관련 자료를 모았다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T03:25:41.228Z",
+      "reviewed_commit": "162db92f54d717d8ebd12292e155aeef32bb4b3c",
+      "evidence": [
+        {
+          "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools/blob/162db92f54d717d8ebd12292e155aeef32bb4b3c/README.md",
+          "path": "README.md",
+          "blob_sha": "0818aad79d047048f3be277623e876b1aa230cb0"
         }
       ],
       "execution_tested": false
