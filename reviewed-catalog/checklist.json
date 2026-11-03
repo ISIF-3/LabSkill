@@ -3312,8 +3312,8 @@
       "source_id": "Lissy93/web-check",
       "canonical_id": "lissy93/web-check",
       "review_status": "reviewed",
-      "slack_list_status": "unverified",
-      "slack_canvas_status": "unverified",
+      "slack_list_status": "synced",
+      "slack_canvas_status": "synced",
       "last_attempt_at": "2026-11-03T09:53:37.715Z"
     },
     {
@@ -5473,8 +5473,8 @@
       "source_id": "end-4/dots-hyprland",
       "canonical_id": "end-4/dots-hyprland",
       "review_status": "reviewed",
-      "slack_list_status": "unverified",
-      "slack_canvas_status": "unverified",
+      "slack_list_status": "synced",
+      "slack_canvas_status": "synced",
       "last_attempt_at": "2026-11-03T09:53:37.715Z"
     },
     {
@@ -5514,8 +5514,8 @@
       "source_id": "bol-van/zapret",
       "canonical_id": "bol-van/zapret",
       "review_status": "reviewed",
-      "slack_list_status": "unverified",
-      "slack_canvas_status": "unverified",
+      "slack_list_status": "synced",
+      "slack_canvas_status": "synced",
       "last_attempt_at": "2026-11-03T09:53:37.715Z"
     },
     {
