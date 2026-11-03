@@ -6,7 +6,7 @@
   "scope": "2026-10-22 공개 seed 전체",
   "historical_count": 1266,
   "missing_history_date": "2026-10-22",
-  "reviewed_count": 56,
+  "reviewed_count": 100,
   "classification_method": "직접 원문 검토",
   "categories": [
     {
@@ -1360,6 +1360,942 @@
           "url": "https://github.com/heygen-com/hyperframes/blob/92943d99f08394b4a9d3964471ccae1bb86c83de/README.md",
           "path": "README.md",
           "blob_sha": "924a44569cf96e8f73b2f3299695cb9fe92ca97b"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "debpalash/voicestudio",
+      "name": "debpalash/VoiceStudio",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "aliases": [],
+      "category": "media",
+      "type": "AI 음성 제작 앱",
+      "summary_ko": "음성 복제·합성, 영상 더빙, 음성 기록과 낭독을 지원하며 로컬 모델과 API를 연결한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T02:02:22.459Z",
+      "reviewed_commit": "429f1e5bb2703ac5b928ab8ba6f60159167e9c44",
+      "evidence": [
+        {
+          "url": "https://github.com/debpalash/VoiceStudio/blob/429f1e5bb2703ac5b928ab8ba6f60159167e9c44/README.md",
+          "path": "README.md",
+          "blob_sha": "2f289ffb8a7a0ca8f444b8d34076519606198500"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "storytold/artcraft",
+      "name": "storytold/artcraft",
+      "url": "https://github.com/storytold/artcraft",
+      "aliases": [],
+      "category": "media",
+      "type": "AI 이미지·영상 제작 앱",
+      "summary_ko": "2D 구도와 3D 장면을 편집하고 AI 모델을 선택해 이미지와 영상을 제작한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T02:02:22.459Z",
+      "reviewed_commit": "1f969a9224934a55417daf10359a6fb1458b63f4",
+      "evidence": [
+        {
+          "url": "https://github.com/storytold/artcraft/blob/1f969a9224934a55417daf10359a6fb1458b63f4/README.md",
+          "path": "README.md",
+          "blob_sha": "390ad2748ea810fdda3068b87f9fe5bdddc697db"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "boykopovar/anyps5",
+      "name": "boykopovar/AnyPS5",
+      "url": "https://github.com/boykopovar/AnyPS5",
+      "aliases": [],
+      "category": "devices",
+      "type": "실행 파일 변환 도구",
+      "summary_ko": "실행 파일을 Linux·Windows 형식으로 옮기는 리링커와 시스템 라이브러리 구현을 제공한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T02:02:22.459Z",
+      "reviewed_commit": "7feb37ee3e30e10139b483fb4df689d5b5b69ab8",
+      "evidence": [
+        {
+          "url": "https://github.com/boykopovar/AnyPS5/blob/7feb37ee3e30e10139b483fb4df689d5b5b69ab8/README.md",
+          "path": "README.md",
+          "blob_sha": "5c7d95843898c8a71ca7ce2a4d0102b1cd3ddaf4"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "mattpocock/skills",
+      "name": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "aliases": [],
+      "category": "code",
+      "type": "개발 에이전트 스킬",
+      "summary_ko": "소프트웨어 개발용 스킬을 모아 이슈 관리와 문서 작성 등 작업에 적용한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T02:02:22.459Z",
+      "reviewed_commit": "4ae2317ddb22b046e26455e4f9c9b3aaaf62212d",
+      "evidence": [
+        {
+          "url": "https://github.com/mattpocock/skills/blob/4ae2317ddb22b046e26455e4f9c9b3aaaf62212d/README.md",
+          "path": "README.md",
+          "blob_sha": "f7038f139299985eea6c3e18398dbafb379a0010"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "ai-job-search-dev/ai-job-search",
+      "name": "ai-job-search-dev/ai-job-search",
+      "url": "https://github.com/ai-job-search-dev/ai-job-search",
+      "aliases": [
+        "MadsLorentzen/ai-job-search"
+      ],
+      "category": "productivity",
+      "type": "구직 에이전트 워크플로",
+      "summary_ko": "채용 공고 평가, 이력서·자기소개서 작성과 면접 준비를 Claude Code로 지원한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T02:02:22.459Z",
+      "reviewed_commit": "a3ba937be8b01b9414b09f2f85912139dd72be32",
+      "evidence": [
+        {
+          "url": "https://github.com/ai-job-search-dev/ai-job-search/blob/a3ba937be8b01b9414b09f2f85912139dd72be32/README.md",
+          "path": "README.md",
+          "blob_sha": "98b9a2c417f4abfd8cabd76affeb835694325ee8"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "anthropics/claude-plugins-official",
+      "name": "anthropics/claude-plugins-official",
+      "url": "https://github.com/anthropics/claude-plugins-official",
+      "aliases": [],
+      "category": "ai",
+      "type": "Claude Code 플러그인 모음",
+      "summary_ko": "Anthropic과 외부 제작자의 Claude Code 플러그인을 찾아 설치하는 디렉터리다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T02:02:22.459Z",
+      "reviewed_commit": "a7ba5b93db0c7c8d17f3f1d25853adca79598a1a",
+      "evidence": [
+        {
+          "url": "https://github.com/anthropics/claude-plugins-official/blob/a7ba5b93db0c7c8d17f3f1d25853adca79598a1a/README.md",
+          "path": "README.md",
+          "blob_sha": "43104e240ff500c762adebb0c31dc4b7ff7b50dd"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "mksglu/context-mode",
+      "name": "mksglu/context-mode",
+      "url": "https://github.com/mksglu/context-mode",
+      "aliases": [],
+      "category": "ai",
+      "type": "MCP 서버",
+      "summary_ko": "도구 출력 처리와 세션 기록 검색을 통해 에이전트의 작업 맥락을 관리한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T02:02:22.459Z",
+      "reviewed_commit": "7164222685f71510e26bc0f60b177300fa370f4f",
+      "evidence": [
+        {
+          "url": "https://github.com/mksglu/context-mode/blob/7164222685f71510e26bc0f60b177300fa370f4f/README.md",
+          "path": "README.md",
+          "blob_sha": "b796169524473691594af24995d21ca94027f7c7"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "ruvnet/ruflo",
+      "name": "ruvnet/ruflo",
+      "url": "https://github.com/ruvnet/ruflo",
+      "aliases": [],
+      "category": "ai",
+      "type": "에이전트 실행 도구",
+      "summary_ko": "Claude Code·Codex에서 에이전트를 관리하고 MCP 도구 및 시각적 콘솔을 제공한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T02:02:22.459Z",
+      "reviewed_commit": "5f3dacc54b7279e39b172d6027d7989791448e2e",
+      "evidence": [
+        {
+          "url": "https://github.com/ruvnet/ruflo/blob/5f3dacc54b7279e39b172d6027d7989791448e2e/README.md",
+          "path": "README.md",
+          "blob_sha": "5a620c1343b8b51fca9745070d1ab1dd937c2569"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "cursor/plugins",
+      "name": "cursor/plugins",
+      "url": "https://github.com/cursor/plugins",
+      "aliases": [],
+      "category": "code",
+      "type": "Cursor 플러그인 모음",
+      "summary_ko": "개발 도구와 프레임워크를 연결하는 Cursor 플러그인을 디렉터리별로 제공한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T02:02:22.459Z",
+      "reviewed_commit": "ae5650febf4320793844c12c4adaa937f417f8da",
+      "evidence": [
+        {
+          "url": "https://github.com/cursor/plugins/blob/ae5650febf4320793844c12c4adaa937f417f8da/README.md",
+          "path": "README.md",
+          "blob_sha": "d2ac28d9d1b4fb8216e1530237211e201a79f60b"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "ranxianglei/billion-context",
+      "name": "ranxianglei/billion-context",
+      "url": "https://github.com/ranxianglei/billion-context",
+      "aliases": [],
+      "category": "ai",
+      "type": "컨텍스트 압축 플러그인",
+      "summary_ko": "코딩 에이전트의 긴 대화 내용을 압축하고 세션 맥락을 관리한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T02:02:22.459Z",
+      "reviewed_commit": "d244ffff27f3d2e0b79eef9b1780c176f3bb2695",
+      "evidence": [
+        {
+          "url": "https://github.com/ranxianglei/billion-context/blob/d244ffff27f3d2e0b79eef9b1780c176f3bb2695/README.md",
+          "path": "README.md",
+          "blob_sha": "fc00b1473366bc778110d04c3c9f69c4f67a176c"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "freecodecamp/freecodecamp",
+      "name": "freeCodeCamp/freeCodeCamp",
+      "url": "https://github.com/freeCodeCamp/freeCodeCamp",
+      "aliases": [],
+      "category": "learning",
+      "type": "코딩 학습 플랫폼",
+      "summary_ko": "웹 개발과 머신러닝을 자기 속도로 익히도록 대화형 코딩 문제와 교육 과정을 제공한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T02:02:22.459Z",
+      "reviewed_commit": "124bba5f531aae30f22d679a49923b81634b7f69",
+      "evidence": [
+        {
+          "url": "https://github.com/freeCodeCamp/freeCodeCamp/blob/124bba5f531aae30f22d679a49923b81634b7f69/README.md",
+          "path": "README.md",
+          "blob_sha": "19f0d9e28b93f2b2b254e2a33f73f324c3486406"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "ebookfoundation/free-programming-books",
+      "name": "EbookFoundation/free-programming-books",
+      "url": "https://github.com/EbookFoundation/free-programming-books",
+      "aliases": [],
+      "category": "learning",
+      "type": "무료 학습 자료 목록",
+      "summary_ko": "여러 언어의 무료 프로그래밍 도서와 학습 자료를 모아 검색할 수 있게 제공한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T02:02:22.459Z",
+      "reviewed_commit": "b4c4cc4040b614d2aca81ad5f2bcd92ed3d422ec",
+      "evidence": [
+        {
+          "url": "https://github.com/EbookFoundation/free-programming-books/blob/b4c4cc4040b614d2aca81ad5f2bcd92ed3d422ec/README.md",
+          "path": "README.md",
+          "blob_sha": "4381df60280381cac21503d7ad91ac0babf17936"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "openclaw/openclaw",
+      "name": "openclaw/openclaw",
+      "url": "https://github.com/openclaw/openclaw",
+      "aliases": [
+        "moltbot/moltbot"
+      ],
+      "category": "ai",
+      "type": "개인 AI 에이전트",
+      "summary_ko": "자체 기기에서 실행하며 Slack·Discord 등 여러 메시지 채널과 모델을 연결한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T02:02:22.459Z",
+      "reviewed_commit": "cff0957181bef899e90271fc9c9542ee580a5947",
+      "evidence": [
+        {
+          "url": "https://github.com/openclaw/openclaw/blob/cff0957181bef899e90271fc9c9542ee580a5947/README.md",
+          "path": "README.md",
+          "blob_sha": "1f2d8c3150b06340b9599bacbd69aa2252772145"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "donnemartin/system-design-primer",
+      "name": "donnemartin/system-design-primer",
+      "url": "https://github.com/donnemartin/system-design-primer",
+      "aliases": [],
+      "category": "learning",
+      "type": "시스템 설계 학습 자료",
+      "summary_ko": "대규모 시스템의 구성과 설계 면접을 공부하기 위한 설명과 자료를 모았다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T02:02:22.459Z",
+      "reviewed_commit": "ae9bbd7b02d90b9866215de185217d33f39ab733",
+      "evidence": [
+        {
+          "url": "https://github.com/donnemartin/system-design-primer/blob/ae9bbd7b02d90b9866215de185217d33f39ab733/README.md",
+          "path": "README.md",
+          "blob_sha": "9e2cdb88dec86c34c9b49b657f5629a1866c6976"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "jwasham/coding-interview-university",
+      "name": "jwasham/coding-interview-university",
+      "url": "https://github.com/jwasham/coding-interview-university",
+      "aliases": [],
+      "category": "learning",
+      "type": "개발 면접 학습 계획",
+      "summary_ko": "소프트웨어 엔지니어 면접을 준비하는 컴퓨터 과학 학습 주제와 자료를 정리한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T02:02:22.459Z",
+      "reviewed_commit": "717298bf219a30d7fb0671285c5f057b1bb74b27",
+      "evidence": [
+        {
+          "url": "https://github.com/jwasham/coding-interview-university/blob/717298bf219a30d7fb0671285c5f057b1bb74b27/README.md",
+          "path": "README.md",
+          "blob_sha": "95a0d31a935c01c94f4b04ea5d8b7fc436c3dcf4"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "obra/superpowers",
+      "name": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "aliases": [],
+      "category": "code",
+      "type": "개발 워크플로 스킬 모음",
+      "summary_ko": "코딩 에이전트가 설계·계획·테스트·디버깅·검토를 단계별로 수행하도록 안내한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T02:02:22.459Z",
+      "reviewed_commit": "2ce8aa15d05bd57213e6f746f953aafb7ded7a8b",
+      "evidence": [
+        {
+          "url": "https://github.com/obra/superpowers/blob/2ce8aa15d05bd57213e6f746f953aafb7ded7a8b/README.md",
+          "path": "README.md",
+          "blob_sha": "c5bb59fdaf17ba154e803c549cd71a73ef36c24b"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "affaan-m/ecc",
+      "name": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "aliases": [
+        "affaan-m/everything-claude-code"
+      ],
+      "category": "code",
+      "type": "개발 에이전트 도구 모음",
+      "summary_ko": "코딩 에이전트에 계획·테스트·검토를 위한 스킬과 개발 도구를 제공한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T02:02:22.459Z",
+      "reviewed_commit": "b38be6a7f6350964d59328b52f0624e1d1d552d1",
+      "evidence": [
+        {
+          "url": "https://github.com/affaan-m/ECC/blob/b38be6a7f6350964d59328b52f0624e1d1d552d1/README.md",
+          "path": "README.md",
+          "blob_sha": "d8017086ca85d2e851ef2e0c88470b0b09dc3d4d"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "nousresearch/hermes-agent",
+      "name": "NousResearch/hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "aliases": [],
+      "category": "ai",
+      "type": "AI 에이전트",
+      "summary_ko": "대화 이력 검색과 스킬 생성을 지원하며 여러 모델과 메시징 채널에 연결한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T02:02:22.459Z",
+      "reviewed_commit": "ad2b705b4995a958b0a795e9097be661e2d1ef63",
+      "evidence": [
+        {
+          "url": "https://github.com/NousResearch/hermes-agent/blob/ad2b705b4995a958b0a795e9097be661e2d1ef63/README.md",
+          "path": "README.md",
+          "blob_sha": "1f5cfb9b49f78a09f94c04e12b38fec478dcc722"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "react/react",
+      "name": "react/react",
+      "url": "https://github.com/react/react",
+      "aliases": [
+        "facebook/react"
+      ],
+      "category": "code",
+      "type": "JavaScript UI 라이브러리",
+      "summary_ko": "상태를 가진 컴포넌트를 조합해 대화형 사용자 인터페이스를 만든다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T02:02:22.459Z",
+      "reviewed_commit": "76baa3b5434fad315ece9cfd4d20d7a8d6c34a25",
+      "evidence": [
+        {
+          "url": "https://github.com/react/react/blob/76baa3b5434fad315ece9cfd4d20d7a8d6c34a25/README.md",
+          "path": "README.md",
+          "blob_sha": "6dd74794143a0ebfb6c6f094d3f2632d87ad628a"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "trimstray/the-book-of-secret-knowledge",
+      "name": "trimstray/the-book-of-secret-knowledge",
+      "url": "https://github.com/trimstray/the-book-of-secret-knowledge",
+      "aliases": [],
+      "category": "learning",
+      "type": "시스템·보안 자료 모음",
+      "summary_ko": "시스템·네트워크 관리와 보안 관련 설명서, 명령어, 도구와 참고 목록을 모았다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T02:02:22.459Z",
+      "reviewed_commit": "7d37069a361d3fd9f214480755f7969744e866fa",
+      "evidence": [
+        {
+          "url": "https://github.com/trimstray/the-book-of-secret-knowledge/blob/7d37069a361d3fd9f214480755f7969744e866fa/README.md",
+          "path": "README.md",
+          "blob_sha": "2c1b9e4ee145961275b20df550d190446a65e579"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "multica-ai/andrej-karpathy-skills",
+      "name": "multica-ai/andrej-karpathy-skills",
+      "url": "https://github.com/multica-ai/andrej-karpathy-skills",
+      "aliases": [
+        "forrestchang/andrej-karpathy-skills"
+      ],
+      "category": "code",
+      "type": "코딩 에이전트 지침",
+      "summary_ko": "코딩 전 가정 확인, 단순한 구현, 필요한 부분만 수정, 검증 가능한 목표를 안내한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T02:02:22.459Z",
+      "reviewed_commit": "2c606141936f1eeef17fa3043a72095b4765b9c2",
+      "evidence": [
+        {
+          "url": "https://github.com/multica-ai/andrej-karpathy-skills/blob/2c606141936f1eeef17fa3043a72095b4765b9c2/README.md",
+          "path": "README.md",
+          "blob_sha": "7cf07a786532bebe01c65179c8e2c3a98cc0a09b"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "anomalyco/opencode",
+      "name": "anomalyco/opencode",
+      "url": "https://github.com/anomalyco/opencode",
+      "aliases": [
+        "sst/opencode"
+      ],
+      "category": "code",
+      "type": "AI 코딩 에이전트",
+      "summary_ko": "개발용 build와 읽기 전용 plan 에이전트를 제공하며 데스크톱 앱도 지원한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T02:02:22.459Z",
+      "reviewed_commit": "1bf08ae46a91f7793c756e4ee521e37b6b554064",
+      "evidence": [
+        {
+          "url": "https://github.com/anomalyco/opencode/blob/1bf08ae46a91f7793c756e4ee521e37b6b554064/README.md",
+          "path": "README.md",
+          "blob_sha": "60adea0e397cd675f01b1cf5f6dac9550ef5b377"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "ossu/computer-science",
+      "name": "ossu/computer-science",
+      "url": "https://github.com/ossu/computer-science",
+      "aliases": [],
+      "category": "learning",
+      "type": "컴퓨터 과학 교육 과정",
+      "summary_ko": "온라인 자료를 바탕으로 컴퓨터 과학 기초를 독학하는 교육 과정을 제공한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T02:02:22.459Z",
+      "reviewed_commit": "33d44a44e3526ede8e862bf1ad50ae5ae7a2f112",
+      "evidence": [
+        {
+          "url": "https://github.com/ossu/computer-science/blob/33d44a44e3526ede8e862bf1ad50ae5ae7a2f112/README.md",
+          "path": "README.md",
+          "blob_sha": "ae69b33e2c93d27a893d9ff8e79fe2e88e591ff9"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "n8n-io/n8n",
+      "name": "n8n-io/n8n",
+      "url": "https://github.com/n8n-io/n8n",
+      "aliases": [],
+      "category": "automation",
+      "type": "워크플로 자동화 플랫폼",
+      "summary_ko": "시각적 편집기와 코드로 서비스 및 AI 에이전트를 연결하는 다단계 워크플로를 구성한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T02:02:22.459Z",
+      "reviewed_commit": "18c045bfacb12c8163ff770970b330af9730aaab",
+      "evidence": [
+        {
+          "url": "https://github.com/n8n-io/n8n/blob/18c045bfacb12c8163ff770970b330af9730aaab/README.md",
+          "path": "README.md",
+          "blob_sha": "567d03f771487fd0be47cb5ac764d359cb281d2a"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "digitalplatdev/freedomain",
+      "name": "DigitalPlatDev/FreeDomain",
+      "url": "https://github.com/DigitalPlatDev/FreeDomain",
+      "aliases": [],
+      "category": "infrastructure",
+      "type": "도메인 서비스 안내·학습 자료",
+      "summary_ko": "무료 도메인 등록과 DNS 연결을 안내하며 웹사이트 배포 학습 자료를 제공한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T02:02:22.459Z",
+      "reviewed_commit": "9c7c54110705760267b07b6e6a6d406d1172a1bf",
+      "evidence": [
+        {
+          "url": "https://github.com/DigitalPlatDev/FreeDomain/blob/9c7c54110705760267b07b6e6a6d406d1172a1bf/README.md",
+          "path": "README.md",
+          "blob_sha": "2c2a240dae197318630d8424cd9f410b52f9fa4b"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "tensorflow/tensorflow",
+      "name": "tensorflow/tensorflow",
+      "url": "https://github.com/tensorflow/tensorflow",
+      "aliases": [],
+      "category": "ai",
+      "type": "머신러닝 프레임워크",
+      "summary_ko": "머신러닝 모델을 연구·개발·배포하기 위한 라이브러리와 Python·C++ API를 제공한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T02:02:22.459Z",
+      "reviewed_commit": "81aa77514e8d845b5852d869a61621e5a4c52036",
+      "evidence": [
+        {
+          "url": "https://github.com/tensorflow/tensorflow/blob/81aa77514e8d845b5852d869a61621e5a4c52036/README.md",
+          "path": "README.md",
+          "blob_sha": "2ada91b134b2bc6daa60ca6265f1290f38a748c1"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "yt-dlp/yt-dlp",
+      "name": "yt-dlp/yt-dlp",
+      "url": "https://github.com/yt-dlp/yt-dlp",
+      "aliases": [],
+      "category": "media",
+      "type": "영상·음성 다운로드 CLI",
+      "summary_ko": "지원 사이트에서 영상과 음성을 내려받고 형식·자막·출력 파일을 설정한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T02:02:22.459Z",
+      "reviewed_commit": "b77c9304e1c4220cca450c583491904daf8455af",
+      "evidence": [
+        {
+          "url": "https://github.com/yt-dlp/yt-dlp/blob/b77c9304e1c4220cca450c583491904daf8455af/README.md",
+          "path": "README.md",
+          "blob_sha": "750fae655ea0d5221bf49901508deb44681f3db0"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "microsoft/vscode",
+      "name": "microsoft/vscode",
+      "url": "https://github.com/microsoft/vscode",
+      "aliases": [],
+      "category": "code",
+      "type": "코드 편집기",
+      "summary_ko": "코드 편집·탐색·디버깅을 제공하고 확장 기능으로 개발 환경을 구성한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T02:02:22.459Z",
+      "reviewed_commit": "9af159dd2988d19eb2bc3f4496ca35306a0e0bee",
+      "evidence": [
+        {
+          "url": "https://github.com/microsoft/vscode/blob/9af159dd2988d19eb2bc3f4496ca35306a0e0bee/README.md",
+          "path": "README.md",
+          "blob_sha": "b7770cecdd10433d6e7f072a3e2adf2f41bbedc2"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "firecrawl/firecrawl",
+      "name": "firecrawl/firecrawl",
+      "url": "https://github.com/firecrawl/firecrawl",
+      "aliases": [],
+      "category": "search",
+      "type": "웹 수집 API",
+      "summary_ko": "웹페이지 검색·수집과 문서 파싱을 수행해 Markdown·JSON 등으로 결과를 반환한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T02:02:22.459Z",
+      "reviewed_commit": "c4fe71b2372e30c5b12dc1cf8485084b87cc5f46",
+      "evidence": [
+        {
+          "url": "https://github.com/firecrawl/firecrawl/blob/c4fe71b2372e30c5b12dc1cf8485084b87cc5f46/README.md",
+          "path": "README.md",
+          "blob_sha": "ff95e1113ec174abfe56cfdaebd4991183cf634c"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "microsoft/markitdown",
+      "name": "microsoft/markitdown",
+      "url": "https://github.com/microsoft/markitdown",
+      "aliases": [],
+      "category": "productivity",
+      "type": "문서 변환 Python 도구",
+      "summary_ko": "PDF·Office 문서·HTML 등 여러 형식을 텍스트 분석용 Markdown으로 변환한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T02:02:22.459Z",
+      "reviewed_commit": "7482c092d9c0074a89803c9fdb63a969e7fe17fc",
+      "evidence": [
+        {
+          "url": "https://github.com/microsoft/markitdown/blob/7482c092d9c0074a89803c9fdb63a969e7fe17fc/README.md",
+          "path": "README.md",
+          "blob_sha": "13e1ea8b1c60275a4b3afab8ce8cd442531cf736"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "significant-gravitas/autogpt",
+      "name": "Significant-Gravitas/AutoGPT",
+      "url": "https://github.com/Significant-Gravitas/AutoGPT",
+      "aliases": [],
+      "category": "ai",
+      "type": "AI 에이전트 플랫폼",
+      "summary_ko": "여러 역할의 AI 에이전트를 구성하고 작업을 분담해 콘텐츠·조사 등의 업무를 수행한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T02:02:22.459Z",
+      "reviewed_commit": "ef7f41cea9dba465d6cdcc2c81ae8b6e3d5b77d8",
+      "evidence": [
+        {
+          "url": "https://github.com/Significant-Gravitas/AutoGPT/blob/ef7f41cea9dba465d6cdcc2c81ae8b6e3d5b77d8/README.md",
+          "path": "README.md",
+          "blob_sha": "951eda9dfd4c43e0cab092796e67acd9ad0daf34"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "ollama/ollama",
+      "name": "ollama/ollama",
+      "url": "https://github.com/ollama/ollama",
+      "aliases": [],
+      "category": "ai",
+      "type": "모델 실행 도구",
+      "summary_ko": "오픈 모델을 로컬이나 클라우드에서 실행하고 앱·코딩 에이전트와 연결한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T02:02:22.459Z",
+      "reviewed_commit": "9a3e8177767245acc62b735eba7d5d8a553606d0",
+      "evidence": [
+        {
+          "url": "https://github.com/ollama/ollama/blob/9a3e8177767245acc62b735eba7d5d8a553606d0/README.md",
+          "path": "README.md",
+          "blob_sha": "6ccf0acbeff491cfffdd6fc972109801fd68fe36"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "anthropics/skills",
+      "name": "anthropics/skills",
+      "url": "https://github.com/anthropics/skills",
+      "aliases": [],
+      "category": "ai",
+      "type": "Claude 스킬 모음",
+      "summary_ko": "문서 작성 등 특정 작업에 Claude가 사용할 지침·스크립트·리소스 예제를 모았다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T02:02:22.459Z",
+      "reviewed_commit": "ca45fc496a3436251f191354091d557da31c15b5",
+      "evidence": [
+        {
+          "url": "https://github.com/anthropics/skills/blob/ca45fc496a3436251f191354091d557da31c15b5/README.md",
+          "path": "README.md",
+          "blob_sha": "eb54ee8b92f2d40b4b26569be0772be3c1e23156"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "flutter/flutter",
+      "name": "flutter/flutter",
+      "url": "https://github.com/flutter/flutter",
+      "aliases": [],
+      "category": "code",
+      "type": "UI 개발 SDK",
+      "summary_ko": "단일 코드베이스로 모바일·웹·데스크톱 애플리케이션의 인터페이스를 만든다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T02:02:22.459Z",
+      "reviewed_commit": "724e813395b4f619929c1e16b0a089352fbc83db",
+      "evidence": [
+        {
+          "url": "https://github.com/flutter/flutter/blob/724e813395b4f619929c1e16b0a089352fbc83db/README.md",
+          "path": "README.md",
+          "blob_sha": "b9e6bc763380cabef9330c92478816ff79dbcae7"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "f/prompts.chat",
+      "name": "f/prompts.chat",
+      "url": "https://github.com/f/prompts.chat",
+      "aliases": [],
+      "category": "ai",
+      "type": "AI 프롬프트 모음",
+      "summary_ko": "여러 AI 대화 모델에 사용할 프롬프트를 모아 탐색과 다운로드를 제공한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T02:02:22.459Z",
+      "reviewed_commit": "d2a57a8276161a45358858e0a62cd8b6c8eae03f",
+      "evidence": [
+        {
+          "url": "https://github.com/f/prompts.chat/blob/d2a57a8276161a45358858e0a62cd8b6c8eae03f/README.md",
+          "path": "README.md",
+          "blob_sha": "ea9962a2bdd6b38e6d85adbbc8f11dd9ee12bfaf"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "huggingface/transformers",
+      "name": "huggingface/transformers",
+      "url": "https://github.com/huggingface/transformers",
+      "aliases": [],
+      "category": "ai",
+      "type": "머신러닝 모델 라이브러리",
+      "summary_ko": "텍스트·영상·음성·멀티모달 모델의 정의와 학습·추론용 도구를 제공한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T02:02:22.459Z",
+      "reviewed_commit": "409c349011c1099d66501d6c424ba411b9835a19",
+      "evidence": [
+        {
+          "url": "https://github.com/huggingface/transformers/blob/409c349011c1099d66501d6c424ba411b9835a19/README.md",
+          "path": "README.md",
+          "blob_sha": "3fb175afdddfae6feb4ef5438326aa9b0a9abd99"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "dietrichgebert/ponytail",
+      "name": "DietrichGebert/ponytail",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "aliases": [],
+      "category": "code",
+      "type": "코딩 에이전트 스킬",
+      "summary_ko": "필요한 코드만 작성하고 테스트·보안·오류 처리를 유지하도록 코딩 에이전트를 안내한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T02:02:22.459Z",
+      "reviewed_commit": "96608e078b2d5ea607c5c3b8b5a54d1c1fba6846",
+      "evidence": [
+        {
+          "url": "https://github.com/DietrichGebert/ponytail/blob/96608e078b2d5ea607c5c3b8b5a54d1c1fba6846/README.md",
+          "path": "README.md",
+          "blob_sha": "ff6a92573ef6412495055d979cff1d7464e1fa65"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "automatic1111/stable-diffusion-webui",
+      "name": "AUTOMATIC1111/stable-diffusion-webui",
+      "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+      "aliases": [],
+      "category": "media",
+      "type": "이미지 생성 웹 UI",
+      "summary_ko": "Stable Diffusion의 텍스트·이미지 기반 생성, 인페인팅과 이미지 확장 기능을 제공한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T02:02:22.459Z",
+      "reviewed_commit": "82a973c04367123ae98bd9abdf80d9eda9b910e2",
+      "evidence": [
+        {
+          "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui/blob/82a973c04367123ae98bd9abdf80d9eda9b910e2/README.md",
+          "path": "README.md",
+          "blob_sha": "bc62945c0c566f85c30434fd482fde9ee6116c26"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "msitarzewski/agency-agents",
+      "name": "msitarzewski/agency-agents",
+      "url": "https://github.com/msitarzewski/agency-agents",
+      "aliases": [],
+      "category": "ai",
+      "type": "전문 에이전트 모음",
+      "summary_ko": "서로 다른 역할과 작업 절차를 가진 AI 에이전트 지침을 모아 여러 코딩 도구에 설치한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T02:02:22.459Z",
+      "reviewed_commit": "b37b5bb33b78f2c1d6567d98e25ca818e3259219",
+      "evidence": [
+        {
+          "url": "https://github.com/msitarzewski/agency-agents/blob/b37b5bb33b78f2c1d6567d98e25ca818e3259219/README.md",
+          "path": "README.md",
+          "blob_sha": "5c59c078e3388ec5af5b134ff2137aca42cd7555"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "langgenius/dify",
+      "name": "langgenius/dify",
+      "url": "https://github.com/langgenius/dify",
+      "aliases": [],
+      "category": "ai",
+      "type": "LLM 앱 개발 플랫폼",
+      "summary_ko": "시각적 워크플로·RAG·에이전트와 모델 관리를 결합해 LLM 앱을 구성한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T02:02:22.459Z",
+      "reviewed_commit": "8d812b938af6b8f544f7ca6c74010861a826c63b",
+      "evidence": [
+        {
+          "url": "https://github.com/langgenius/dify/blob/8d812b938af6b8f544f7ca6c74010861a826c63b/README.md",
+          "path": "README.md",
+          "blob_sha": "e8572f93797ee113302a7c2e29be02ea31153119"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "open-webui/open-webui",
+      "name": "open-webui/open-webui",
+      "url": "https://github.com/open-webui/open-webui",
+      "aliases": [],
+      "category": "ai",
+      "type": "AI 웹 인터페이스",
+      "summary_ko": "자체 호스팅 환경에서 Ollama와 OpenAI 호환 API를 연결하고 플러그인으로 기능을 확장한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T02:02:22.459Z",
+      "reviewed_commit": "f7ac7ee10962ddec0017f5c29b6740d9b9c5faca",
+      "evidence": [
+        {
+          "url": "https://github.com/open-webui/open-webui/blob/f7ac7ee10962ddec0017f5c29b6740d9b9c5faca/README.md",
+          "path": "README.md",
+          "blob_sha": "17b816309d96440f773a77877776dc73b7161de0"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "langflow-ai/langflow",
+      "name": "langflow-ai/langflow",
+      "url": "https://github.com/langflow-ai/langflow",
+      "aliases": [],
+      "category": "ai",
+      "type": "AI 워크플로 플랫폼",
+      "summary_ko": "시각적 편집기로 에이전트·검색 흐름을 만들고 API 또는 MCP 서버로 제공한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T02:02:22.459Z",
+      "reviewed_commit": "600fcef39ee46335844607840ee8250fbc015aba",
+      "evidence": [
+        {
+          "url": "https://github.com/langflow-ai/langflow/blob/600fcef39ee46335844607840ee8250fbc015aba/README.md",
+          "path": "README.md",
+          "blob_sha": "1e9c7ce08a9e61c6f4e796366c695be81c47d7eb"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "clash-verge-rev/clash-verge-rev",
+      "name": "clash-verge-rev/clash-verge-rev",
+      "url": "https://github.com/clash-verge-rev/clash-verge-rev",
+      "aliases": [],
+      "category": "infrastructure",
+      "type": "네트워크 프록시 GUI",
+      "summary_ko": "Clash Meta를 위한 데스크톱 그래픽 인터페이스를 Windows·Linux·macOS에서 제공한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T02:02:22.459Z",
+      "reviewed_commit": "5b7e876ab0332620e100bf826fc84f20f1658acd",
+      "evidence": [
+        {
+          "url": "https://github.com/clash-verge-rev/clash-verge-rev/blob/5b7e876ab0332620e100bf826fc84f20f1658acd/README.md",
+          "path": "README.md",
+          "blob_sha": "55199771804cb475c3d02614794cdc4f1aa13c26"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "genymobile/scrcpy",
+      "name": "Genymobile/scrcpy",
+      "url": "https://github.com/Genymobile/scrcpy",
+      "aliases": [],
+      "category": "devices",
+      "type": "Android 화면 제어 도구",
+      "summary_ko": "USB 또는 TCP/IP로 연결한 Android의 화면·음성을 컴퓨터에 표시하고 키보드·마우스로 제어한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T02:02:22.459Z",
+      "reviewed_commit": "a60891aea193d92e7e5c3942700eca63f9d19a5f",
+      "evidence": [
+        {
+          "url": "https://github.com/Genymobile/scrcpy/blob/a60891aea193d92e7e5c3942700eca63f9d19a5f/README.md",
+          "path": "README.md",
+          "blob_sha": "58387e0af7d3df463ca4977930df73781d276d48"
         }
       ],
       "execution_tested": false
