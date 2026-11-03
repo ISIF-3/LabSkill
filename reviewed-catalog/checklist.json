@@ -11,8 +11,8 @@
       "source_id": "morluto/rea",
       "canonical_id": "morluto/rea",
       "review_status": "reviewed",
-      "slack_list_status": "unverified",
-      "slack_canvas_status": "unverified"
+      "slack_list_status": "synced",
+      "slack_canvas_status": "synced"
     },
     {
       "position": 2,
@@ -435,8 +435,8 @@
       "source_id": "langgenius/dify",
       "canonical_id": "langgenius/dify",
       "review_status": "reviewed",
-      "slack_list_status": "unverified",
-      "slack_canvas_status": "unverified"
+      "slack_list_status": "synced",
+      "slack_canvas_status": "synced"
     },
     {
       "position": 55,
