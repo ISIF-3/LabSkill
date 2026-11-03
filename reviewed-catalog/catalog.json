@@ -6,7 +6,7 @@
   "scope": "2026-10-22 공개 seed 전체",
   "historical_count": 1266,
   "missing_history_date": "2026-10-22",
-  "reviewed_count": 100,
+  "reviewed_count": 120,
   "classification_method": "직접 원문 검토",
   "categories": [
     {
@@ -2296,6 +2296,428 @@
           "url": "https://github.com/Genymobile/scrcpy/blob/a60891aea193d92e7e5c3942700eca63f9d19a5f/README.md",
           "path": "README.md",
           "blob_sha": "58387e0af7d3df463ca4977930df73781d276d48"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "sindresorhus/awesome",
+      "name": "sindresorhus/awesome",
+      "url": "https://github.com/sindresorhus/awesome",
+      "aliases": [],
+      "category": "learning",
+      "type": "자료 목록",
+      "summary_ko": "프로그래밍 언어·플랫폼·컴퓨터 과학 등 분야별 참고 목록을 모았다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T03:04:40.462Z",
+      "reviewed_commit": "bc98e517ddca672f55f9857d714fc3ea3c3540b2",
+      "evidence": [
+        {
+          "url": "https://github.com/sindresorhus/awesome/blob/bc98e517ddca672f55f9857d714fc3ea3c3540b2/readme.md",
+          "path": "readme.md",
+          "blob_sha": "0acaa99d5f45582ecf70f987213f59ae1855226f"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "anthropics/claude-code",
+      "name": "anthropics/claude-code",
+      "url": "https://github.com/anthropics/claude-code",
+      "aliases": [],
+      "category": "code",
+      "type": "코딩 에이전트",
+      "summary_ko": "자연어 명령으로 코드 설명·개발 작업과 Git 작업을 지원하는 에이전트다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T03:04:40.462Z",
+      "reviewed_commit": "964d69565952a176ac1975ed218362991db71433",
+      "evidence": [
+        {
+          "url": "https://github.com/anthropics/claude-code/blob/964d69565952a176ac1975ed218362991db71433/README.md",
+          "path": "README.md",
+          "blob_sha": "70754c523454ad5fd94e5ef910cc347cf69e6f6b"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "farion1231/cc-switch",
+      "name": "farion1231/cc-switch",
+      "url": "https://github.com/farion1231/cc-switch",
+      "aliases": [],
+      "category": "ai",
+      "type": "에이전트 설정 관리자",
+      "summary_ko": "여러 AI 도구의 모델 제공자, MCP, 스킬과 프롬프트 설정을 관리한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T03:04:40.462Z",
+      "reviewed_commit": "7afceec14b977ecc2f4373e8ffb40e7223b435ac",
+      "evidence": [
+        {
+          "url": "https://github.com/farion1231/cc-switch/blob/7afceec14b977ecc2f4373e8ffb40e7223b435ac/README.md",
+          "path": "README.md",
+          "blob_sha": "9fcd4bf8271a4a8e146de7831e81b549334674b6"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "yangshun/tech-interview-handbook",
+      "name": "yangshun/tech-interview-handbook",
+      "url": "https://github.com/yangshun/tech-interview-handbook",
+      "aliases": [],
+      "category": "learning",
+      "type": "면접 학습 자료",
+      "summary_ko": "코딩 면접 문제와 준비 방법을 모아 제공한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T03:04:40.462Z",
+      "reviewed_commit": "e1d28e8886c0b6ff3e50da991ce0e895134ddc59",
+      "evidence": [
+        {
+          "url": "https://github.com/yangshun/tech-interview-handbook/blob/e1d28e8886c0b6ff3e50da991ce0e895134ddc59/README.md",
+          "path": "README.md",
+          "blob_sha": "fd6916d7b061a112b3e0698c7e6ebdb4d2d3d763"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "vercel/next.js",
+      "name": "vercel/next.js",
+      "url": "https://github.com/vercel/next.js",
+      "aliases": [],
+      "category": "code",
+      "type": "웹 개발 프레임워크",
+      "summary_ko": "React 기능을 확장해 풀스택 웹 애플리케이션을 구축한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T03:04:40.462Z",
+      "reviewed_commit": "61e1348fb523473db8cb3a6cfcadf7eefbf27d5f",
+      "evidence": [
+        {
+          "url": "https://github.com/vercel/next.js/blob/61e1348fb523473db8cb3a6cfcadf7eefbf27d5f/readme.md",
+          "path": "readme.md",
+          "blob_sha": "29e4f3032d3dd24eb12f0381e288e4dc033e0845"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "shubhamsaboo/awesome-llm-apps",
+      "name": "Shubhamsaboo/awesome-llm-apps",
+      "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+      "aliases": [],
+      "category": "ai",
+      "type": "AI 애플리케이션 예제",
+      "summary_ko": "여러 모델을 활용하는 AI 에이전트와 RAG 애플리케이션 예제를 모았다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T03:04:40.462Z",
+      "reviewed_commit": "6c16b23f1bacd0fdf240bb5141ef45e59e82c306",
+      "evidence": [
+        {
+          "url": "https://github.com/Shubhamsaboo/awesome-llm-apps/blob/6c16b23f1bacd0fdf240bb5141ef45e59e82c306/README.md",
+          "path": "README.md",
+          "blob_sha": "4740a61ab2223614f6fa96757a57f3ae94bc6408"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "github/spec-kit",
+      "name": "github/spec-kit",
+      "url": "https://github.com/github/spec-kit",
+      "aliases": [],
+      "category": "code",
+      "type": "개발 워크플로 도구",
+      "summary_ko": "명세 기반 개발, 버그 수정과 아이디어 평가를 위한 템플릿과 절차를 제공한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T03:04:40.462Z",
+      "reviewed_commit": "ba8363f8ab56b2da456a81299cfdbfee1ef7b871",
+      "evidence": [
+        {
+          "url": "https://github.com/github/spec-kit/blob/ba8363f8ab56b2da456a81299cfdbfee1ef7b871/README.md",
+          "path": "README.md",
+          "blob_sha": "0d6d47f276feeda1afc2fe98b3ae653cd4b40fb4"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "iptv-org/iptv",
+      "name": "iptv-org/iptv",
+      "url": "https://github.com/iptv-org/iptv",
+      "aliases": [],
+      "category": "media",
+      "type": "IPTV 채널 목록",
+      "summary_ko": "공개 IPTV 채널을 재생 목록으로 모아 제공한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T03:04:40.462Z",
+      "reviewed_commit": "250852d0638fee3f1d4b06869bf1fceb7a46e1e9",
+      "evidence": [
+        {
+          "url": "https://github.com/iptv-org/iptv/blob/250852d0638fee3f1d4b06869bf1fceb7a46e1e9/README.md",
+          "path": "README.md",
+          "blob_sha": "782c58896eeac0c866c373724ba4aee87d72d918"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "ripienaar/free-for-dev",
+      "name": "ripienaar/free-for-dev",
+      "url": "https://github.com/ripienaar/free-for-dev",
+      "aliases": [],
+      "category": "learning",
+      "type": "개발 서비스 목록",
+      "summary_ko": "개발자를 위한 무료 이용 범위가 있는 온라인 서비스 목록을 모았다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T03:04:40.462Z",
+      "reviewed_commit": "ff4c52d54e56d3fb8a12b4c76bc95c2c78a28e87",
+      "evidence": [
+        {
+          "url": "https://github.com/ripienaar/free-for-dev/blob/ff4c52d54e56d3fb8a12b4c76bc95c2c78a28e87/README.md",
+          "path": "README.md",
+          "blob_sha": "7301555228ee866395e684ba7a51d9c2097795e1"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "microsoft/powertoys",
+      "name": "microsoft/PowerToys",
+      "url": "https://github.com/microsoft/PowerToys",
+      "aliases": [],
+      "category": "devices",
+      "type": "Windows 유틸리티 모음",
+      "summary_ko": "Windows 작업과 화면·파일 관리 등을 위한 도구를 제공한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T03:04:40.462Z",
+      "reviewed_commit": "bd745f4df6347378238273f9c4ae2d95ab55325f",
+      "evidence": [
+        {
+          "url": "https://github.com/microsoft/PowerToys/blob/bd745f4df6347378238273f9c4ae2d95ab55325f/README.md",
+          "path": "README.md",
+          "blob_sha": "ae0ed8458fac186d8543f1397646907720af2434"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "golang/go",
+      "name": "golang/go",
+      "url": "https://github.com/golang/go",
+      "aliases": [],
+      "category": "code",
+      "type": "프로그래밍 언어",
+      "summary_ko": "Go 언어의 소스와 설치·개발 자료를 제공한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T03:04:40.462Z",
+      "reviewed_commit": "44b6bc904602c7ffe674956d59f804a997f9bae3",
+      "evidence": [
+        {
+          "url": "https://github.com/golang/go/blob/44b6bc904602c7ffe674956d59f804a997f9bae3/README.md",
+          "path": "README.md",
+          "blob_sha": "71c9d1dc2993880f38d227085d1b48c4070d1e85"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "garrytan/gstack",
+      "name": "garrytan/gstack",
+      "url": "https://github.com/garrytan/gstack",
+      "aliases": [],
+      "category": "code",
+      "type": "코딩 에이전트 스킬",
+      "summary_ko": "개발 에이전트에 설계·코드 검토·테스트 등 역할별 작업 지침을 제공한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T03:04:40.462Z",
+      "reviewed_commit": "a65404886b02987ee1b22df430f06efc41fab109",
+      "evidence": [
+        {
+          "url": "https://github.com/garrytan/gstack/blob/a65404886b02987ee1b22df430f06efc41fab109/README.md",
+          "path": "README.md",
+          "blob_sha": "b4b40adc090ef2eb3a661f54b217242a019b3b38"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "harry0703/moneyprinterturbo",
+      "name": "harry0703/MoneyPrinterTurbo",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "aliases": [],
+      "category": "media",
+      "type": "영상 생성 도구",
+      "summary_ko": "영상 주제나 키워드로 대본·화면 자료·자막·음악을 결합한 짧은 영상을 만든다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T03:04:40.462Z",
+      "reviewed_commit": "ab6004e5858998b2ce99ac46c0f16675eea9ab6f",
+      "evidence": [
+        {
+          "url": "https://github.com/harry0703/MoneyPrinterTurbo/blob/ab6004e5858998b2ce99ac46c0f16675eea9ab6f/README.md",
+          "path": "README.md",
+          "blob_sha": "bd36fa40ea714426acfdef9aa01750c05b1aaa94"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "ggml-org/llama.cpp",
+      "name": "ggml-org/llama.cpp",
+      "url": "https://github.com/ggml-org/llama.cpp",
+      "aliases": [],
+      "category": "ai",
+      "type": "LLM 추론 엔진",
+      "summary_ko": "C와 C++로 대형 언어 모델 추론을 수행한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T03:04:40.462Z",
+      "reviewed_commit": "2cbca389f515df455412dafa07e2b1359cc72a6d",
+      "evidence": [
+        {
+          "url": "https://github.com/ggml-org/llama.cpp/blob/2cbca389f515df455412dafa07e2b1359cc72a6d/README.md",
+          "path": "README.md",
+          "blob_sha": "a72afcae664ae5217bfac8959582ea4b8e436a89"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "krahets/hello-algo",
+      "name": "krahets/hello-algo",
+      "url": "https://github.com/krahets/hello-algo",
+      "aliases": [],
+      "category": "learning",
+      "type": "알고리즘 입문서",
+      "summary_ko": "자료구조와 알고리즘을 그림·애니메이션 및 실행 가능한 예제로 설명한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T03:04:40.462Z",
+      "reviewed_commit": "591a28427db5607deb11d1f3aae967781b1658f2",
+      "evidence": [
+        {
+          "url": "https://github.com/krahets/hello-algo/blob/591a28427db5607deb11d1f3aae967781b1658f2/README.md",
+          "path": "README.md",
+          "blob_sha": "7086aa610c025d3a745fbfbe5e2b1594221b49bc"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "openai/codex",
+      "name": "openai/codex",
+      "url": "https://github.com/openai/codex",
+      "aliases": [],
+      "category": "code",
+      "type": "코딩 에이전트",
+      "summary_ko": "로컬 CLI와 편집기 등에서 코드 작업을 수행하는 에이전트 도구다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T03:04:40.462Z",
+      "reviewed_commit": "fbf5f0d3a716d08c254d3e4941d5b12eaff5afe7",
+      "evidence": [
+        {
+          "url": "https://github.com/openai/codex/blob/fbf5f0d3a716d08c254d3e4941d5b12eaff5afe7/README.md",
+          "path": "README.md",
+          "blob_sha": "06b02fced7db972084bf0188cb03f60375b51c1c"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "kubernetes/kubernetes",
+      "name": "kubernetes/kubernetes",
+      "url": "https://github.com/kubernetes/kubernetes",
+      "aliases": [],
+      "category": "infrastructure",
+      "type": "컨테이너 관리 시스템",
+      "summary_ko": "여러 호스트에서 컨테이너 애플리케이션의 배포·유지·확장을 관리한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T03:04:40.462Z",
+      "reviewed_commit": "8b2d0e51804e28ad83fb55c1863afda1001c84d5",
+      "evidence": [
+        {
+          "url": "https://github.com/kubernetes/kubernetes/blob/8b2d0e51804e28ad83fb55c1863afda1001c84d5/README.md",
+          "path": "README.md",
+          "blob_sha": "831bf0164f8e625d70c35a99ae23fd3522870f52"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "graphify-labs/graphify",
+      "name": "Graphify-Labs/graphify",
+      "url": "https://github.com/Graphify-Labs/graphify",
+      "aliases": [
+        "safishamsi/graphify"
+      ],
+      "category": "data",
+      "type": "지식 그래프 도구",
+      "summary_ko": "코드와 문서 등을 지식 그래프로 구성해 프로젝트 내용을 검색한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T03:04:40.462Z",
+      "reviewed_commit": "8e6a6d2129d4aeffc7a0e9ed79b153f7f057f42b",
+      "evidence": [
+        {
+          "url": "https://github.com/Graphify-Labs/graphify/blob/8e6a6d2129d4aeffc7a0e9ed79b153f7f057f42b/README.md",
+          "path": "README.md",
+          "blob_sha": "432a25d53fe47153f24766cf7179abbe34d48406"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "shadcn-ui/ui",
+      "name": "shadcn-ui/ui",
+      "url": "https://github.com/shadcn-ui/ui",
+      "aliases": [],
+      "category": "code",
+      "type": "UI 컴포넌트 모음",
+      "summary_ko": "수정·확장 가능한 사용자 인터페이스 컴포넌트를 제공한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T03:04:40.462Z",
+      "reviewed_commit": "4aaea19d9cff3e0908e12a8c1d504b8c5ec34610",
+      "evidence": [
+        {
+          "url": "https://github.com/shadcn-ui/ui/blob/4aaea19d9cff3e0908e12a8c1d504b8c5ec34610/README.md",
+          "path": "README.md",
+          "blob_sha": "35657b37e0ef00aa7b477896d51a8fd0d5af8f49"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "nodejs/node",
+      "name": "nodejs/node",
+      "url": "https://github.com/nodejs/node",
+      "aliases": [],
+      "category": "code",
+      "type": "JavaScript 런타임",
+      "summary_ko": "여러 운영체제에서 JavaScript를 실행하는 런타임과 소스 코드를 제공한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T03:04:40.462Z",
+      "reviewed_commit": "96de0e2f50d5289eaaeade9cc9e5d7e01a850774",
+      "evidence": [
+        {
+          "url": "https://github.com/nodejs/node/blob/96de0e2f50d5289eaaeade9cc9e5d7e01a850774/README.md",
+          "path": "README.md",
+          "blob_sha": "ff4d05e1cd9b29072f15eedde1ce10234a6d2b31"
         }
       ],
       "execution_tested": false
