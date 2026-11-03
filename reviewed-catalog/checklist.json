@@ -8798,8 +8798,8 @@
       "review_status": "needs_review",
       "slack_list_status": "not_ready",
       "slack_canvas_status": "not_ready",
-      "review_error": "고정 README에 이전 안내만 있음; 이전 대상의 원문과 동일성 추가 확인 필요",
-      "last_attempt_at": "2026-11-03T09:53:37.715Z"
+      "review_error": "HEAD 고정 README는 Codeberg 이전만 안내하며 이전 대상 접근이 제한되어 원문 미확인",
+      "last_attempt_at": "2026-11-03T14:42:56.939Z"
     },
     {
       "position": 1099,
@@ -10233,8 +10233,8 @@
       "review_status": "needs_review",
       "slack_list_status": "not_ready",
       "slack_canvas_status": "not_ready",
-      "review_error": "HEAD 314c98567d65222656b38e58efb31ea0b7ceac5c의 루트 README.md 조회에서 404 반환; 다른 README 경로 확인 필요",
-      "last_attempt_at": "2026-11-03T09:53:37.715Z"
+      "review_error": "HEAD 314c98567d65222656b38e58efb31ea0b7ceac5c 저장소 전체 트리에서 README가 확인되지 않음",
+      "last_attempt_at": "2026-11-03T14:42:56.939Z"
     },
     {
       "position": 1278,
@@ -10252,7 +10252,7 @@
       "slack_list_status": "not_ready",
       "slack_canvas_status": "not_ready",
       "review_error": "GitHub 저장소 조회에서 404 반환; 삭제 또는 접근 제한 여부는 미확인",
-      "last_attempt_at": "2026-11-03T09:53:37.715Z"
+      "last_attempt_at": "2026-11-03T14:42:56.939Z"
     },
     {
       "position": 1280,
@@ -10262,7 +10262,7 @@
       "slack_list_status": "not_ready",
       "slack_canvas_status": "not_ready",
       "review_error": "GitHub 저장소 조회에서 404 반환; 삭제 또는 접근 제한 여부는 미확인",
-      "last_attempt_at": "2026-11-03T09:53:37.715Z"
+      "last_attempt_at": "2026-11-03T14:42:56.939Z"
     },
     {
       "position": 1281,
@@ -10272,7 +10272,7 @@
       "slack_list_status": "not_ready",
       "slack_canvas_status": "not_ready",
       "review_error": "GitHub 저장소 조회에서 404 반환; 삭제 또는 접근 제한 여부는 미확인",
-      "last_attempt_at": "2026-11-03T09:53:37.715Z"
+      "last_attempt_at": "2026-11-03T14:42:56.939Z"
     },
     {
       "position": 1282,
@@ -10282,7 +10282,7 @@
       "slack_list_status": "not_ready",
       "slack_canvas_status": "not_ready",
       "review_error": "GitHub 저장소 조회에서 404 반환; 삭제 또는 접근 제한 여부는 미확인",
-      "last_attempt_at": "2026-11-03T09:53:37.715Z"
+      "last_attempt_at": "2026-11-03T14:42:56.939Z"
     },
     {
       "position": 1283,
@@ -10292,7 +10292,7 @@
       "slack_list_status": "not_ready",
       "slack_canvas_status": "not_ready",
       "review_error": "GitHub 저장소 조회에서 404 반환; 삭제 또는 접근 제한 여부는 미확인",
-      "last_attempt_at": "2026-11-03T09:53:37.715Z"
+      "last_attempt_at": "2026-11-03T14:42:56.939Z"
     },
     {
       "position": 1284,
@@ -10302,7 +10302,7 @@
       "slack_list_status": "not_ready",
       "slack_canvas_status": "not_ready",
       "review_error": "GitHub 저장소 조회에서 404 반환; 삭제 또는 접근 제한 여부는 미확인",
-      "last_attempt_at": "2026-11-03T09:53:37.715Z"
+      "last_attempt_at": "2026-11-03T14:42:56.939Z"
     },
     {
       "position": 1285,
@@ -10312,7 +10312,7 @@
       "slack_list_status": "not_ready",
       "slack_canvas_status": "not_ready",
       "review_error": "GitHub 저장소 조회에서 404 반환; 삭제 또는 접근 제한 여부는 미확인",
-      "last_attempt_at": "2026-11-03T09:53:37.715Z"
+      "last_attempt_at": "2026-11-03T14:42:56.939Z"
     },
     {
       "position": 1286,
@@ -10322,7 +10322,7 @@
       "slack_list_status": "not_ready",
       "slack_canvas_status": "not_ready",
       "review_error": "GitHub 저장소 조회에서 404 반환; 삭제 또는 접근 제한 여부는 미확인",
-      "last_attempt_at": "2026-11-03T09:53:37.715Z"
+      "last_attempt_at": "2026-11-03T14:42:56.939Z"
     }
   ]
 }
