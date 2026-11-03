@@ -72,7 +72,8 @@
   ],
   "aliases": {
     "K-Dense-AI/claude-scientific-skills": "K-Dense-AI/scientific-agent-skills",
-    "jamwithai/arxiv-paper-curator": "jamwithai/production-agentic-rag-course"
+    "jamwithai/arxiv-paper-curator": "jamwithai/production-agentic-rag-course",
+    "ruvnet/claude-flow": "ruvnet/ruflo"
   },
   "records": [
     {
@@ -1517,7 +1518,9 @@
       "id": "ruvnet/ruflo",
       "name": "ruvnet/ruflo",
       "url": "https://github.com/ruvnet/ruflo",
-      "aliases": [],
+      "aliases": [
+        "ruvnet/claude-flow"
+      ],
       "category": "ai",
       "type": "에이전트 실행 도구",
       "summary_ko": "Claude Code·Codex에서 에이전트를 관리하고 MCP 도구 및 시각적 콘솔을 제공한다.",
