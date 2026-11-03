@@ -491,8 +491,8 @@
       "source_id": "x1xhlol/system-prompts-and-models-of-ai-tools",
       "canonical_id": "x1xhlol/system-prompts-and-models-of-ai-tools",
       "review_status": "reviewed",
-      "slack_list_status": "unverified",
-      "slack_canvas_status": "unverified"
+      "slack_list_status": "synced",
+      "slack_canvas_status": "synced"
     },
     {
       "position": 62,
@@ -635,8 +635,8 @@
       "source_id": "rustdesk/rustdesk",
       "canonical_id": "rustdesk/rustdesk",
       "review_status": "reviewed",
-      "slack_list_status": "unverified",
-      "slack_canvas_status": "unverified"
+      "slack_list_status": "synced",
+      "slack_canvas_status": "synced"
     },
     {
       "position": 80,
@@ -723,8 +723,8 @@
       "source_id": "jaywcjlove/awesome-mac",
       "canonical_id": "jaywcjlove/awesome-mac",
       "review_status": "reviewed",
-      "slack_list_status": "unverified",
-      "slack_canvas_status": "unverified"
+      "slack_list_status": "synced",
+      "slack_canvas_status": "synced"
     },
     {
       "position": 91,
@@ -803,8 +803,8 @@
       "source_id": "addyosmani/agent-skills",
       "canonical_id": "addyosmani/agent-skills",
       "review_status": "reviewed",
-      "slack_list_status": "unverified",
-      "slack_canvas_status": "unverified"
+      "slack_list_status": "synced",
+      "slack_canvas_status": "synced"
     },
     {
       "position": 101,
@@ -827,8 +827,8 @@
       "source_id": "microsoft/terminal",
       "canonical_id": "microsoft/terminal",
       "review_status": "reviewed",
-      "slack_list_status": "unverified",
-      "slack_canvas_status": "unverified"
+      "slack_list_status": "synced",
+      "slack_canvas_status": "synced"
     },
     {
       "position": 104,
@@ -843,8 +843,8 @@
       "source_id": "deepseek-ai/DeepSeek-V3",
       "canonical_id": "deepseek-ai/deepseek-v3",
       "review_status": "reviewed",
-      "slack_list_status": "unverified",
-      "slack_canvas_status": "unverified"
+      "slack_list_status": "synced",
+      "slack_canvas_status": "synced"
     },
     {
       "position": 106,
@@ -907,8 +907,8 @@
       "source_id": "Panniantong/Agent-Reach",
       "canonical_id": "panniantong/agent-reach",
       "review_status": "reviewed",
-      "slack_list_status": "unverified",
-      "slack_canvas_status": "unverified"
+      "slack_list_status": "synced",
+      "slack_canvas_status": "synced"
     },
     {
       "position": 114,
@@ -939,8 +939,8 @@
       "source_id": "hacksider/Deep-Live-Cam",
       "canonical_id": "hacksider/deep-live-cam",
       "review_status": "reviewed",
-      "slack_list_status": "unverified",
-      "slack_canvas_status": "unverified"
+      "slack_list_status": "synced",
+      "slack_canvas_status": "synced"
     },
     {
       "position": 118,
@@ -973,8 +973,8 @@
       "source_id": "stablyai/orca",
       "canonical_id": "stablyai/orca",
       "review_status": "reviewed",
-      "slack_list_status": "unverified",
-      "slack_canvas_status": "unverified"
+      "slack_list_status": "synced",
+      "slack_canvas_status": "synced"
     },
     {
       "position": 122,
