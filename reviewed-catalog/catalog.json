@@ -1,0 +1,1242 @@
+{
+  "schema_version": 1,
+  "source": "development/distribution/public-seed/catalog.json",
+  "source_commit": "aeab0e519be182b93f92565fcb307bf4798a5c3d",
+  "source_count": 1286,
+  "scope": "2026-10-22 공개 seed 전체",
+  "historical_count": 1266,
+  "missing_history_date": "2026-10-22",
+  "reviewed_count": 50,
+  "classification_method": "직접 원문 검토",
+  "categories": [
+    {
+      "id": "code",
+      "label": "코드·개발"
+    },
+    {
+      "id": "literature",
+      "label": "문헌 검색"
+    },
+    {
+      "id": "visualization",
+      "label": "시각화"
+    },
+    {
+      "id": "data",
+      "label": "데이터 분석"
+    },
+    {
+      "id": "ai",
+      "label": "AI·에이전트"
+    },
+    {
+      "id": "search",
+      "label": "검색·자료 수집"
+    },
+    {
+      "id": "automation",
+      "label": "자동화"
+    },
+    {
+      "id": "productivity",
+      "label": "문서·업무"
+    },
+    {
+      "id": "media",
+      "label": "이미지·영상·음성"
+    },
+    {
+      "id": "infrastructure",
+      "label": "서버·배포"
+    },
+    {
+      "id": "security",
+      "label": "보안·역공학"
+    },
+    {
+      "id": "science",
+      "label": "과학·공학"
+    },
+    {
+      "id": "learning",
+      "label": "학습·자료"
+    },
+    {
+      "id": "devices",
+      "label": "기기·시스템"
+    },
+    {
+      "id": "other",
+      "label": "기타·미분류"
+    }
+  ],
+  "aliases": {
+    "K-Dense-AI/claude-scientific-skills": "K-Dense-AI/scientific-agent-skills",
+    "jamwithai/arxiv-paper-curator": "jamwithai/production-agentic-rag-course"
+  },
+  "records": [
+    {
+      "id": "aipoch/open-science",
+      "name": "aipoch/open-science",
+      "url": "https://github.com/aipoch/open-science",
+      "aliases": [],
+      "category": "science",
+      "type": "연구용 데스크톱 앱",
+      "summary_ko": "과학 에이전트, Python·R 실행, 문헌·데이터 검색을 한 작업 공간에 묶는다. 보고서·표·그림과 세션 기록을 만들고 연구 작업을 .science 패키지로 내보낸다.",
+      "tags": [
+        "연구 워크벤치",
+        "Python",
+        "R"
+      ],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T01:43:37.996Z",
+      "reviewed_commit": "41d06544c93b8ccd6c53f698a797aa09d39c6782",
+      "evidence": [
+        {
+          "url": "https://github.com/aipoch/open-science/blob/41d06544c93b8ccd6c53f698a797aa09d39c6782/README.md",
+          "path": "README.md",
+          "blob_sha": "956c53362260ca3e3bde46e29de63296eb213a93"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "google-deepmind/weathernext",
+      "name": "google-deepmind/weathernext",
+      "url": "https://github.com/google-deepmind/weathernext",
+      "aliases": [],
+      "category": "science",
+      "type": "기상 예측 모델·코드",
+      "summary_ko": "전 지구 중기 기상과 열대저기압을 예측하는 WeatherNext 모델 구현이다. 사전 학습 가중치, 예측 실행·시각화 노트북과 저기압 경로 추적 기능을 제공한다.",
+      "tags": [
+        "기상 예측",
+        "시뮬레이션"
+      ],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T01:43:37.996Z",
+      "reviewed_commit": "f2f2c5117d2f864e2d5e7c2f9f220db5e1049dd3",
+      "evidence": [
+        {
+          "url": "https://github.com/google-deepmind/weathernext/blob/f2f2c5117d2f864e2d5e7c2f9f220db5e1049dd3/README.md",
+          "path": "README.md",
+          "blob_sha": "b7d6f471095525b4a37d723b0342b208edc83579"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "jrouwe/joltphysics",
+      "name": "jrouwe/JoltPhysics",
+      "url": "https://github.com/jrouwe/JoltPhysics",
+      "aliases": [],
+      "category": "science",
+      "type": "물리 시뮬레이션 라이브러리",
+      "summary_ko": "게임·VR용 강체 물리와 충돌 검사를 구현한다. 다양한 형상·관절·차량·연체 시뮬레이션과 병렬 충돌 질의를 제공한다.",
+      "tags": [
+        "강체",
+        "충돌 검사",
+        "게임"
+      ],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T01:43:37.996Z",
+      "reviewed_commit": "8bc5cdee81aa896038fe878f163ae6125954876d",
+      "evidence": [
+        {
+          "url": "https://github.com/jrouwe/JoltPhysics/blob/8bc5cdee81aa896038fe878f163ae6125954876d/README.md",
+          "path": "README.md",
+          "blob_sha": "5d390848b6fe555313894db8696bd66a0e2f7047"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "k-dense-ai/scientific-agent-skills",
+      "name": "K-Dense-AI/scientific-agent-skills",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "aliases": [
+        "K-Dense-AI/claude-scientific-skills"
+      ],
+      "category": "science",
+      "type": "에이전트 스킬 모음",
+      "summary_ko": "과학 패키지·데이터베이스 사용법과 분석 절차를 에이전트 스킬로 제공한다. 생물·화학·재료·물리·통계 분석부터 문헌 정리와 과학 문서 작성까지 다룬다.",
+      "tags": [
+        "Agent Skills",
+        "과학 도구",
+        "분석 절차"
+      ],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T01:43:37.996Z",
+      "reviewed_commit": "a25cf9ec00e2745d03f8704acf6f6919694ccd9a",
+      "evidence": [
+        {
+          "url": "https://github.com/K-Dense-AI/scientific-agent-skills/blob/a25cf9ec00e2745d03f8704acf6f6919694ccd9a/README.md",
+          "path": "README.md",
+          "blob_sha": "3fcebf5c0e49e39dc87e5b577d0368d313124862"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "nawfalmotii79/plfm_radar",
+      "name": "NawfalMotii79/PLFM_RADAR",
+      "url": "https://github.com/NawfalMotii79/PLFM_RADAR",
+      "aliases": [],
+      "category": "devices",
+      "type": "레이더 하드웨어·소프트웨어",
+      "summary_ko": "AERIS-10 위상배열 레이더의 회로·PCB·펌웨어·소프트웨어를 공개한다. 빔 조향, 펄스 압축·도플러 신호 처리와 지도 기반 Python 제어 화면을 다룬다.",
+      "tags": [
+        "레이더",
+        "FPGA",
+        "하드웨어"
+      ],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T01:43:37.996Z",
+      "reviewed_commit": "62d4c556508927a4192acca24422bd16a979c7dc",
+      "evidence": [
+        {
+          "url": "https://github.com/NawfalMotii79/PLFM_RADAR/blob/62d4c556508927a4192acca24422bd16a979c7dc/README.md",
+          "path": "README.md",
+          "blob_sha": "a2ba0401061b14af2b0918c62f3ceb448cf24150"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "newton-physics/newton",
+      "name": "newton-physics/newton",
+      "url": "https://github.com/newton-physics/newton",
+      "aliases": [],
+      "category": "science",
+      "type": "물리 시뮬레이션 엔진",
+      "summary_ko": "NVIDIA Warp와 MuJoCo Warp를 바탕으로 로봇 물리 시뮬레이션을 수행한다. GPU 계산, 미분 가능한 시뮬레이션, OpenUSD와 사용자 정의 확장을 지원한다.",
+      "tags": [
+        "로봇",
+        "물리 엔진",
+        "GPU"
+      ],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T01:43:37.996Z",
+      "reviewed_commit": "08638316dfebb32dd7b437011e2efc066196b1a6",
+      "evidence": [
+        {
+          "url": "https://github.com/newton-physics/newton/blob/08638316dfebb32dd7b437011e2efc066196b1a6/README.md",
+          "path": "README.md",
+          "blob_sha": "410e8002a6d3255dfabaa609aeb10a5ae708bf7f"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "opsafari/hypoarena",
+      "name": "OpSafari/hypoarena",
+      "url": "https://github.com/OpSafari/hypoarena",
+      "aliases": [],
+      "category": "science",
+      "type": "가설 탐색 실험용 라이브러리·CLI",
+      "summary_ko": "합성 문헌을 이용해 가설 생성·토론·순위·진화 과정을 오프라인에서 실험한다. 인용 근거 검사, 중복 제거, Elo 순위와 베이지안 증거 누적을 구성 요소별로 제공한다.",
+      "tags": [
+        "합성 데이터",
+        "가설 검증",
+        "오프라인 데모"
+      ],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T01:43:37.996Z",
+      "reviewed_commit": "6698cef25af4830fe9b0cf2e18e553ce20a7c94e",
+      "evidence": [
+        {
+          "url": "https://github.com/OpSafari/hypoarena/blob/6698cef25af4830fe9b0cf2e18e553ce20a7c94e/README.md",
+          "path": "README.md",
+          "blob_sha": "8b3c1a1bf050bcd535c1d7f9bcd34916bee76471"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "sakanaai/ai-scientist-v2",
+      "name": "SakanaAI/AI-Scientist-v2",
+      "url": "https://github.com/SakanaAI/AI-Scientist-v2",
+      "aliases": [],
+      "category": "science",
+      "type": "자동 연구 에이전트 시스템",
+      "summary_ko": "기계학습 연구 아이디어 생성부터 실험 코드 실행·결과 분석·논문 초안 작성까지 연결한다. 실험 관리 에이전트가 트리 탐색으로 여러 실험 경로를 확장한다.",
+      "tags": [
+        "기계학습 실험",
+        "에이전트",
+        "논문 작성"
+      ],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T01:43:37.996Z",
+      "reviewed_commit": "96bd51617cfdbb494a9fc283af00fe090edfae48",
+      "evidence": [
+        {
+          "url": "https://github.com/SakanaAI/AI-Scientist-v2/blob/96bd51617cfdbb494a9fc283af00fe090edfae48/README.md",
+          "path": "README.md",
+          "blob_sha": "3bb62d43ab4632b3bbffc2642f12beafe869d3a4"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "st-tech/ppf-contact-solver",
+      "name": "st-tech/ppf-contact-solver",
+      "url": "https://github.com/st-tech/ppf-contact-solver",
+      "aliases": [],
+      "category": "science",
+      "type": "접촉 시뮬레이션 솔버",
+      "summary_ko": "의복·고체·막대·강체·모래의 접촉과 변형을 계산한다. 변형체 FEM, Python·JupyterLab 인터페이스, Blender 연동과 GPU·CPU 백엔드를 제공한다.",
+      "tags": [
+        "FEM",
+        "접촉 역학",
+        "Blender"
+      ],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T01:43:37.996Z",
+      "reviewed_commit": "f6ce2f9364ce8064ea6e1c66b049669f535bc8bc",
+      "evidence": [
+        {
+          "url": "https://github.com/st-tech/ppf-contact-solver/blob/f6ce2f9364ce8064ea6e1c66b049669f535bc8bc/README.md",
+          "path": "README.md",
+          "blob_sha": "724b5d351138b5c6c94ebab7bb8621413aa87e82"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "blazickjp/arxiv-mcp-server",
+      "name": "blazickjp/arxiv-mcp-server",
+      "url": "https://github.com/blazickjp/arxiv-mcp-server",
+      "aliases": [],
+      "category": "literature",
+      "type": "MCP 서버·연구 스킬",
+      "summary_ko": "arXiv 논문을 찾아 로컬에 저장하고 저자 LaTeX 원문을 섹션 단위로 읽는다. 논문 메타데이터 기반 BibTeX 생성과 주제별 새 논문 추적을 지원한다.",
+      "tags": [
+        "arXiv",
+        "LaTeX",
+        "BibTeX"
+      ],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T01:43:37.996Z",
+      "reviewed_commit": "572e301bb3198962c025d5ed5e14becb86868daa",
+      "evidence": [
+        {
+          "url": "https://github.com/blazickjp/arxiv-mcp-server/blob/572e301bb3198962c025d5ed5e14becb86868daa/README.md",
+          "path": "README.md",
+          "blob_sha": "828f218ee9023bbb6544967a56f203ae97e3110a"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "imbad0202/academic-research-skills",
+      "name": "Imbad0202/academic-research-skills",
+      "url": "https://github.com/Imbad0202/academic-research-skills",
+      "aliases": [],
+      "category": "literature",
+      "type": "Claude Code 플러그인·스킬 모음",
+      "summary_ko": "논문 구상·문헌 검토·작성·인용 정리·검토를 단계별로 돕는다. 소크라테스식 구조 설계, 출처 위치 기록과 선택적 주장·인용 대조 절차를 제공한다.",
+      "tags": [
+        "논문 작성",
+        "문헌 검토",
+        "인용"
+      ],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T01:43:37.996Z",
+      "reviewed_commit": "2e02041a3b821a160d98c9398f173c484ac759a8",
+      "evidence": [
+        {
+          "url": "https://github.com/Imbad0202/academic-research-skills/blob/2e02041a3b821a160d98c9398f173c484ac759a8/README.md",
+          "path": "README.md",
+          "blob_sha": "a27ce575382d35eeb5af8eebc5b4dfdae5a1caf5"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "jamwithai/production-agentic-rag-course",
+      "name": "jamwithai/production-agentic-rag-course",
+      "url": "https://github.com/jamwithai/production-agentic-rag-course",
+      "aliases": [
+        "jamwithai/arxiv-paper-curator"
+      ],
+      "category": "learning",
+      "type": "RAG 실습 강좌·예제 코드",
+      "summary_ko": "arXiv 논문 수집·파싱에서 BM25·벡터 혼합 검색과 질의응답까지 단계별로 구현하는 강좌다. FastAPI·OpenSearch·Airflow, LangGraph 에이전트와 Telegram 연동 예제를 포함한다.",
+      "tags": [
+        "RAG",
+        "강좌",
+        "검색"
+      ],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T01:43:37.996Z",
+      "reviewed_commit": "424a0eb99edf841994f2a9a053912b489d2a94ff",
+      "evidence": [
+        {
+          "url": "https://github.com/jamwithai/production-agentic-rag-course/blob/424a0eb99edf841994f2a9a053912b489d2a94ff/README.md",
+          "path": "README.md",
+          "blob_sha": "eb92e0fb2153a78f2b235d0597ff9128e9c43229"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "learningcircuit/local-deep-research",
+      "name": "LearningCircuit/local-deep-research",
+      "url": "https://github.com/LearningCircuit/local-deep-research",
+      "aliases": [],
+      "category": "search",
+      "type": "조사 에이전트 앱",
+      "summary_ko": "여러 검색 엔진과 LLM을 연결해 반복 조사하고 출처를 포함한 답변을 작성한다. 로컬 실행과 사용자 지식 기반 구축, 로컬·외부 모델 선택을 지원한다.",
+      "tags": [
+        "웹 조사",
+        "LLM",
+        "지식 검색"
+      ],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T01:43:37.996Z",
+      "reviewed_commit": "23c454143c5836362cafc4d291930cc034a5c9e9",
+      "evidence": [
+        {
+          "url": "https://github.com/LearningCircuit/local-deep-research/blob/23c454143c5836362cafc4d291930cc034a5c9e9/README.md",
+          "path": "README.md",
+          "blob_sha": "baceb7716c6a1cec15a6e623519e67ff02b22e0f"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "openags/paper-search-mcp",
+      "name": "openags/paper-search-mcp",
+      "url": "https://github.com/openags/paper-search-mcp",
+      "aliases": [],
+      "category": "literature",
+      "type": "MCP 서버·CLI",
+      "summary_ko": "여러 학술 데이터베이스에서 논문을 검색하고 중복을 정리한다. 공개 원문 다운로드 경로 탐색, PDF 다운로드·텍스트 추출과 표준화된 검색 결과를 제공한다.",
+      "tags": [
+        "논문 검색",
+        "PDF",
+        "다중 출처"
+      ],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T01:43:37.996Z",
+      "reviewed_commit": "cab1b5cc276a0cd004a0044003926a6440088049",
+      "evidence": [
+        {
+          "url": "https://github.com/openags/paper-search-mcp/blob/cab1b5cc276a0cd004a0044003926a6440088049/README.md",
+          "path": "README.md",
+          "blob_sha": "a68831a246ea113b0ce1520375f7032d8a273aec"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "papersgpt/papersgpt-for-zotero",
+      "name": "papersgpt/papersgpt-for-zotero",
+      "url": "https://github.com/papersgpt/papersgpt-for-zotero",
+      "aliases": [],
+      "category": "literature",
+      "type": "Zotero 플러그인",
+      "summary_ko": "Zotero 문헌 전체 검색, 여러 PDF 비교 대화와 주제별 새 논문 추적을 제공한다. 문헌 묶음의 분석 결과를 Zotero Notes로 저장하고 MCP로 연결할 수 있다.",
+      "tags": [
+        "Zotero",
+        "문헌 검색",
+        "PDF"
+      ],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T01:43:37.996Z",
+      "reviewed_commit": "e2706780651bf4af439e2a703a5b595d5ca0b910",
+      "evidence": [
+        {
+          "url": "https://github.com/papersgpt/papersgpt-for-zotero/blob/e2706780651bf4af439e2a703a5b595d5ca0b910/README.md",
+          "path": "README.md",
+          "blob_sha": "e17efdebab8cefdb3035409437e897f64af3f235"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "patsnap/mcp",
+      "name": "patsnap/mcp",
+      "url": "https://github.com/patsnap/mcp",
+      "aliases": [],
+      "category": "literature",
+      "type": "MCP 서버 모음·연결 안내",
+      "summary_ko": "Patsnap의 특허·학술 문헌·의약·생물·화학 데이터 도구를 분야별 MCP 서버로 묶는다. 특허 검색·분석과 R&D 정보 조회를 위한 연결 경로를 제공한다.",
+      "tags": [
+        "특허",
+        "문헌",
+        "MCP"
+      ],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T01:43:37.996Z",
+      "reviewed_commit": "7a4b42969259b58d06d30a8c13d6c090ce7d2a54",
+      "evidence": [
+        {
+          "url": "https://github.com/patsnap/mcp/blob/7a4b42969259b58d06d30a8c13d6c090ce7d2a54/README.md",
+          "path": "README.md",
+          "blob_sha": "3893be7d5efacdefbe50039fdc3d44307993a2d0"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "patsnap/patent-literature-search-mcp",
+      "name": "patsnap/patent-literature-search-mcp",
+      "url": "https://github.com/patsnap/patent-literature-search-mcp",
+      "aliases": [],
+      "category": "literature",
+      "type": "MCP 서버",
+      "summary_ko": "Patsnap의 특허와 학술 문헌을 의미·키워드·구조화 조건으로 검색한다. 출원인·발명자·날짜 등의 필터와 선택 문서의 Markdown 조회를 제공한다.",
+      "tags": [
+        "특허 검색",
+        "문헌 검색"
+      ],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T01:43:37.996Z",
+      "reviewed_commit": "799f58a28dc33561a9fc5ee55ce3a089515d2cfa",
+      "evidence": [
+        {
+          "url": "https://github.com/patsnap/patent-literature-search-mcp/blob/799f58a28dc33561a9fc5ee55ce3a089515d2cfa/README.md",
+          "path": "README.md",
+          "blob_sha": "064d00855ed8269d26bb9defd74920f3f4045652"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "pdfmathtranslate/pdfmathtranslate",
+      "name": "PDFMathTranslate/PDFMathTranslate",
+      "url": "https://github.com/PDFMathTranslate/PDFMathTranslate",
+      "aliases": [],
+      "category": "productivity",
+      "type": "PDF 번역 도구",
+      "summary_ko": "과학 PDF의 수식·도표·주석·레이아웃을 유지하며 본문을 번역한다. 여러 번역 서비스와 언어를 지원하고 CLI·웹 화면·Docker 실행 경로를 제공한다.",
+      "tags": [
+        "PDF",
+        "번역",
+        "문서"
+      ],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T01:43:37.996Z",
+      "reviewed_commit": "f907c53e6eb415f635ec5b369228257d01284d4f",
+      "evidence": [
+        {
+          "url": "https://github.com/PDFMathTranslate/PDFMathTranslate/blob/f907c53e6eb415f635ec5b369228257d01284d4f/README.md",
+          "path": "README.md",
+          "blob_sha": "4abf52a50a566b840c38b392c5219760abd2291b"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "ahmedkhaleel2004/gitdiagram",
+      "name": "ahmedkhaleel2004/gitdiagram",
+      "url": "https://github.com/ahmedkhaleel2004/gitdiagram",
+      "aliases": [],
+      "category": "visualization",
+      "type": "코드 구조 시각화 앱·MCP",
+      "summary_ko": "GitHub 저장소를 대화형 아키텍처 다이어그램과 설명으로 변환한다. 구성 요소에서 코드로 이동하고 Mermaid·PNG를 내보내며 저장소 설명 영상도 제공한다.",
+      "tags": [
+        "아키텍처",
+        "Mermaid",
+        "코드 탐색"
+      ],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T01:43:37.996Z",
+      "reviewed_commit": "7876ab0ca8b5ee46e836235e23c4886d5cdb79ae",
+      "evidence": [
+        {
+          "url": "https://github.com/ahmedkhaleel2004/gitdiagram/blob/7876ab0ca8b5ee46e836235e23c4886d5cdb79ae/README.md",
+          "path": "README.md",
+          "blob_sha": "a6eb33067d497a1e2d3090a08bad21d933eed3b6"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "alexandergrooff/mermaid-ascii",
+      "name": "AlexanderGrooff/mermaid-ascii",
+      "url": "https://github.com/AlexanderGrooff/mermaid-ascii",
+      "aliases": [],
+      "category": "visualization",
+      "type": "다이어그램 렌더링 CLI",
+      "summary_ko": "Mermaid 그래프를 터미널에서 볼 수 있는 문자 기반 다이어그램으로 렌더링한다. 방향·간격·상자 여백·연결선과 출력 너비를 조절할 수 있다.",
+      "tags": [
+        "Mermaid",
+        "터미널"
+      ],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T01:43:37.996Z",
+      "reviewed_commit": "5a9df1560871e1ef8037c052b3b5d87de503bc9e",
+      "evidence": [
+        {
+          "url": "https://github.com/AlexanderGrooff/mermaid-ascii/blob/5a9df1560871e1ef8037c052b3b5d87de503bc9e/README.md",
+          "path": "README.md",
+          "blob_sha": "ea2de4d43a7dc1b8112c76ca525ba1d566cc85e1"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "apache/superset",
+      "name": "apache/superset",
+      "url": "https://github.com/apache/superset",
+      "aliases": [],
+      "category": "visualization",
+      "type": "BI·대시보드 웹 앱",
+      "summary_ko": "SQL 데이터 원본을 연결해 데이터를 탐색하고 차트·대시보드를 작성한다. 코드 없는 차트 편집, SQL 편집기, 지표 정의와 권한 설정을 제공한다.",
+      "tags": [
+        "BI",
+        "SQL",
+        "대시보드"
+      ],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T01:43:37.996Z",
+      "reviewed_commit": "f44d3992c864ba7e4d2cece49848996d082d42c6",
+      "evidence": [
+        {
+          "url": "https://github.com/apache/superset/blob/f44d3992c864ba7e4d2cece49848996d082d42c6/README.md",
+          "path": "README.md",
+          "blob_sha": "baf97be8097391dca066f649b833733c80496e75"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "bigbodycobain/shadowbroker",
+      "name": "BigBodyCobain/Shadowbroker",
+      "url": "https://github.com/BigBodyCobain/Shadowbroker",
+      "aliases": [],
+      "category": "search",
+      "type": "공개정보 수집·지도 대시보드",
+      "summary_ko": "공개 항공·선박·위성·환경·사건 데이터 피드를 하나의 지도에 모은다. 여러 정보 레이어, 통합 검색과 공개 네트워크 정보 조회 도구를 제공한다.",
+      "tags": [
+        "OSINT",
+        "지도",
+        "정보 수집"
+      ],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T01:43:37.996Z",
+      "reviewed_commit": "36b5470368d1909dcd03dc67c19b305f0ffc6cf4",
+      "evidence": [
+        {
+          "url": "https://github.com/BigBodyCobain/Shadowbroker/blob/36b5470368d1909dcd03dc67c19b305f0ffc6cf4/README.md",
+          "path": "README.md",
+          "blob_sha": "eaa4a6f3cbde57d384ae8a4bda43e783ec7ad978"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "canner/wrenai",
+      "name": "Canner/WrenAI",
+      "url": "https://github.com/Canner/WrenAI",
+      "aliases": [],
+      "category": "data",
+      "type": "BI 엔진·CLI·에이전트 스킬",
+      "summary_ko": "데이터 정의와 업무 맥락을 바탕으로 에이전트의 SQL 생성·실행과 대시보드 제작을 돕는다. 지표·조인·예제를 Git의 YAML·Markdown 파일로 관리한다.",
+      "tags": [
+        "SQL",
+        "시맨틱 계층",
+        "BI"
+      ],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T01:43:37.996Z",
+      "reviewed_commit": "548eee3e864b11e7f11eee15ae82be178a295f22",
+      "evidence": [
+        {
+          "url": "https://github.com/Canner/WrenAI/blob/548eee3e864b11e7f11eee15ae82be178a295f22/README.md",
+          "path": "README.md",
+          "blob_sha": "02cdfe141421858d458a2ba4132daf36f8ec735e"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "cathrynlavery/diagram-design",
+      "name": "cathrynlavery/diagram-design",
+      "url": "https://github.com/cathrynlavery/diagram-design",
+      "aliases": [],
+      "category": "visualization",
+      "type": "다이어그램 제작 스킬",
+      "summary_ko": "자연어 설명을 브랜드 색상·글꼴에 맞는 다이어그램으로 만든다. 하나의 HTML·SVG 파일을 생성하고 구조도·순서도 등 여러 도해 유형을 지원한다.",
+      "tags": [
+        "Agent Skills",
+        "SVG",
+        "다이어그램"
+      ],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T01:43:37.996Z",
+      "reviewed_commit": "0cf73c3fcc56667ad91a9a04c439ac6ccfabc9d1",
+      "evidence": [
+        {
+          "url": "https://github.com/cathrynlavery/diagram-design/blob/0cf73c3fcc56667ad91a9a04c439ac6ccfabc9d1/README.md",
+          "path": "README.md",
+          "blob_sha": "2660309a3d05c5ddae1b298bc043b08c3798315a"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "chartdb/chartdb",
+      "name": "chartdb/chartdb",
+      "url": "https://github.com/chartdb/chartdb",
+      "aliases": [],
+      "category": "visualization",
+      "type": "데이터베이스 다이어그램 편집기",
+      "summary_ko": "쿼리로 얻은 스키마 JSON을 ER 다이어그램으로 시각화하고 편집한다. 여러 데이터베이스를 지원하며 AI를 이용해 대상 방언의 DDL을 생성할 수 있다.",
+      "tags": [
+        "ERD",
+        "데이터베이스",
+        "DDL"
+      ],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T01:43:37.996Z",
+      "reviewed_commit": "ee95448d154cfdcf65264c45745f440c0480ef84",
+      "evidence": [
+        {
+          "url": "https://github.com/chartdb/chartdb/blob/ee95448d154cfdcf65264c45745f440c0480ef84/README.md",
+          "path": "README.md",
+          "blob_sha": "e25d7ec603523667c81bab9f14d95150e8c7c796"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "dayuanjiang/next-ai-draw-io",
+      "name": "DayuanJiang/next-ai-draw-io",
+      "url": "https://github.com/DayuanJiang/next-ai-draw-io",
+      "aliases": [],
+      "category": "visualization",
+      "type": "다이어그램 앱·MCP 서버",
+      "summary_ko": "대화나 스케치·문서로 draw.io 다이어그램을 만들고 선택한 도형을 수정한다. 변경 버전 비교·복원과 drawio·PNG·SVG 내보내기를 제공한다.",
+      "tags": [
+        "draw.io",
+        "다이어그램",
+        "MCP"
+      ],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T01:43:37.996Z",
+      "reviewed_commit": "c9dc5f5cc62e7e5a327a62b39027d80033e1548c",
+      "evidence": [
+        {
+          "url": "https://github.com/DayuanJiang/next-ai-draw-io/blob/c9dc5f5cc62e7e5a327a62b39027d80033e1548c/README.md",
+          "path": "README.md",
+          "blob_sha": "ac19095a087453e37b16c9929f1de8a9d852c0c8"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "drawdb-io/drawdb",
+      "name": "drawdb-io/drawdb",
+      "url": "https://github.com/drawdb-io/drawdb",
+      "aliases": [],
+      "category": "visualization",
+      "type": "데이터베이스 설계 웹 앱",
+      "summary_ko": "브라우저에서 데이터베이스 ER 다이어그램을 편집한다. SQL 가져오기·내보내기, 마이그레이션 생성과 편집 화면 맞춤 설정을 지원한다.",
+      "tags": [
+        "ERD",
+        "SQL",
+        "스키마"
+      ],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T01:43:37.996Z",
+      "reviewed_commit": "a249c7fb730c2de9b5c2ce6e863f2ea7344ac372",
+      "evidence": [
+        {
+          "url": "https://github.com/drawdb-io/drawdb/blob/a249c7fb730c2de9b5c2ce6e863f2ea7344ac372/README.md",
+          "path": "README.md",
+          "blob_sha": "b150a687610ddceef2138630ce450ce7bbaaedfe"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "google/langextract",
+      "name": "google/langextract",
+      "url": "https://github.com/google/langextract",
+      "aliases": [],
+      "category": "data",
+      "type": "정보 추출 Python 라이브러리",
+      "summary_ko": "지시문과 예시를 바탕으로 비정형 문서에서 구조화 정보를 추출한다. 추출 내용을 원문 위치에 연결하고 HTML 화면에서 근거를 확인할 수 있게 한다.",
+      "tags": [
+        "정보 추출",
+        "LLM",
+        "원문 근거"
+      ],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T01:43:37.996Z",
+      "reviewed_commit": "7548803224677c8e810f76876ae9519b5708a18f",
+      "evidence": [
+        {
+          "url": "https://github.com/google/langextract/blob/7548803224677c8e810f76876ae9519b5708a18f/README.md",
+          "path": "README.md",
+          "blob_sha": "7fdba9d5d447e20aeabbf58288ed523d8ef5c43b"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "grafana/grafana",
+      "name": "grafana/grafana",
+      "url": "https://github.com/grafana/grafana",
+      "aliases": [],
+      "category": "visualization",
+      "type": "모니터링 플랫폼",
+      "summary_ko": "여러 데이터 원본의 지표·로그를 조회하고 대시보드로 시각화하며 경고 규칙과 알림을 제공한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T01:43:37.996Z",
+      "reviewed_commit": "b8ea386e774ee01593eab3f2be23f266b6720004",
+      "evidence": [
+        {
+          "url": "https://github.com/grafana/grafana/blob/b8ea386e774ee01593eab3f2be23f266b6720004/README.md",
+          "path": "README.md",
+          "blob_sha": "7b768e029f8ad89feae45d31bce9a57d42d9cf5c"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "janestreet/magic-trace",
+      "name": "janestreet/magic-trace",
+      "url": "https://github.com/janestreet/magic-trace",
+      "aliases": [],
+      "category": "code",
+      "type": "실행 추적 도구",
+      "summary_ko": "프로세스의 함수 호출과 제어 흐름을 기록해 대화형 시간 축으로 보여준다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T01:43:37.996Z",
+      "reviewed_commit": "b3faf23fccfc4373d47bb6458c9d7dc79b0723fe",
+      "evidence": [
+        {
+          "url": "https://github.com/janestreet/magic-trace/blob/b3faf23fccfc4373d47bb6458c9d7dc79b0723fe/README.md",
+          "path": "README.md",
+          "blob_sha": "832a55e448e7840ca1c706585d6424ec8e411d1d"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "koala73/worldmonitor",
+      "name": "koala73/worldmonitor",
+      "url": "https://github.com/koala73/worldmonitor",
+      "aliases": [],
+      "category": "search",
+      "type": "세계 현황 대시보드",
+      "summary_ko": "국제 뉴스와 경제·재난·기반시설 정보를 지도와 패널에 모으며 MCP 연결을 제공한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T01:43:37.996Z",
+      "reviewed_commit": "11e2bc833837951eef351fc8b71173fd6cc162d3",
+      "evidence": [
+        {
+          "url": "https://github.com/koala73/worldmonitor/blob/11e2bc833837951eef351fc8b71173fd6cc162d3/README.md",
+          "path": "README.md",
+          "blob_sha": "c6337f98a143d4016a865bb4fda4e1a651a3b24f"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "likec4/likec4",
+      "name": "likec4/likec4",
+      "url": "https://github.com/likec4/likec4",
+      "aliases": [],
+      "category": "visualization",
+      "type": "아키텍처 모델링 도구",
+      "summary_ko": "소프트웨어 구성 요소와 관계를 언어로 기술하고 구조 다이어그램을 생성한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T01:43:37.996Z",
+      "reviewed_commit": "99841b6b8c3fc0f182c75472867a693cb353f9d8",
+      "evidence": [
+        {
+          "url": "https://github.com/likec4/likec4/blob/99841b6b8c3fc0f182c75472867a693cb353f9d8/README.md",
+          "path": "README.md",
+          "blob_sha": "7fe6360de152edec69580f7141005d8e6366ddd2"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "mahlernim/google-timeline-visualizer",
+      "name": "mahlernim/google-timeline-visualizer",
+      "url": "https://github.com/mahlernim/google-timeline-visualizer",
+      "aliases": [],
+      "category": "visualization",
+      "type": "여행 경로 시각화 앱",
+      "summary_ko": "Google Timeline JSON을 지도 애니메이션으로 만들고 기간을 선택해 MP4로 저장한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T01:43:37.996Z",
+      "reviewed_commit": "bcc1f1380477a85e7e6409d3e18e45117dbcb2e8",
+      "evidence": [
+        {
+          "url": "https://github.com/mahlernim/google-timeline-visualizer/blob/bcc1f1380477a85e7e6409d3e18e45117dbcb2e8/README.md",
+          "path": "README.md",
+          "blob_sha": "8ba901511f0c21ee0de93ccf9fc4ee148693fa07"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "marceloprates/prettymaps",
+      "name": "marceloprates/prettymaps",
+      "url": "https://github.com/marceloprates/prettymaps",
+      "aliases": [],
+      "category": "visualization",
+      "type": "지도 시각화 라이브러리",
+      "summary_ko": "OpenStreetMap 자료로 레이어와 스타일을 조절한 지도를 Python으로 그린다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T01:43:37.996Z",
+      "reviewed_commit": "02f85870ced807b7d24ce1764764ff877f9edffd",
+      "evidence": [
+        {
+          "url": "https://github.com/marceloprates/prettymaps/blob/02f85870ced807b7d24ce1764764ff877f9edffd/README.md",
+          "path": "README.md",
+          "blob_sha": "323c5f502c6b4514a2cf9bd9fa0996446bf83ee6"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "metabase/metabase",
+      "name": "metabase/metabase",
+      "url": "https://github.com/metabase/metabase",
+      "aliases": [],
+      "category": "visualization",
+      "type": "BI 앱",
+      "summary_ko": "SQL 또는 시각적 질의로 데이터를 탐색하고 필터가 있는 대시보드와 알림을 만든다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T01:43:37.996Z",
+      "reviewed_commit": "4f99661de7e4fcb915a17ee19830c8f45e001609",
+      "evidence": [
+        {
+          "url": "https://github.com/metabase/metabase/blob/4f99661de7e4fcb915a17ee19830c8f45e001609/README.md",
+          "path": "README.md",
+          "blob_sha": "a8ac5ad7e1b830d38e44424e63c3bb8b57242d07"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "microsoft/ontology-playground",
+      "name": "microsoft/Ontology-Playground",
+      "url": "https://github.com/microsoft/Ontology-Playground",
+      "aliases": [],
+      "category": "visualization",
+      "type": "온톨로지 편집 앱",
+      "summary_ko": "온톨로지의 개체·관계를 그래프로 탐색하고 편집하며 RDF/XML·JSON을 내보낸다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T01:43:37.996Z",
+      "reviewed_commit": "7bf7acb427424ce68f917fa26f484fb06ca42051",
+      "evidence": [
+        {
+          "url": "https://github.com/microsoft/Ontology-Playground/blob/7bf7acb427424ce68f917fa26f484fb06ca42051/README.md",
+          "path": "README.md",
+          "blob_sha": "9c927fd49d98022146d0b7d1c5e8b9cc5a359ee1"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "opf/openproject",
+      "name": "opf/openproject",
+      "url": "https://github.com/opf/openproject",
+      "aliases": [],
+      "category": "productivity",
+      "type": "프로젝트 관리 앱",
+      "summary_ko": "작업과 로드맵을 관리하며 간트 차트, 칸반 보드, 시간 기록과 위키를 제공한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T01:43:37.996Z",
+      "reviewed_commit": "82e01c0f0fbda6d5c39f9612deec1d97faf92bd5",
+      "evidence": [
+        {
+          "url": "https://github.com/opf/openproject/blob/82e01c0f0fbda6d5c39f9612deec1d97faf92bd5/README.md",
+          "path": "README.md",
+          "blob_sha": "f077258f783efe3cb64272eb3bb526f240a49f15"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "tradesdontlie/tradingview-mcp",
+      "name": "tradesdontlie/tradingview-mcp",
+      "url": "https://github.com/tradesdontlie/tradingview-mcp",
+      "aliases": [],
+      "category": "data",
+      "type": "TradingView MCP 브리지",
+      "summary_ko": "로컬 TradingView 차트를 조회·조작하고 지표 관리와 Pine Script 개발을 지원한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T01:43:37.996Z",
+      "reviewed_commit": "c05b8f5755ed8e64ea242de88ddbf46aa24d56a4",
+      "evidence": [
+        {
+          "url": "https://github.com/tradesdontlie/tradingview-mcp/blob/c05b8f5755ed8e64ea242de88ddbf46aa24d56a4/README.md",
+          "path": "README.md",
+          "blob_sha": "7d5840b931a2056f2d0e05da8a1e4fc6a8ee2f34"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "tt-a1i/archify",
+      "name": "tt-a1i/archify",
+      "url": "https://github.com/tt-a1i/archify",
+      "aliases": [],
+      "category": "visualization",
+      "type": "대화형 도해 스킬",
+      "summary_ko": "설명이나 저장소 내용을 탐색 가능한 HTML 도해와 출처가 연결된 설명 페이지로 만든다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T01:43:37.996Z",
+      "reviewed_commit": "a4065941f12be7967436261d9934784e381d423c",
+      "evidence": [
+        {
+          "url": "https://github.com/tt-a1i/archify/blob/a4065941f12be7967436261d9934784e381d423c/README.md",
+          "path": "README.md",
+          "blob_sha": "b7d44147d124b76a1343fc7408324a1aa4a938fb"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "0xk1h0/chatgpt_dan",
+      "name": "0xk1h0/ChatGPT_DAN",
+      "url": "https://github.com/0xk1h0/ChatGPT_DAN",
+      "aliases": [],
+      "category": "security",
+      "type": "프롬프트 사례 모음",
+      "summary_ko": "ChatGPT의 응답 제한을 우회하려는 역할극 프롬프트와 여러 버전의 사례를 모았다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T01:43:37.996Z",
+      "reviewed_commit": "0799f29c4c2833e75a01757ec996e78dd2597d5b",
+      "evidence": [
+        {
+          "url": "https://github.com/0xk1h0/ChatGPT_DAN/blob/0799f29c4c2833e75a01757ec996e78dd2597d5b/README.md",
+          "path": "README.md",
+          "blob_sha": "636f1842c1f0998ea862190c9dd3027cc9ce984d"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "0xnyk/council-of-high-intelligence",
+      "name": "0xNyk/council-of-high-intelligence",
+      "url": "https://github.com/0xNyk/council-of-high-intelligence",
+      "aliases": [],
+      "category": "ai",
+      "type": "다중 관점 토론 스킬",
+      "summary_ko": "서로 다른 관점의 분석과 반론을 종합하고 미해결 쟁점과 다음 행동을 정리한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T01:43:37.996Z",
+      "reviewed_commit": "14d398f44771be1fc49488ab1b8a348ed76ca172",
+      "evidence": [
+        {
+          "url": "https://github.com/0xNyk/council-of-high-intelligence/blob/14d398f44771be1fc49488ab1b8a348ed76ca172/README.md",
+          "path": "README.md",
+          "blob_sha": "9cae54924cee09a165df89a598c870ef259fbbe7"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "1jehuang/jcode",
+      "name": "1jehuang/jcode",
+      "url": "https://github.com/1jehuang/jcode",
+      "aliases": [],
+      "category": "code",
+      "type": "코딩 에이전트 CLI",
+      "summary_ko": "여러 코딩 에이전트 세션과 메시지·파일 변경 알림을 관리한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T01:43:37.996Z",
+      "reviewed_commit": "4efe331bba88722b1a20242e168eabb328df353e",
+      "evidence": [
+        {
+          "url": "https://github.com/1jehuang/jcode/blob/4efe331bba88722b1a20242e168eabb328df353e/README.md",
+          "path": "README.md",
+          "blob_sha": "920837df818f7b08cc94f2089685d3969d670f20"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "1panel-dev/maxkb",
+      "name": "1Panel-dev/MaxKB",
+      "url": "https://github.com/1Panel-dev/MaxKB",
+      "aliases": [],
+      "category": "ai",
+      "type": "에이전트 플랫폼",
+      "summary_ko": "문서 수집·분할·벡터화로 지식 검색을 구성하고 에이전트 워크플로와 MCP를 연결한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T01:43:37.996Z",
+      "reviewed_commit": "0c7dd350a17fe3e885f30fbfb274badef08ac37c",
+      "evidence": [
+        {
+          "url": "https://github.com/1Panel-dev/MaxKB/blob/0c7dd350a17fe3e885f30fbfb274badef08ac37c/README.md",
+          "path": "README.md",
+          "blob_sha": "d5177bf8e37f1ddaa805ee7b075d683c6e731afc"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "2dust/v2rayn",
+      "name": "2dust/v2rayN",
+      "url": "https://github.com/2dust/v2rayN",
+      "aliases": [],
+      "category": "infrastructure",
+      "type": "프록시 클라이언트",
+      "summary_ko": "Xray·sing-box 등 네트워크 코어를 사용하는 크로스플랫폼 그래픽 클라이언트다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T01:43:37.996Z",
+      "reviewed_commit": "0f1f82af4ea37fa10f4b9eebcbece8162792ac22",
+      "evidence": [
+        {
+          "url": "https://github.com/2dust/v2rayN/blob/0f1f82af4ea37fa10f4b9eebcbece8162792ac22/README.md",
+          "path": "README.md",
+          "blob_sha": "859167410b1dbedb1c46a24d596a9270221c806e"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "3b1b/manim",
+      "name": "3b1b/manim",
+      "url": "https://github.com/3b1b/manim",
+      "aliases": [],
+      "category": "visualization",
+      "type": "수학 애니메이션 엔진",
+      "summary_ko": "Python 코드로 수학 설명용 도형과 수식의 움직임을 만드는 ManimGL 엔진이다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T01:43:37.996Z",
+      "reviewed_commit": "fafa083a4fb274bba9cabde0b6e2f50ba6da0622",
+      "evidence": [
+        {
+          "url": "https://github.com/3b1b/manim/blob/fafa083a4fb274bba9cabde0b6e2f50ba6da0622/README.md",
+          "path": "README.md",
+          "blob_sha": "fdbcfd7d98b9a9d99a885a24c1f8755d9ef17898"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "5rahim/seanime",
+      "name": "5rahim/seanime",
+      "url": "https://github.com/5rahim/seanime",
+      "aliases": [],
+      "category": "media",
+      "type": "미디어 서버",
+      "summary_ko": "로컬 애니메이션·만화 라이브러리를 관리하고 웹·데스크톱·모바일에서 재생한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T01:43:37.996Z",
+      "reviewed_commit": "4bdff7b27b6c043dc87c0ccad3ead54596133a05",
+      "evidence": [
+        {
+          "url": "https://github.com/5rahim/seanime/blob/4bdff7b27b6c043dc87c0ccad3ead54596133a05/README.md",
+          "path": "README.md",
+          "blob_sha": "c5d491258aeff3ad4f5defd770cf9999936a4333"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "666ghj/bettafish",
+      "name": "666ghj/BettaFish",
+      "url": "https://github.com/666ghj/BettaFish",
+      "aliases": [],
+      "category": "ai",
+      "type": "여론 분석 에이전트",
+      "summary_ko": "웹·소셜 미디어를 검색하고 여러 에이전트의 분석과 토론을 보고서로 정리한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T01:43:37.996Z",
+      "reviewed_commit": "b67928ff1ce515dd7672408221fb1e9500d0972d",
+      "evidence": [
+        {
+          "url": "https://github.com/666ghj/BettaFish/blob/b67928ff1ce515dd7672408221fb1e9500d0972d/README.md",
+          "path": "README.md",
+          "blob_sha": "c985ad330c50470378ea3cb0287bb8730c65cbb4"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "666ghj/mirofish",
+      "name": "666ghj/MiroFish",
+      "url": "https://github.com/666ghj/MiroFish",
+      "aliases": [],
+      "category": "ai",
+      "type": "다중 에이전트 시뮬레이션 앱",
+      "summary_ko": "자료에서 개체와 관계를 추출해 가상 환경을 구성하고 시뮬레이션 및 보고서를 생성한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T01:43:37.996Z",
+      "reviewed_commit": "7657031ac01184afe2cb220f5ee3545573b5e843",
+      "evidence": [
+        {
+          "url": "https://github.com/666ghj/MiroFish/blob/7657031ac01184afe2cb220f5ee3545573b5e843/README.md",
+          "path": "README.md",
+          "blob_sha": "5e8071d0a53ad17b7ecf694b159498e1e872a1ae"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "aaddrick/claude-desktop-debian",
+      "name": "aaddrick/claude-desktop-debian",
+      "url": "https://github.com/aaddrick/claude-desktop-debian",
+      "aliases": [],
+      "category": "devices",
+      "type": "비공식 Linux 패키징 도구",
+      "summary_ko": "Claude Desktop Linux 패키지를 RPM·AppImage·Nix로 재구성하고 실행 환경을 진단한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T01:43:37.996Z",
+      "reviewed_commit": "2e9ad275db22b6ac7c326338cde3ada5e340d52f",
+      "evidence": [
+        {
+          "url": "https://github.com/aaddrick/claude-desktop-debian/blob/2e9ad275db22b6ac7c326338cde3ada5e340d52f/README.md",
+          "path": "README.md",
+          "blob_sha": "12d99d695a899a4db46aeaf61ff2fa220133eba3"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "aaif-goose/goose",
+      "name": "aaif-goose/goose",
+      "url": "https://github.com/aaif-goose/goose",
+      "aliases": [],
+      "category": "ai",
+      "type": "범용 AI 에이전트",
+      "summary_ko": "로컬에서 코드·문서·자동화 작업을 수행하며 데스크톱·CLI·API와 MCP 확장을 지원한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T01:43:37.996Z",
+      "reviewed_commit": "cfb67d72f6129ba3c9f68d4c225d8dfcaba18a87",
+      "evidence": [
+        {
+          "url": "https://github.com/aaif-goose/goose/blob/cfb67d72f6129ba3c9f68d4c225d8dfcaba18a87/README.md",
+          "path": "README.md",
+          "blob_sha": "44c960f0193de1ccd3a13721cfe2daf5e7707ac5"
+        }
+      ],
+      "execution_tested": false
+    }
+  ]
+}
