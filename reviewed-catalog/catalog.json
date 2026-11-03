@@ -6,7 +6,7 @@
   "scope": "2026-10-22 공개 seed 전체",
   "historical_count": 1266,
   "missing_history_date": "2026-10-22",
-  "reviewed_count": 1255,
+  "reviewed_count": 1258,
   "classification_method": "직접 원문 검토",
   "categories": [
     {
@@ -26796,6 +26796,78 @@
           "url": "https://github.com/apache/cassandra/blob/8ceeea10f493ef6f9eb308a19f9786f579e31ec8/README.asc",
           "path": "README.asc",
           "blob_sha": "1d8f7bfe373fa7d0951fc17d88b9511ce9d3af07"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "lissy93/web-check",
+      "name": "Lissy93/web-check",
+      "url": "https://github.com/Lissy93/web-check",
+      "aliases": [],
+      "category": "security",
+      "type": "웹사이트 정보 분석 도구",
+      "summary_ko": "웹사이트의 서버 구조·사용 기술과 보안 설정을 살펴보는 공개정보 분석 도구다.",
+      "tags": [
+        "웹사이트",
+        "보안 분석"
+      ],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T14:06:50.687Z",
+      "reviewed_commit": "85b9ddc1f7a69c1ece08225cd7aa40b1bb08a3bb",
+      "evidence": [
+        {
+          "url": "https://github.com/Lissy93/web-check/blob/85b9ddc1f7a69c1ece08225cd7aa40b1bb08a3bb/.github/README.md",
+          "path": ".github/README.md",
+          "blob_sha": "2b20b8cae1b01027dad3f743564ebc8610f652e7"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "end-4/dots-hyprland",
+      "name": "end-4/dots-hyprland",
+      "url": "https://github.com/end-4/dots-hyprland",
+      "aliases": [],
+      "category": "devices",
+      "type": "Hyprland 데스크톱 설정",
+      "summary_ko": "Hyprland용 그래픽 셸과 설정 파일을 제공하며 창 미리보기, 화면 번역, 테마와 AI 연결을 지원한다.",
+      "tags": [
+        "Hyprland",
+        "데스크톱"
+      ],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T14:06:50.688Z",
+      "reviewed_commit": "2f2a376fdb2ad738bf55f693dd0b474b64bb0ab8",
+      "evidence": [
+        {
+          "url": "https://github.com/end-4/dots-hyprland/blob/2f2a376fdb2ad738bf55f693dd0b474b64bb0ab8/.github/README.md",
+          "path": ".github/README.md",
+          "blob_sha": "256888616a62dff38c856120130046759a299986"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "bol-van/zapret",
+      "name": "bol-van/zapret",
+      "url": "https://github.com/bol-van/zapret",
+      "aliases": [],
+      "category": "security",
+      "type": "네트워크 트래픽 도구",
+      "summary_ko": "트래픽 처리 방식을 조정해 DPI 기반 차단에 대응한다. 이 버전은 개발 종료 상태이며 후속 버전이 안내돼 있다.",
+      "tags": [
+        "DPI",
+        "네트워크"
+      ],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T14:06:50.688Z",
+      "reviewed_commit": "c4d0b1990129dce2b28095277173ee0d7702d304",
+      "evidence": [
+        {
+          "url": "https://github.com/bol-van/zapret/blob/c4d0b1990129dce2b28095277173ee0d7702d304/docs/readme.en.md",
+          "path": "docs/readme.en.md",
+          "blob_sha": "c1ccfcb7036b2e2d5bca1d1ca58fea23ee69d7d0"
         }
       ],
       "execution_tested": false
