@@ -6,7 +6,7 @@
   "scope": "2026-10-22 공개 seed 전체",
   "historical_count": 1266,
   "missing_history_date": "2026-10-22",
-  "reviewed_count": 1253,
+  "reviewed_count": 1254,
   "classification_method": "직접 원문 검토",
   "categories": [
     {
@@ -26747,6 +26747,31 @@
           "url": "https://github.com/open-gsd/gsd-core/blob/3730c670477f644eeac1377b6dfc50ee4f99bad0/README.md",
           "path": "README.md",
           "blob_sha": "82770333164cd599dfa2f1ee44cc66997913cc40"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "elastic/elasticsearch",
+      "name": "elastic/elasticsearch",
+      "url": "https://github.com/elastic/elasticsearch",
+      "aliases": [],
+      "category": "search",
+      "type": "분산 검색·분석 엔진",
+      "summary_ko": "대규모 데이터를 저장하고 전문 검색·벡터 검색과 로그·지표 분석을 지원한다.",
+      "tags": [
+        "검색",
+        "벡터 검색",
+        "분산 데이터"
+      ],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T12:00:26.350Z",
+      "reviewed_commit": "cfd1f33fafc565de7b92c3289aa5e9339a32990e",
+      "evidence": [
+        {
+          "url": "https://github.com/elastic/elasticsearch/blob/cfd1f33fafc565de7b92c3289aa5e9339a32990e/README.asciidoc",
+          "path": "README.asciidoc",
+          "blob_sha": "3164cd7d02f5fa19c4a8dba10cec799c1088b87d"
         }
       ],
       "execution_tested": false
