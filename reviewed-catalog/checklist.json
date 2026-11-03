@@ -7701,7 +7701,7 @@
       "source_id": "xerrors/Yuxi-Know",
       "canonical_id": "xerrors/yuxi",
       "review_status": "reviewed",
-      "slack_list_status": "unverified",
+      "slack_list_status": "synced",
       "slack_canvas_status": "synced"
     },
     {
@@ -7709,7 +7709,7 @@
       "source_id": "NickvisionApps/Parabolic",
       "canonical_id": "nickvisionapps/parabolic",
       "review_status": "reviewed",
-      "slack_list_status": "unverified",
+      "slack_list_status": "synced",
       "slack_canvas_status": "synced"
     },
     {
@@ -7805,7 +7805,7 @@
       "source_id": "lukilabs/craft-agents-oss",
       "canonical_id": "craft-ai-agents/craft-agents-oss",
       "review_status": "reviewed",
-      "slack_list_status": "unverified",
+      "slack_list_status": "synced",
       "slack_canvas_status": "synced"
     },
     {
@@ -7949,7 +7949,7 @@
       "source_id": "Andyyyy64/whichllm",
       "canonical_id": "andyyyy64/whichllm",
       "review_status": "reviewed",
-      "slack_list_status": "unverified",
+      "slack_list_status": "synced",
       "slack_canvas_status": "synced"
     },
     {
@@ -7989,7 +7989,7 @@
       "source_id": "microsoft/call-center-ai",
       "canonical_id": "microsoft/call-center-ai",
       "review_status": "reviewed",
-      "slack_list_status": "unverified",
+      "slack_list_status": "synced",
       "slack_canvas_status": "synced"
     },
     {
@@ -8061,7 +8061,7 @@
       "source_id": "huangruiteng/loopx",
       "canonical_id": "loopx-project/loopx",
       "review_status": "reviewed",
-      "slack_list_status": "unverified",
+      "slack_list_status": "synced",
       "slack_canvas_status": "synced"
     },
     {
@@ -8069,7 +8069,7 @@
       "source_id": "joeseesun/qiaomu-anything-to-notebooklm",
       "canonical_id": "joeseesun/qiaomu-anything-to-notebooklm",
       "review_status": "reviewed",
-      "slack_list_status": "unverified",
+      "slack_list_status": "synced",
       "slack_canvas_status": "synced"
     },
     {
@@ -8077,7 +8077,7 @@
       "source_id": "DearVa/Everywhere",
       "canonical_id": "sylinko/everywhere",
       "review_status": "reviewed",
-      "slack_list_status": "unverified",
+      "slack_list_status": "synced",
       "slack_canvas_status": "synced"
     },
     {
@@ -8117,7 +8117,7 @@
       "source_id": "chriskohlhoff/asio",
       "canonical_id": "chriskohlhoff/asio",
       "review_status": "reviewed",
-      "slack_list_status": "unverified",
+      "slack_list_status": "synced",
       "slack_canvas_status": "synced"
     },
     {
@@ -8133,7 +8133,7 @@
       "source_id": "vercel-labs/scriptc",
       "canonical_id": "vercel-labs/scriptc",
       "review_status": "reviewed",
-      "slack_list_status": "unverified",
+      "slack_list_status": "synced",
       "slack_canvas_status": "synced"
     },
     {
@@ -8141,7 +8141,7 @@
       "source_id": "opencloud-eu/opencloud",
       "canonical_id": "opencloud-eu/opencloud",
       "review_status": "reviewed",
-      "slack_list_status": "unverified",
+      "slack_list_status": "synced",
       "slack_canvas_status": "synced"
     },
     {
@@ -8165,7 +8165,7 @@
       "source_id": "geo-tp/ESP32-Bit-Pirate",
       "canonical_id": "geo-tp/esp32-bit-pirate",
       "review_status": "reviewed",
-      "slack_list_status": "unverified",
+      "slack_list_status": "synced",
       "slack_canvas_status": "synced"
     },
     {
@@ -8173,7 +8173,7 @@
       "source_id": "jbeder/yaml-cpp",
       "canonical_id": "jbeder/yaml-cpp",
       "review_status": "reviewed",
-      "slack_list_status": "unverified",
+      "slack_list_status": "synced",
       "slack_canvas_status": "synced"
     },
     {
@@ -8197,7 +8197,7 @@
       "source_id": "beancount/beancount",
       "canonical_id": "beancount/beancount",
       "review_status": "reviewed",
-      "slack_list_status": "unverified",
+      "slack_list_status": "synced",
       "slack_canvas_status": "synced"
     },
     {
@@ -8205,7 +8205,7 @@
       "source_id": "google/agents-cli",
       "canonical_id": "google/agents-cli",
       "review_status": "reviewed",
-      "slack_list_status": "unverified",
+      "slack_list_status": "synced",
       "slack_canvas_status": "synced"
     },
     {
@@ -8253,7 +8253,7 @@
       "source_id": "shy3130/tick-stock-panel",
       "canonical_id": "shy3130/tick-stock-panel",
       "review_status": "reviewed",
-      "slack_list_status": "unverified",
+      "slack_list_status": "synced",
       "slack_canvas_status": "synced"
     },
     {
@@ -8277,7 +8277,7 @@
       "source_id": "jellyfin/jellyfin-desktop",
       "canonical_id": "jellyfin/jellyfin-desktop",
       "review_status": "reviewed",
-      "slack_list_status": "unverified",
+      "slack_list_status": "synced",
       "slack_canvas_status": "synced"
     },
     {
@@ -8293,7 +8293,7 @@
       "source_id": "inclusionAI/AReaL",
       "canonical_id": "areal-project/areal",
       "review_status": "reviewed",
-      "slack_list_status": "unverified",
+      "slack_list_status": "synced",
       "slack_canvas_status": "synced"
     },
     {
@@ -8349,7 +8349,7 @@
       "source_id": "OpenBMB/UltraRAG",
       "canonical_id": "openbmb/ultrarag",
       "review_status": "reviewed",
-      "slack_list_status": "unverified",
+      "slack_list_status": "synced",
       "slack_canvas_status": "synced"
     },
     {
@@ -8405,7 +8405,7 @@
       "source_id": "workweave/router",
       "canonical_id": "weave-os/router",
       "review_status": "reviewed",
-      "slack_list_status": "unverified",
+      "slack_list_status": "synced",
       "slack_canvas_status": "synced"
     },
     {
@@ -8413,7 +8413,7 @@
       "source_id": "amadeusprotocol/node",
       "canonical_id": "amadeusprotocol/node",
       "review_status": "reviewed",
-      "slack_list_status": "unverified",
+      "slack_list_status": "synced",
       "slack_canvas_status": "synced"
     },
     {
@@ -8421,7 +8421,7 @@
       "source_id": "psviderski/uncloud",
       "canonical_id": "psviderski/uncloud",
       "review_status": "reviewed",
-      "slack_list_status": "unverified",
+      "slack_list_status": "synced",
       "slack_canvas_status": "synced"
     },
     {
@@ -8437,7 +8437,7 @@
       "source_id": "openemr/openemr",
       "canonical_id": "openemr/openemr",
       "review_status": "reviewed",
-      "slack_list_status": "unverified",
+      "slack_list_status": "synced",
       "slack_canvas_status": "synced"
     },
     {
@@ -8493,7 +8493,7 @@
       "source_id": "agent-substrate/substrate",
       "canonical_id": "agent-substrate/substrate",
       "review_status": "reviewed",
-      "slack_list_status": "unverified",
+      "slack_list_status": "synced",
       "slack_canvas_status": "synced"
     },
     {
@@ -8501,7 +8501,7 @@
       "source_id": "github/gh-aw",
       "canonical_id": "github/gh-aw",
       "review_status": "reviewed",
-      "slack_list_status": "unverified",
+      "slack_list_status": "synced",
       "slack_canvas_status": "synced"
     },
     {
@@ -8525,7 +8525,7 @@
       "source_id": "lingodotdev/lingo.dev",
       "canonical_id": "lingodotdev/lingo.dev",
       "review_status": "reviewed",
-      "slack_list_status": "unverified",
+      "slack_list_status": "synced",
       "slack_canvas_status": "synced"
     },
     {
