@@ -489,10 +489,10 @@
     {
       "position": 61,
       "source_id": "x1xhlol/system-prompts-and-models-of-ai-tools",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "x1xhlol/system-prompts-and-models-of-ai-tools",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 62,
@@ -633,10 +633,10 @@
     {
       "position": 79,
       "source_id": "rustdesk/rustdesk",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "rustdesk/rustdesk",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 80,
@@ -721,10 +721,10 @@
     {
       "position": 90,
       "source_id": "jaywcjlove/awesome-mac",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "jaywcjlove/awesome-mac",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 91,
@@ -801,10 +801,10 @@
     {
       "position": 100,
       "source_id": "addyosmani/agent-skills",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "addyosmani/agent-skills",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 101,
@@ -825,10 +825,10 @@
     {
       "position": 103,
       "source_id": "microsoft/terminal",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "microsoft/terminal",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 104,
@@ -841,10 +841,10 @@
     {
       "position": 105,
       "source_id": "deepseek-ai/DeepSeek-V3",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "deepseek-ai/deepseek-v3",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 106,
@@ -905,10 +905,10 @@
     {
       "position": 113,
       "source_id": "Panniantong/Agent-Reach",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "panniantong/agent-reach",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 114,
@@ -937,10 +937,10 @@
     {
       "position": 117,
       "source_id": "hacksider/Deep-Live-Cam",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "hacksider/deep-live-cam",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 118,
@@ -971,10 +971,10 @@
     {
       "position": 121,
       "source_id": "stablyai/orca",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "stablyai/orca",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 122,
