@@ -953,12 +953,10 @@
     {
       "position": 119,
       "source_id": "punkpeye/awesome-mcp-servers",
-      "canonical_id": null,
-      "review_status": "needs_review",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready",
-      "review_error": "Error: README 조회 실패",
-      "last_attempt_at": "2026-11-03T06:43:19.891Z"
+      "canonical_id": "punkpeye/awesome-mcp-servers",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 120,
@@ -1040,7 +1038,7 @@
       "slack_list_status": "not_ready",
       "slack_canvas_status": "not_ready",
       "review_error": "Error: README 조회 실패",
-      "last_attempt_at": "2026-11-03T06:43:19.891Z"
+      "last_attempt_at": "2026-11-03T06:49:20.461Z"
     },
     {
       "position": 130,
@@ -1298,7 +1296,7 @@
       "slack_list_status": "not_ready",
       "slack_canvas_status": "not_ready",
       "review_error": "Error: README 조회 실패",
-      "last_attempt_at": "2026-11-03T06:43:19.891Z"
+      "last_attempt_at": "2026-11-03T06:49:20.461Z"
     },
     {
       "position": 162,
@@ -1316,7 +1314,7 @@
       "slack_list_status": "not_ready",
       "slack_canvas_status": "not_ready",
       "review_error": "Error: README 조회 실패",
-      "last_attempt_at": "2026-11-03T06:43:19.891Z"
+      "last_attempt_at": "2026-11-03T06:49:20.461Z"
     },
     {
       "position": 164,
@@ -1422,7 +1420,7 @@
       "slack_list_status": "not_ready",
       "slack_canvas_status": "not_ready",
       "review_error": "Error: README 조회 실패",
-      "last_attempt_at": "2026-11-03T06:43:19.891Z"
+      "last_attempt_at": "2026-11-03T06:49:20.461Z"
     },
     {
       "position": 177,
@@ -3322,7 +3320,7 @@
       "slack_list_status": "not_ready",
       "slack_canvas_status": "not_ready",
       "review_error": "Error: README 조회 실패",
-      "last_attempt_at": "2026-11-03T06:43:19.892Z"
+      "last_attempt_at": "2026-11-03T06:49:20.461Z"
     },
     {
       "position": 414,
@@ -5484,7 +5482,7 @@
       "slack_list_status": "not_ready",
       "slack_canvas_status": "not_ready",
       "review_error": "Error: README 조회 실패",
-      "last_attempt_at": "2026-11-03T06:43:19.892Z"
+      "last_attempt_at": "2026-11-03T06:49:20.461Z"
     },
     {
       "position": 684,
@@ -5526,7 +5524,7 @@
       "slack_list_status": "not_ready",
       "slack_canvas_status": "not_ready",
       "review_error": "Error: README 조회 실패",
-      "last_attempt_at": "2026-11-03T06:43:19.892Z"
+      "last_attempt_at": "2026-11-03T06:49:20.461Z"
     },
     {
       "position": 689,
@@ -6784,7 +6782,7 @@
       "slack_list_status": "not_ready",
       "slack_canvas_status": "not_ready",
       "review_error": "Error: README 조회 실패",
-      "last_attempt_at": "2026-11-03T06:43:19.892Z"
+      "last_attempt_at": "2026-11-03T06:49:20.461Z"
     },
     {
       "position": 846,
@@ -10246,7 +10244,7 @@
       "slack_list_status": "not_ready",
       "slack_canvas_status": "not_ready",
       "review_error": "Error: README 조회 실패",
-      "last_attempt_at": "2026-11-03T06:43:19.892Z"
+      "last_attempt_at": "2026-11-03T06:49:20.461Z"
     },
     {
       "position": 1278,
@@ -10264,7 +10262,7 @@
       "slack_list_status": "not_ready",
       "slack_canvas_status": "not_ready",
       "review_error": "Error: 저장소 조회 실패",
-      "last_attempt_at": "2026-11-03T06:43:19.892Z"
+      "last_attempt_at": "2026-11-03T06:49:20.461Z"
     },
     {
       "position": 1280,
@@ -10274,7 +10272,7 @@
       "slack_list_status": "not_ready",
       "slack_canvas_status": "not_ready",
       "review_error": "Error: 저장소 조회 실패",
-      "last_attempt_at": "2026-11-03T06:43:19.892Z"
+      "last_attempt_at": "2026-11-03T06:49:20.461Z"
     },
     {
       "position": 1281,
@@ -10284,7 +10282,7 @@
       "slack_list_status": "not_ready",
       "slack_canvas_status": "not_ready",
       "review_error": "Error: 저장소 조회 실패",
-      "last_attempt_at": "2026-11-03T06:43:19.892Z"
+      "last_attempt_at": "2026-11-03T06:49:20.461Z"
     },
     {
       "position": 1282,
@@ -10294,7 +10292,7 @@
       "slack_list_status": "not_ready",
       "slack_canvas_status": "not_ready",
       "review_error": "Error: 저장소 조회 실패",
-      "last_attempt_at": "2026-11-03T06:43:19.892Z"
+      "last_attempt_at": "2026-11-03T06:49:20.461Z"
     },
     {
       "position": 1283,
@@ -10304,7 +10302,7 @@
       "slack_list_status": "not_ready",
       "slack_canvas_status": "not_ready",
       "review_error": "Error: 저장소 조회 실패",
-      "last_attempt_at": "2026-11-03T06:43:19.892Z"
+      "last_attempt_at": "2026-11-03T06:49:20.461Z"
     },
     {
       "position": 1284,
@@ -10314,7 +10312,7 @@
       "slack_list_status": "not_ready",
       "slack_canvas_status": "not_ready",
       "review_error": "Error: 저장소 조회 실패",
-      "last_attempt_at": "2026-11-03T06:43:19.892Z"
+      "last_attempt_at": "2026-11-03T06:49:20.461Z"
     },
     {
       "position": 1285,
@@ -10324,7 +10322,7 @@
       "slack_list_status": "not_ready",
       "slack_canvas_status": "not_ready",
       "review_error": "Error: 저장소 조회 실패",
-      "last_attempt_at": "2026-11-03T06:43:19.892Z"
+      "last_attempt_at": "2026-11-03T06:49:20.461Z"
     },
     {
       "position": 1286,
@@ -10334,7 +10332,7 @@
       "slack_list_status": "not_ready",
       "slack_canvas_status": "not_ready",
       "review_error": "Error: 저장소 조회 실패",
-      "last_attempt_at": "2026-11-03T06:43:19.892Z"
+      "last_attempt_at": "2026-11-03T06:49:20.461Z"
     }
   ]
 }
