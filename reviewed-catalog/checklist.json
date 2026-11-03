@@ -2197,12 +2197,10 @@
     {
       "position": 272,
       "source_id": "JetBrains/kotlin",
-      "canonical_id": null,
-      "review_status": "needs_review",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready",
-      "review_error": "HEAD 고정 README 경로를 확인하지 못함",
-      "last_attempt_at": "2026-11-03T04:04:06.630Z"
+      "canonical_id": "jetbrains/kotlin",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 273,
