@@ -6,7 +6,7 @@
   "scope": "2026-10-22 공개 seed 전체",
   "historical_count": 1266,
   "missing_history_date": "2026-10-22",
-  "reviewed_count": 1249,
+  "reviewed_count": 1250,
   "classification_method": "직접 원문 검토",
   "categories": [
     {
@@ -26642,6 +26642,30 @@
           "url": "https://github.com/punkpeye/awesome-mcp-servers/blob/29f2d490cc02468e7c9d87b0cf68d40d3041e7ef/README.md",
           "path": "README.md",
           "blob_sha": "5103450f0773f184b4d105eb1c34ad263ca2529e"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "sherlock-project/sherlock",
+      "name": "sherlock-project/sherlock",
+      "url": "https://github.com/sherlock-project/sherlock",
+      "aliases": [],
+      "category": "search",
+      "type": "사용자 계정 검색 CLI",
+      "summary_ko": "사용자 이름으로 여러 소셜 네트워크의 계정을 검색하고 결과를 텍스트·CSV·엑셀 파일로 저장한다.",
+      "tags": [
+        "사용자 이름",
+        "계정 검색"
+      ],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T09:53:59.461Z",
+      "reviewed_commit": "c588d7c8b476df9f9c84912a05d1430fb8cdcdae",
+      "evidence": [
+        {
+          "url": "https://github.com/sherlock-project/sherlock/blob/c588d7c8b476df9f9c84912a05d1430fb8cdcdae/docs/README.md",
+          "path": "docs/README.md",
+          "blob_sha": "ddad6e0214cfa14bfabab0d67bf52293f5d2990e"
         }
       ],
       "execution_tested": false
