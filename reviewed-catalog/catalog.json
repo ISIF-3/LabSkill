@@ -2505,13 +2505,13 @@
       "summary_ko": "명세 기반 개발, 버그 수정과 아이디어 평가를 위한 템플릿과 절차를 제공한다.",
       "tags": [],
       "status": "reviewed",
-      "reviewed_at": "2026-11-03T03:04:40.462Z",
-      "reviewed_commit": "ba8363f8ab56b2da456a81299cfdbfee1ef7b871",
+      "reviewed_at": "2026-11-03T17:46:04.804Z",
+      "reviewed_commit": "663d2ad5e8bd5b5d5811c57330582825ca2bac5b",
       "evidence": [
         {
-          "url": "https://github.com/github/spec-kit/blob/ba8363f8ab56b2da456a81299cfdbfee1ef7b871/README.md",
+          "url": "https://github.com/github/spec-kit/blob/663d2ad5e8bd5b5d5811c57330582825ca2bac5b/README.md",
           "path": "README.md",
-          "blob_sha": "0d6d47f276feeda1afc2fe98b3ae653cd4b40fb4"
+          "blob_sha": "1f2983081c5c9c5fd3d93e898a7f638473b039db"
         }
       ],
       "execution_tested": false
@@ -2547,13 +2547,13 @@
       "summary_ko": "개발자를 위한 무료 이용 범위가 있는 온라인 서비스 목록을 모았다.",
       "tags": [],
       "status": "reviewed",
-      "reviewed_at": "2026-11-03T03:04:40.462Z",
-      "reviewed_commit": "ff4c52d54e56d3fb8a12b4c76bc95c2c78a28e87",
+      "reviewed_at": "2026-11-03T17:46:04.806Z",
+      "reviewed_commit": "04cc6197aa119f9e6f495557c24655f9bd8506cf",
       "evidence": [
         {
-          "url": "https://github.com/ripienaar/free-for-dev/blob/ff4c52d54e56d3fb8a12b4c76bc95c2c78a28e87/README.md",
+          "url": "https://github.com/ripienaar/free-for-dev/blob/04cc6197aa119f9e6f495557c24655f9bd8506cf/README.md",
           "path": "README.md",
-          "blob_sha": "7301555228ee866395e684ba7a51d9c2097795e1"
+          "blob_sha": "53592c6ff4dfcc45f40221eb1670c4047f8c8bee"
         }
       ],
       "execution_tested": false
@@ -3265,13 +3265,13 @@
       "summary_ko": "Material Design을 구현한 React 컴포넌트 라이브러리다.",
       "tags": [],
       "status": "reviewed",
-      "reviewed_at": "2026-11-03T03:17:36.646Z",
-      "reviewed_commit": "d051e0d5559db350fac41b36c8c19cf07df23122",
+      "reviewed_at": "2026-11-03T17:46:04.806Z",
+      "reviewed_commit": "403986ae957cea6959358fb8dbefc2178b62f2d5",
       "evidence": [
         {
-          "url": "https://github.com/mui/material-ui/blob/d051e0d5559db350fac41b36c8c19cf07df23122/README.md",
+          "url": "https://github.com/mui/material-ui/blob/403986ae957cea6959358fb8dbefc2178b62f2d5/README.md",
           "path": "README.md",
-          "blob_sha": "8c000ef8d0d5ecd6518b6a20804d37895c063d1b"
+          "blob_sha": "e2bd317102b641d3a05fc68e8b0dc681547d1cd2"
         }
       ],
       "execution_tested": false
