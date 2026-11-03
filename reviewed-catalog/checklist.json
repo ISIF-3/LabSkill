@@ -1805,50 +1805,50 @@
     {
       "position": 223,
       "source_id": "jingyaogong/minimind",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "jingyaogong/minimind",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 224,
       "source_id": "hugohe3/ppt-master",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "hugohe3/ppt-master",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 225,
       "source_id": "termux/termux-app",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "termux/termux-app",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 226,
       "source_id": "sansan0/TrendRadar",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "sansan0/trendradar",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 227,
       "source_id": "ultralytics/ultralytics",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "ultralytics/ultralytics",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 228,
       "source_id": "ghostty-org/ghostty",
-      "canonical_id": null,
-      "review_status": "pending",
-      "slack_list_status": "not_ready",
-      "slack_canvas_status": "not_ready"
+      "canonical_id": "ghostty-org/ghostty",
+      "review_status": "reviewed",
+      "slack_list_status": "unverified",
+      "slack_canvas_status": "unverified"
     },
     {
       "position": 229,
