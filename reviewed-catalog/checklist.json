@@ -523,8 +523,8 @@
       "source_id": "github/spec-kit",
       "canonical_id": "github/spec-kit",
       "review_status": "reviewed",
-      "slack_list_status": "unverified",
-      "slack_canvas_status": "unverified"
+      "slack_list_status": "synced",
+      "slack_canvas_status": "synced"
     },
     {
       "position": 66,
@@ -539,8 +539,8 @@
       "source_id": "ripienaar/free-for-dev",
       "canonical_id": "ripienaar/free-for-dev",
       "review_status": "reviewed",
-      "slack_list_status": "unverified",
-      "slack_canvas_status": "unverified"
+      "slack_list_status": "synced",
+      "slack_canvas_status": "synced"
     },
     {
       "position": 68,
@@ -891,8 +891,8 @@
       "source_id": "mui/material-ui",
       "canonical_id": "mui/material-ui",
       "review_status": "reviewed",
-      "slack_list_status": "unverified",
-      "slack_canvas_status": "unverified"
+      "slack_list_status": "synced",
+      "slack_canvas_status": "synced"
     },
     {
       "position": 112,
