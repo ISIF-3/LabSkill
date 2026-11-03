@@ -1336,13 +1336,13 @@
       "summary_ko": "바이너리와 애플리케이션, 실행 중 동작의 역공학을 위한 MCP 도구를 제공한다.",
       "tags": [],
       "status": "reviewed",
-      "reviewed_at": "2026-11-03T01:53:06.032Z",
-      "reviewed_commit": "d496d803a4f50dc82248db0630042894c1136d00",
+      "reviewed_at": "2026-11-03T09:12:51.631Z",
+      "reviewed_commit": "8c857ce56c68ca46d202db0c9571277974c9e167",
       "evidence": [
         {
-          "url": "https://github.com/morluto/rea/blob/d496d803a4f50dc82248db0630042894c1136d00/README.md",
+          "url": "https://github.com/morluto/rea/blob/8c857ce56c68ca46d202db0c9571277974c9e167/README.md",
           "path": "README.md",
-          "blob_sha": "474ecfbec32c2ef86e5d0cf17837892d5b07335a"
+          "blob_sha": "a6343e167a3c91b210b7252e32467d69a6651d86"
         }
       ],
       "execution_tested": false
@@ -2274,13 +2274,13 @@
       "summary_ko": "시각적 워크플로·RAG·에이전트와 모델 관리를 결합해 LLM 앱을 구성한다.",
       "tags": [],
       "status": "reviewed",
-      "reviewed_at": "2026-11-03T02:02:22.459Z",
-      "reviewed_commit": "8d812b938af6b8f544f7ca6c74010861a826c63b",
+      "reviewed_at": "2026-11-03T09:12:51.631Z",
+      "reviewed_commit": "fbc33cae439912ef247309039e9805d86d2950b5",
       "evidence": [
         {
-          "url": "https://github.com/langgenius/dify/blob/8d812b938af6b8f544f7ca6c74010861a826c63b/README.md",
+          "url": "https://github.com/langgenius/dify/blob/fbc33cae439912ef247309039e9805d86d2950b5/README.md",
           "path": "README.md",
-          "blob_sha": "e8572f93797ee113302a7c2e29be02ea31153119"
+          "blob_sha": "1f2414728c9837eb0248680e1d1443c7b94a304d"
         }
       ],
       "execution_tested": false
