@@ -6,7 +6,7 @@
   "scope": "2026-10-22 공개 seed 전체",
   "historical_count": 1266,
   "missing_history_date": "2026-10-22",
-  "reviewed_count": 243,
+  "reviewed_count": 249,
   "classification_method": "직접 원문 검토",
   "categories": [
     {
@@ -5322,6 +5322,132 @@
           "url": "https://github.com/localstack/localstack/blob/8b9a79f05846835cf4dff63ab7eefdde9df83783/README.md",
           "path": "README.md",
           "blob_sha": "0d78c2be49085191d6c09cba2cf3d441498d6094"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "jingyaogong/minimind",
+      "name": "jingyaogong/minimind",
+      "url": "https://github.com/jingyaogong/minimind",
+      "aliases": [],
+      "category": "ai",
+      "type": "언어 모델 학습 코드",
+      "summary_ko": "소형 언어 모델의 구조와 사전 학습·지도 미세조정·LoRA 등 학습 코드를 제공한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T03:57:25.756Z",
+      "reviewed_commit": "233d00fa068ec2b8c0d4f07b703934d6391a5a73",
+      "evidence": [
+        {
+          "url": "https://github.com/jingyaogong/minimind/blob/233d00fa068ec2b8c0d4f07b703934d6391a5a73/README.md",
+          "path": "README.md",
+          "blob_sha": "1b11a450c0e50ba81f7072103020c859cb90ac0e"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "hugohe3/ppt-master",
+      "name": "hugohe3/ppt-master",
+      "url": "https://github.com/hugohe3/ppt-master",
+      "aliases": [],
+      "category": "productivity",
+      "type": "프레젠테이션 생성 워크플로",
+      "summary_ko": "문서와 주제를 바탕으로 AI 에이전트가 편집 가능한 PowerPoint 슬라이드를 생성한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T03:57:25.756Z",
+      "reviewed_commit": "2e8238a57a3efd9e15bbb5e41ce32b95fe935af8",
+      "evidence": [
+        {
+          "url": "https://github.com/hugohe3/ppt-master/blob/2e8238a57a3efd9e15bbb5e41ce32b95fe935af8/README.md",
+          "path": "README.md",
+          "blob_sha": "d517bfa6b81c8381fd7f17d4cfe39c11e260f753"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "termux/termux-app",
+      "name": "termux/termux-app",
+      "url": "https://github.com/termux/termux-app",
+      "aliases": [],
+      "category": "devices",
+      "type": "안드로이드 터미널 앱",
+      "summary_ko": "Android에서 터미널 에뮬레이터와 Linux 환경을 제공한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T03:57:25.756Z",
+      "reviewed_commit": "8629e632fcb95da272221be327db653fb24befe9",
+      "evidence": [
+        {
+          "url": "https://github.com/termux/termux-app/blob/8629e632fcb95da272221be327db653fb24befe9/README.md",
+          "path": "README.md",
+          "blob_sha": "48e43215d01a63b4ff98e1b4d83e6a2d60a5f62b"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "sansan0/trendradar",
+      "name": "sansan0/TrendRadar",
+      "url": "https://github.com/sansan0/TrendRadar",
+      "aliases": [],
+      "category": "search",
+      "type": "뉴스 수집·알림 도구",
+      "summary_ko": "여러 뉴스·인기 자료를 모아 필터링하고 RSS와 알림 및 AI 분석 기능을 제공한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T03:57:25.756Z",
+      "reviewed_commit": "946f52aa0704883f666c322888b8cd9af4cbcfff",
+      "evidence": [
+        {
+          "url": "https://github.com/sansan0/TrendRadar/blob/946f52aa0704883f666c322888b8cd9af4cbcfff/README.md",
+          "path": "README.md",
+          "blob_sha": "915abcbabfd5decac784cf3ed8107754a200928a"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "ultralytics/ultralytics",
+      "name": "ultralytics/ultralytics",
+      "url": "https://github.com/ultralytics/ultralytics",
+      "aliases": [],
+      "category": "media",
+      "type": "컴퓨터 비전 모델 도구",
+      "summary_ko": "YOLO 모델을 이용한 객체 탐지·분할·분류·자세 추정과 영상 객체 추적을 지원한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T03:57:25.756Z",
+      "reviewed_commit": "c4b5f7f01b1f2660d2a3652dfab09c7ca8b2c0ed",
+      "evidence": [
+        {
+          "url": "https://github.com/ultralytics/ultralytics/blob/c4b5f7f01b1f2660d2a3652dfab09c7ca8b2c0ed/README.md",
+          "path": "README.md",
+          "blob_sha": "e71af28bf142acfb4890ba93e588d65b61a86343"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "ghostty-org/ghostty",
+      "name": "ghostty-org/ghostty",
+      "url": "https://github.com/ghostty-org/ghostty",
+      "aliases": [],
+      "category": "devices",
+      "type": "터미널 에뮬레이터",
+      "summary_ko": "네이티브 터미널 앱과 터미널 기능을 내장할 수 있는 라이브러리를 제공한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T03:57:25.756Z",
+      "reviewed_commit": "18e645ea22a5ef4793a2008275eb6f98e5d039bb",
+      "evidence": [
+        {
+          "url": "https://github.com/ghostty-org/ghostty/blob/18e645ea22a5ef4793a2008275eb6f98e5d039bb/README.md",
+          "path": "README.md",
+          "blob_sha": "808b684daf0411275d7571e0f2fa299e3a9266bb"
         }
       ],
       "execution_tested": false
