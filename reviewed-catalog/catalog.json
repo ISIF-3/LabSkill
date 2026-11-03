@@ -6,7 +6,7 @@
   "scope": "2026-10-22 공개 seed 전체",
   "historical_count": 1266,
   "missing_history_date": "2026-10-22",
-  "reviewed_count": 302,
+  "reviewed_count": 303,
   "classification_method": "직접 원문 검토",
   "categories": [
     {
@@ -6566,6 +6566,27 @@
           "url": "https://github.com/NARKOZ/hacker-scripts/blob/b14a0a89bdf743c63ca4cc9cbcd866e050d7b3b0/README.md",
           "path": "README.md",
           "blob_sha": "00d6deefeab11de21bb6ab425d4850ce37cb1dbf"
+        }
+      ],
+      "execution_tested": false
+    },
+    {
+      "id": "jetbrains/kotlin",
+      "name": "JetBrains/kotlin",
+      "url": "https://github.com/JetBrains/kotlin",
+      "aliases": [],
+      "category": "code",
+      "type": "프로그래밍 언어",
+      "summary_ko": "Android·iOS·데스크톱·웹에서 코드를 공유할 수 있는 멀티플랫폼 언어와 개발 도구를 제공한다.",
+      "tags": [],
+      "status": "reviewed",
+      "reviewed_at": "2026-11-03T04:04:41.413Z",
+      "reviewed_commit": "4fcadcb8303f3752e173b1b4e3da60f80227a824",
+      "evidence": [
+        {
+          "url": "https://github.com/JetBrains/kotlin/blob/4fcadcb8303f3752e173b1b4e3da60f80227a824/ReadMe.md",
+          "path": "ReadMe.md",
+          "blob_sha": "54929da762edab9112d6db5c5c091ee148959e9c"
         }
       ],
       "execution_tested": false
